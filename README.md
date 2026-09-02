@@ -70,11 +70,6 @@ VIEWPORT BREAK が動かすのは macOS のウィンドウそのものです。3
 
 ![375 / 390 / 768 / 1920px の比較](docs/screenshots/comparison-4widths.png)
 
-375px のウィンドウです。Chrome 単体では届かない幅ですが、タブもアドレスバーもそのまま残っています。
-このカットは、ポップアップの `375` を実際に押して撮りました。
-
-![375px の Chrome ウィンドウ](docs/screenshots/viewport-0375px.png)
-
 ---
 
 ## 対応環境
