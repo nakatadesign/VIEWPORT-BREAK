@@ -215,34 +215,11 @@ ln -s "$PWD/extension/bin/vw" /usr/local/bin/vw
 
 ## 仕組み
 
-やっていることは 3 つです。
-
-1. ポップアップかショートカットで幅を指定すると、拡張が今のウィンドウの位置とサイズを調べる
-2. それを、一緒に入れておいた常駐プログラム（native messaging host）へ渡す
-3. 常駐プログラムが AppleScript でそのウィンドウを名指しし、指定の幅にリサイズして、変更後の実測値を返す
-
-Chrome の API を通さず macOS へ直接リサイズを頼むので、500px の下限が効きません。
-
-```
-popup / キーボードショートカット
-      │  chrome.windows.getCurrent() で対象ウィンドウの位置とサイズを取る
-      ▼
-core.js ── sendNativeMessage ──▶ viewport_deck_host.py
-      │                              │ 位置とサイズが一致するウィンドウを AppleScript で特定
-      │                              │ set bounds of window id N to {l,t,l+W,t+H}
-      │                              ▼ 設定後に読み返した実測値を返す
-      │◀─────────────────────────────┘
-      ▼
-常駐プログラムが使えなければ chrome.windows.update へ切り替え（500px 止まり・UI に明示）
-```
-
-どのウィンドウを操作するかは、Chrome 側が持っている位置・サイズと AppleScript 側のそれを突き合わせて決めます
-（座標系も単位も一致します）。ウィンドウを何枚開いていても、別のウィンドウを掴んでしまうことはありません。
-
-上の図はリポジトリから直接読み込んだときの Python 版の経路です。DMG 版は同じ流れを Swift の 1 バイナリ
-（[`packaging/helper/Sources/main.swift`](packaging/helper/Sources/main.swift)）で実装していて、
-`osascript` を起動せずアプリの中で AppleScript を実行します。オートメーション権限のダイアログに
-「python3」ではなく製品名が出るのは、この違いによるものです。
+幅を指定すると、拡張が一緒に入れておいた常駐プログラム（native messaging host）へ頼み、
+そこから macOS のウィンドウを直接リサイズします。Chrome の API を通さないので、500px の下限が効きません。
+常駐プログラムが使えないときは従来どおり Chrome の API 経由へ切り替わり、その場合は 500px 止まりであることが UI に出ます。
+経路と実装の詳細は [`docs/EXTENSION_2026-08-30.md`](docs/EXTENSION_2026-08-30.md)、
+DMG 版が使う Swift 実装との違いは [`docs/DMG_DISTRIBUTION_2026-08-30.md`](docs/DMG_DISTRIBUTION_2026-08-30.md) にあります。
 
 ---
 
