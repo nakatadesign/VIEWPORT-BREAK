@@ -1,0 +1,44 @@
+[
+  {
+    "file": "brianshim.txt",
+    "url": "https://brianshim.com/webtricks/chrome-browser-window-that-you-can-make-narrow/",
+    "sha256": "db79b810b8b10e2d5f22e08a7e872ada294224902b60aeb420fde6882c05488c",
+    "bytes": 10164
+  },
+  {
+    "file": "cyberscorpion.txt",
+    "url": "https://www.cyberscorpion.com/2019-07/trick-google-chrome-browser-window-to-be-narrower-than-500-pixels-for-testing-responsive-designs/",
+    "sha256": "d3fa4e7b9a9b542ddf60259af93f0f2b0c4b6c82eeb17332327bd9f9b4941802",
+    "bytes": 5796
+  },
+  {
+    "file": "coderwall.txt",
+    "url": "https://coderwall.com/p/mhzoza/scale-chrome-browser-window-to-any-width",
+    "sha256": "a982d46f7d3ee3eac16d2a13b2301e6d4cbe3ffea7564596789f2ebdb4950be7",
+    "bytes": 5986
+  },
+  {
+    "file": "packetroom-binary-rewrite.txt",
+    "url": "https://tech.packetroom.net/chromedll-binary-rewrite-sub-browser-howto",
+    "sha256": "6ba0e17188169bcdfbc18fca686a17f3af3b1b1819f5f67a7c0e50398224ca30",
+    "bytes": 21037
+  },
+  {
+    "file": "vivaldi-forum-48611.txt",
+    "url": "https://forum.vivaldi.net/topic/48611/remove-or-allow-for-configurable-minimum-window-width",
+    "sha256": "ba442b42f217d48344f91d671df11e4145a0e8e26356e210d121fe5406a36bc8",
+    "bytes": 9396
+  },
+  {
+    "file": "labnol-applescript-resize.txt",
+    "url": "https://www.labnol.org/software/resize-mac-windows-to-specific-size/28345",
+    "sha256": "bd3d234356fbedb42a87a355430125b8a3074dfc712fe75c540a8ed444120299",
+    "bytes": 5781
+  },
+  {
+    "file": "chromium-issue-40439169.json",
+    "url": "https://issues.chromium.org/action/issues/40439169",
+    "sha256": "ac5fca875be8a463e80756935df98765a38b7f94ca17bed18f2378d3cedd0897",
+    "bytes": 100023
+  }
+]

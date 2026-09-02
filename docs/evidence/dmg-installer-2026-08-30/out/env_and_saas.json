@@ -1,0 +1,42 @@
+{
+  "t": "2026-08-30T05:42:56Z",
+  "env": {
+    "sw_vers": "ProductName:\t\tmacOS\nProductVersion:\t\t26.3.1\nProductVersionExtra:\t(a)\nBuildVersion:\t\t25D771280a",
+    "chrome": "Google Chrome 151.0.7922.174",
+    "swiftc": [
+      "Apple Swift version 6.2.4 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)"
+    ]
+  },
+  "python3_is_from_command_line_tools": {
+    "otool_L": "/usr/bin/python3:\n\t/usr/lib/libxcselect.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+    "sys_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "xcode_select_p": "/Library/Developer/CommandLineTools",
+    "結論": "/usr/bin/python3 は libxcselect 経由の shim で、実体は /Library/Developer/CommandLineTools 配下にある。CLT が入っていない Mac では実行できないので、配布するヘルパーは Python に依存できない"
+  },
+  "extension_saas_surface": {
+    "permissions": [
+      "nativeMessaging"
+    ],
+    "optional_permissions": null,
+    "host_permissions": null,
+    "content_scripts": null,
+    "externally_connectable": null,
+    "web_accessible_resources": null,
+    "grep_network_apis": "(該当なし)",
+    "結論": "ウェブページへ到達する経路（host_permissions / content_scripts / externally_connectable）も、ネットワーク API の呼び出しも 1 つも無い。SaaS 連携は設計途中ではなく未着手"
+  },
+  "extension_id_fixed": {
+    "expected": "ejlimgikbnaihoigbcmelaadniiminfj",
+    "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+    "manifest": "/Users/macmini/Projects/viewport-deck/extension/manifest.json",
+    "ok": true
+  },
+  "artifact": {
+    "dmg": "/Users/macmini/Projects/viewport-deck/build/VIEWPORT BREAK 1.0.0.dmg",
+    "bytes": 190977,
+    "sha256": "5fad10ac171fd9a49ff12631b31ef3cd4540406bc9f52a14288cd86b22261c7c",
+    "app_codesign": "Executable=/Users/macmini/Projects/viewport-deck/build/VIEWPORT BREAK.app/Contents/MacOS/viewport-break\nIdentifier=com.nanago.viewport-break\nFormat=app bundle with Mach-O universal (x86_64 arm64)\nCodeDirectory v=20400 size=594 flags=0x2(adhoc) hashes=12+3 location=embedded\nSignature=adhoc\nInfo.plist entries=12\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=12\nInternal requirements count=0 size=12",
+    "app_archs": "x86_64 arm64"
+  },
+  "guard_run_from_dmg": "docs/DMG_DISTRIBUTION_2026-08-30.md §6.2 に実行結果を転記"
+}

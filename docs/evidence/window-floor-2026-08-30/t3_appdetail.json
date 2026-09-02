@@ -1,0 +1,110 @@
+{
+  "app_windowsize_launch": {
+    "args": [
+      "--user-data-dir=/private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/profiles/floor-poc",
+      "--remote-debugging-port=9344",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-features=Translate",
+      "--remote-allow-origins=*",
+      "--app=file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/harness/probe.html",
+      "--window-size=375,900"
+    ],
+    "targets": [
+      [
+        "page",
+        "file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/harness/probe.html"
+      ]
+    ],
+    "launch_bounds": {
+      "left": 22,
+      "top": 52,
+      "width": 375,
+      "height": 900,
+      "windowState": "normal"
+    },
+    "launch_page": {
+      "iw": 375,
+      "ih": 868,
+      "ow": 375,
+      "oh": 900,
+      "sx": 22,
+      "dpr": 2
+    }
+  },
+  "app_persist": {
+    "set_to": {
+      "left": 40,
+      "top": 60,
+      "width": 390,
+      "height": 844,
+      "windowState": "normal"
+    },
+    "after_restart": {
+      "left": 22,
+      "top": 52,
+      "width": 1200,
+      "height": 916,
+      "windowState": "normal"
+    },
+    "after_restart_page": {
+      "iw": 1200,
+      "ih": 884,
+      "ow": 1200,
+      "oh": 916,
+      "sx": 22,
+      "dpr": 2
+    }
+  },
+  "app_usability": {
+    "bounds_375": {
+      "left": 22,
+      "top": 52,
+      "width": 375,
+      "height": 844,
+      "windowState": "normal"
+    },
+    "page_375": {
+      "iw": 375,
+      "ih": 812,
+      "ow": 375,
+      "oh": 844,
+      "sx": 22,
+      "dpr": 2
+    },
+    "openDevTools": "OK",
+    "targets_after_devtools": [
+      [
+        "page",
+        "devtools://devtools/bundled/devtools_app.html?remoteBase=htt"
+      ],
+      [
+        "browser_ui",
+        "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html"
+      ],
+      [
+        "page",
+        "file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf"
+      ],
+      [
+        "browser_ui",
+        "chrome://omnibox-popup.top-chrome/"
+      ]
+    ],
+    "bounds_after_devtools": {
+      "left": 22,
+      "top": 52,
+      "width": 375,
+      "height": 844,
+      "windowState": "normal"
+    },
+    "page_after_devtools": {
+      "iw": 375,
+      "ih": 812,
+      "ow": 375,
+      "oh": 844,
+      "sx": 22,
+      "dpr": 2
+    }
+  }
+}

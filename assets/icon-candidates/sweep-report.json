@@ -1,0 +1,146 @@
+[
+  {
+    "name": "v1-tight-thin",
+    "overshoot": 80,
+    "ring": 80,
+    "bar": 72,
+    "r_outer": 380.0,
+    "ring_px_at_16": 1.28,
+    "bar_px_at_16": 1.15,
+    "overshoot_px_at_16": 1.28,
+    "design_sha256": "d886ff178ae7e985907c53796338bd92fe1908b847b571fcf2b510519a1eca56",
+    "svg_sha256": "48306bd263150dc3b935276ddbe135b435fc12a52433a907d67708827aa2fec3",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v2-tight-thick",
+    "overshoot": 80,
+    "ring": 110,
+    "bar": 104,
+    "r_outer": 380.0,
+    "ring_px_at_16": 1.76,
+    "bar_px_at_16": 1.66,
+    "overshoot_px_at_16": 1.28,
+    "design_sha256": "9cc101d4944727e4192ad247598462c1ab155e3511bf6908e186f7d3d4dc7ff8",
+    "svg_sha256": "4f3a93e259bd83f0eefe28fb14507f7b7413e524aa54f87fd547b9ba90306856",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v3-mid-thin",
+    "overshoot": 130,
+    "ring": 80,
+    "bar": 72,
+    "r_outer": 330.0,
+    "ring_px_at_16": 1.28,
+    "bar_px_at_16": 1.15,
+    "overshoot_px_at_16": 2.08,
+    "design_sha256": "e4f295c156d2883ab16227e0b70358e81287308dfbcedc74ce137c03eb6a0f98",
+    "svg_sha256": "f0c86192559d6ccfb32083499d706ecf60f9ef8a20a1771f482db7b7a35aa30b",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v4-mid-even",
+    "overshoot": 130,
+    "ring": 100,
+    "bar": 100,
+    "r_outer": 330.0,
+    "ring_px_at_16": 1.6,
+    "bar_px_at_16": 1.6,
+    "overshoot_px_at_16": 2.08,
+    "design_sha256": "0846b32ce540714c7e98cfdafe959a2532fdcadbfcf8cead0017319535c47b8b",
+    "svg_sha256": "88481d49f168b3d99ea2e3f8b45d52b58dca63a424090a2ae377bd994dd3e3f5",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v5-mid-bold",
+    "overshoot": 130,
+    "ring": 100,
+    "bar": 130,
+    "r_outer": 330.0,
+    "ring_px_at_16": 1.6,
+    "bar_px_at_16": 2.08,
+    "overshoot_px_at_16": 2.08,
+    "design_sha256": "9eec230da7d40a5025b8ddf617b1140ad90185eb5203d84de7cccb0bb2661e05",
+    "svg_sha256": "fbca758dc22ce672d964cc465a10baafb8891520d5f5101130c7f76446f22d59",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v6-mid-thick",
+    "overshoot": 130,
+    "ring": 120,
+    "bar": 120,
+    "r_outer": 330.0,
+    "ring_px_at_16": 1.92,
+    "bar_px_at_16": 1.92,
+    "overshoot_px_at_16": 2.08,
+    "design_sha256": "e6c0a980c55f9a6047647142872793741d946e41ebb5d91600ee84d42d20f5b8",
+    "svg_sha256": "221c056ac33de81d30a94af1bf4596242500b2e326a6f06a4604b472ff3809ec",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v7-long-even",
+    "overshoot": 185,
+    "ring": 100,
+    "bar": 100,
+    "r_outer": 275.0,
+    "ring_px_at_16": 1.6,
+    "bar_px_at_16": 1.6,
+    "overshoot_px_at_16": 2.96,
+    "design_sha256": "c9ebe597c19cf166245cb8f0ad4241e427e1fce1db69774684b822d25eae1671",
+    "svg_sha256": "3e888e2b92206c21629355b9dd5fedae9d4de23ec7d5ce4086e97c725292d83a",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v8-long-bold",
+    "overshoot": 185,
+    "ring": 100,
+    "bar": 130,
+    "r_outer": 275.0,
+    "ring_px_at_16": 1.6,
+    "bar_px_at_16": 2.08,
+    "overshoot_px_at_16": 2.96,
+    "design_sha256": "7315ab7295765445bf201bd5566c4307a3f20448b1dd48d85ab9654587ad5eb1",
+    "svg_sha256": "f1c5bc310d1c23f740bea8717c0445bf8fcec7754f06a819af6aec645b398c81",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  },
+  {
+    "name": "v9-long-thick",
+    "overshoot": 185,
+    "ring": 125,
+    "bar": 125,
+    "r_outer": 275.0,
+    "ring_px_at_16": 2.0,
+    "bar_px_at_16": 2.0,
+    "overshoot_px_at_16": 2.96,
+    "design_sha256": "14bb2883fcf5d5b484c6d36bdf347bfae33a7acc60afb5c31135768de5000daf",
+    "svg_sha256": "9033eb27fc7c9614f4443f1b914c4b547a30c760df60bb344c28cec85b6304b4",
+    "counts": {
+      "circles": 4,
+      "lines": 8
+    }
+  }
+]

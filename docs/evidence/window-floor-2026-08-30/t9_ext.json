@@ -1,0 +1,54 @@
+{
+  "extensions_loaded": [
+    [
+      "browser_ui",
+      "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html"
+    ],
+    [
+      "background_page",
+      "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html"
+    ],
+    [
+      "browser_ui",
+      "chrome://omnibox-popup.top-chrome/"
+    ],
+    [
+      "service_worker",
+      "chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/service_worker.js"
+    ]
+  ],
+  "content_script_at_default_width": null,
+  "bounds_375": {
+    "left": 60,
+    "top": 60,
+    "width": 375,
+    "height": 900,
+    "windowState": "normal"
+  },
+  "page_375": {
+    "iw": 375,
+    "ih": 813,
+    "ow": 375,
+    "oh": 900,
+    "sx": 60,
+    "dpr": 2
+  },
+  "content_script_at_375": null,
+  "after_bookmarkbar": {
+    "bounds": {
+      "left": 60,
+      "top": 60,
+      "width": 375,
+      "height": 900,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 375,
+      "ih": 779,
+      "ow": 375,
+      "oh": 900,
+      "sx": 60,
+      "dpr": 2
+    }
+  }
+}

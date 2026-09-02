@@ -1,0 +1,100 @@
+{
+ "url": "https://www.apple.com/jp/",
+ "steps": [
+  {
+   "kind": "no-devtools",
+   "requested": 375,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0375px.png",
+   "innerWidth": 375,
+   "innerHeight": 873,
+   "vvWidth": 360,
+   "dpr": 2,
+   "clientWidth": 360,
+   "scrollWidth": 360,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  },
+  {
+   "kind": "no-devtools",
+   "requested": 390,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0390px.png",
+   "innerWidth": 390,
+   "innerHeight": 873,
+   "vvWidth": 375,
+   "dpr": 2,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  },
+  {
+   "kind": "no-devtools",
+   "requested": 768,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0768px.png",
+   "innerWidth": 768,
+   "innerHeight": 873,
+   "vvWidth": 753,
+   "dpr": 2,
+   "clientWidth": 753,
+   "scrollWidth": 753,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  },
+  {
+   "kind": "no-devtools",
+   "requested": 1920,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-1920px.png",
+   "innerWidth": 1920,
+   "innerHeight": 873,
+   "vvWidth": 1905,
+   "dpr": 2,
+   "clientWidth": 1905,
+   "scrollWidth": 1905,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  },
+  {
+   "kind": "devtools-bottom",
+   "requested": 390,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-devtools-bottom-0390px.png",
+   "innerWidth": 390,
+   "innerHeight": 573,
+   "vvWidth": 375,
+   "dpr": 2,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  },
+  {
+   "kind": "devtools-bottom",
+   "requested": 1920,
+   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-devtools-bottom-1920px.png",
+   "innerWidth": 1920,
+   "innerHeight": 573,
+   "vvWidth": 1905,
+   "dpr": 2,
+   "clientWidth": 1905,
+   "scrollWidth": 1905,
+   "hScroll": false,
+   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+   "title": "Apple（日本）"
+  }
+ ],
+ "baseline": {
+  "innerWidth": 1920,
+  "innerHeight": 873,
+  "vvWidth": 1905,
+  "dpr": 2,
+  "clientWidth": 1905,
+  "scrollWidth": 1905,
+  "hScroll": false,
+  "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+  "title": "Apple（日本）"
+ }
+}

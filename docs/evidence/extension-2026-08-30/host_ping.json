@@ -1,0 +1,6 @@
+{
+ "what": "拡張(service worker)から chrome.runtime.sendNativeMessage で native host へ ping した結果",
+ "request": {"cmd": "ping"},
+ "response": {"ok": true, "host_version": "1.0.0", "engine": "applescript:set-bounds"},
+ "note": "native messaging の往復（拡張→host→拡張）が成立していることを示す。ping は osascript を呼ばないため Automation 権限に依存しない。"
+}

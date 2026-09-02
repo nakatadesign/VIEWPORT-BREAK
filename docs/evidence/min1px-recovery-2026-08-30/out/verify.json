@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "started": "2026-08-30T04:28:00Z",
+    "chrome": "Chrome/151.0.7922.174",
+    "finished": "2026-08-30T04:28:20Z"
+  },
+  "steps": [
+    {
+      "action": "owner_windows_before",
+      "windows": [
+        {
+          "id": 212798867,
+          "left": 100,
+          "top": 30,
+          "width": 500,
+          "height": 847
+        }
+      ],
+      "t": "2026-08-30T04:28:00Z"
+    },
+    {
+      "action": "launch_chrome",
+      "pid": 72281,
+      "port": 9391,
+      "t": "2026-08-30T04:28:00Z"
+    },
+    {
+      "action": "identify_target",
+      "windows": [
+        {
+          "id": 1286711081,
+          "left": 700,
+          "top": 120,
+          "width": 900,
+          "height": 700
+        }
+      ],
+      "candidates": [
+        {
+          "id": 1286711081,
+          "left": 700,
+          "top": 120,
+          "width": 900,
+          "height": 700
+        }
+      ],
+      "target": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 900,
+        "height": 700
+      },
+      "t": "2026-08-30T04:28:04Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+      "t": "2026-08-30T04:28:04Z"
+    },
+    {
+      "action": "popup_initial",
+      "dom": {
+        "min": "1",
+        "max": "4000",
+        "msg": "",
+        "curW": "900",
+        "validityValid": true,
+        "rangeUnderflow": false,
+        "outerWidth": 900
+      },
+      "t": "2026-08-30T04:28:05Z"
+    },
+    {
+      "action": "custom_0_rejected",
+      "dom": {
+        "min": "1",
+        "max": "4000",
+        "msg": "",
+        "curW": "900",
+        "validityValid": false,
+        "rangeUnderflow": true,
+        "outerWidth": 900,
+        "applescript": {
+          "id": 1286711081,
+          "left": 700,
+          "top": 120,
+          "width": 900,
+          "height": 700
+        }
+      },
+      "note": "min=1 の制約検証で submit 自体が止まり、ウィンドウ幅は変わらないのが期待値",
+      "t": "2026-08-30T04:28:07Z"
+    },
+    {
+      "action": "custom_1_applied",
+      "dom": {
+        "min": "1",
+        "max": "4000",
+        "msg": "1px",
+        "curW": "1",
+        "validityValid": true,
+        "rangeUnderflow": false,
+        "outerWidth": 1,
+        "applescript": {
+          "id": 1286711081,
+          "left": 700,
+          "top": 120,
+          "width": 1,
+          "height": 700
+        }
+      },
+      "note": "host 経路でウィンドウが実際に 1px になるのが期待値",
+      "t": "2026-08-30T04:28:10Z"
+    },
+    {
+      "action": "screenshot_at_1px",
+      "exact": {
+        "file": "docs/evidence/min1px-recovery-2026-08-30/out/01-window-1px-exact.png",
+        "bytes": 1614
+      },
+      "applescript": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 1,
+        "height": 700
+      },
+      "note": "ウィンドウ自身の 1px 幅の実写。周囲を含む見た目の実写は shots.py 側で撮る（背景を白ウィンドウで制御し、オーナーの画面が写り込まないようにするため）",
+      "t": "2026-08-30T04:28:10Z"
+    },
+    {
+      "action": "restore_guard",
+      "windows": [
+        {
+          "id": 1286711081,
+          "left": 700,
+          "top": 120,
+          "width": 1,
+          "height": 700
+        }
+      ],
+      "narrowest": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 1,
+        "height": 700
+      },
+      "guard_ok": true,
+      "t": "2026-08-30T04:28:10Z"
+    },
+    {
+      "action": "restore_via_host_cli",
+      "result": {
+        "argv": [
+          "/usr/bin/python3",
+          "/Users/macmini/Projects/viewport-deck/extension/host/viewport_deck_host.py",
+          "--restore",
+          "--json"
+        ],
+        "rc": 0,
+        "stdout": "{\"ok\": true, \"restored_to\": 1280, \"before\": {\"id\": 1286711081, \"left\": 700, \"top\": 120, \"width\": 1, \"height\": 700}, \"bounds\": {\"id\": 1286711081, \"left\": 700, \"top\": 120, \"width\": 1280, \"height\": 700}}",
+        "stderr": ""
+      },
+      "applescript": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 1280,
+        "height": 700
+      },
+      "note": "既定 1280px へ戻るのが期待値",
+      "t": "2026-08-30T04:28:12Z"
+    },
+    {
+      "action": "shrink_again_to_1px",
+      "applescript": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 1,
+        "height": 700
+      },
+      "t": "2026-08-30T04:28:14Z"
+    },
+    {
+      "action": "restore_via_vw_wrapper",
+      "result": {
+        "argv": [
+          "/Users/macmini/Projects/viewport-deck/extension/bin/vw",
+          "--restore",
+          "900",
+          "--json"
+        ],
+        "rc": 0,
+        "stdout": "{\"ok\": true, \"restored_to\": 900, \"before\": {\"id\": 1286711081, \"left\": 700, \"top\": 120, \"width\": 1, \"height\": 700}, \"bounds\": {\"id\": 1286711081, \"left\": 700, \"top\": 120, \"width\": 900, \"height\": 700}}",
+        "stderr": ""
+      },
+      "applescript": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 900,
+        "height": 700
+      },
+      "note": "bin/vw --restore 900 で 900px へ戻るのが期待値",
+      "t": "2026-08-30T04:28:16Z"
+    },
+    {
+      "action": "host_cli_boundary",
+      "w0": {
+        "argv": [
+          "/usr/bin/python3",
+          "/Users/macmini/Projects/viewport-deck/extension/host/viewport_deck_host.py",
+          "--json",
+          "0"
+        ],
+        "rc": 1,
+        "stdout": "{\"ok\": false, \"error\": \"幅は 1〜8000 の範囲で指定する: 0\"}",
+        "stderr": ""
+      },
+      "w1": {
+        "argv": [
+          "/usr/bin/python3",
+          "/Users/macmini/Projects/viewport-deck/extension/host/viewport_deck_host.py",
+          "--json",
+          "1"
+        ],
+        "rc": 0,
+        "stdout": "{\"ok\": true, \"requested\": 1, \"bounds\": {\"id\": 1286711081, \"left\": 700, \"top\": 120, \"width\": 1, \"height\": 700}}",
+        "stderr": ""
+      },
+      "applescript_after": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 1,
+        "height": 700
+      },
+      "t": "2026-08-30T04:28:16Z"
+    },
+    {
+      "action": "restore_for_cleanup",
+      "applescript": {
+        "id": 1286711081,
+        "left": 700,
+        "top": 120,
+        "width": 900,
+        "height": 700
+      },
+      "t": "2026-08-30T04:28:18Z"
+    },
+    {
+      "action": "owner_windows_after",
+      "windows": [
+        {
+          "id": 212798867,
+          "left": 100,
+          "top": 30,
+          "width": 500,
+          "height": 847
+        }
+      ],
+      "t": "2026-08-30T04:28:20Z"
+    }
+  ]
+}

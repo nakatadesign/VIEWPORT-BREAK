@@ -1,0 +1,12 @@
+"VIEWPORT BREAK" ASN:0x0-0x93b93b: 
+    bundleID="com.nanago.viewport-break"
+    bundle path="/private/var/folders/yl/fm4tm_ss2651zyz4s7vtmhmc0000gn/T/AppTranslocation/74589EBA-3C3A-410B-8427-3D17D93C76CB/d/VIEWPORT BREAK.app"
+    executable path="/private/var/folders/yl/fm4tm_ss2651zyz4s7vtmhmc0000gn/T/AppTranslocation/74589EBA-3C3A-410B-8427-3D17D93C76CB/d/VIEWPORT BREAK.app/Contents/MacOS/viewport-break"
+    pid = 33535 !cgsConnection !signalled type="Foreground" flavor=[ NULL ]  Version=[ NULL ]  fileType="APPL" Arch=!!none 
+    coalition: 63494
+    pre-translocationBundlePath="/Applications/VIEWPORT BREAK.app" (16777232/48930119
+    pre-translocationBundlePath="/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break" (16777232/48930125
+    launch time =  65 seconds ago, 2026/08/30 15:17:33 ( 1 minutes, 5.27118 seconds ago )
+    checkin time = 65 seconds ago, 2026/08/30 15:17:33 ( 1 minutes, 5.23904 seconds ago )
+    launch to checkin time: 0.0321441 seconds
+

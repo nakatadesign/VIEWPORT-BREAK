@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "Floor Probe Ext",
+  "version": "1.0",
+  "action": { "default_title": "Floor Probe", "default_popup": "popup.html" },
+  "content_scripts": [{ "matches": ["file:///*"], "js": ["cs.js"], "run_at": "document_idle" }]
+}

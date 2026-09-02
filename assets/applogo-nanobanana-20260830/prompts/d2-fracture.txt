@@ -1,0 +1,14 @@
+Generate a square app icon image, 1024x1024, and save it to /Users/macmini/Projects/viewport-deck/assets/applogo-nanobanana-20260830/raw/d2-fracture.png
+
+CRITICAL CANVAS RULE: the rounded-square icon must fill the ENTIRE 1024x1024 canvas edge to edge. Do not place the icon on another background plate. Do not leave any margin, border, white space or outer frame around the icon. The backdrop color IS the icon body.
+
+Backdrop: a flat very dark aubergine-charcoal field, muted saturation, perfectly even, no vignette, no texture.
+Subject: one bold bright rounded rectangle slab, clearly much lighter than the backdrop, broken by a single clean near-vertical fault line running from the top edge to the bottom edge, with the two resulting pieces pulled slightly apart and a warm glowing light filling the gap between them. Purely abstract. No characters, no scenery, no text, no letters, no numbers.
+Complexity: exactly 3 elements — two slab pieces and the glowing gap. One decisive identifying feature: the glowing fracture between the two pieces. At most 2 internal color regions.
+Color count: exactly 3 meaningful colors — a light dusty rose-mauve for both slab pieces, a warm luminous coral for the fracture gap, and the dark backdrop color.
+
+Color behavior: continuous smooth gradients only, one shared light source from the upper-left toward the lower-right, gradient transitions spread across at least half the width of the main shape, no banding, no cel shading, no separate shadow layer, no small glossy specular dot; highlights must be broad soft areas.
+Composition: the mark is centered inside the icon, upright and not tilted, occupying about 72 percent of the icon, with clearly readable separation from the backdrop.
+Style: a flat-first modern software app icon with subtle depth, in the macOS rounded-square idiom, that also reads correctly as a small browser toolbar button. Not an illustration, not a scene, not a sticker, not a photograph.
+Finish: must stay clearly readable when scaled down to 16x16 pixels — this is the hardest requirement, so keep the shapes big, few and boldly separated. Must still be identifiable as a pure black silhouette. Neutral daylight white balance, no yellow cast, no orange cast, no sepia.
+Constraints: do not add any text, letters, numbers, logotype or watermark. Do not use sharp needle-like points. Do not draw thin fragile outlines or small details that vanish when shrunk. Do not let the mark and the backdrop sit at similar lightness; keep a strong lightness contrast between them. Do not make the backdrop glow like neon and do not let it drift toward muddy grey. Do not stack shading into bands or cel-shaded cells. Do not tilt the main shape. Do not add stray diagonal streaks, shards or reflections that are not part of the described geometry. Do not produce a contact sheet of several variants; produce exactly one design.

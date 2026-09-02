@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "probe_url": "http://127.0.0.1:9394/m.html",
+    "chrome": "Chrome/151.0.7922.174"
+  },
+  "steps": [
+    {
+      "action": "cdp_ready",
+      "browser": "Chrome/151.0.7922.174",
+      "t": "2026-08-30T04:47:03Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "elhbfkjaijcdcdfpjpkmdkmaohfbplhd",
+      "t": "2026-08-30T04:47:05Z"
+    },
+    {
+      "action": "tabbed_window_request_375",
+      "api": {
+        "ok": true,
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 700,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9394/m.html"
+      },
+      "shot": {
+        "file": "out3/tabbed-request375.png",
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:08Z"
+    },
+    {
+      "action": "popup_created",
+      "id": 1378920562,
+      "type": "popup",
+      "width": 900,
+      "height": 760,
+      "t": "2026-08-30T04:47:08Z"
+    },
+    {
+      "action": "popup_target",
+      "found": true,
+      "t": "2026-08-30T04:47:10Z"
+    },
+    {
+      "action": "popup_w_1",
+      "requested": 1,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-0001.png",
+        "png_pixels": "pixelWidth: 172 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:11Z"
+    },
+    {
+      "action": "popup_w_50",
+      "requested": 50,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "t": "2026-08-30T04:47:12Z"
+    },
+    {
+      "action": "popup_w_80",
+      "requested": 80,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "t": "2026-08-30T04:47:13Z"
+    },
+    {
+      "action": "popup_w_84",
+      "requested": 84,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "t": "2026-08-30T04:47:14Z"
+    },
+    {
+      "action": "popup_w_85",
+      "requested": 85,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "t": "2026-08-30T04:47:16Z"
+    },
+    {
+      "action": "popup_w_86",
+      "requested": 86,
+      "ok": true,
+      "actual": 86,
+      "outerWidth": 86,
+      "innerWidth": 86,
+      "error": null,
+      "t": "2026-08-30T04:47:17Z"
+    },
+    {
+      "action": "popup_w_87",
+      "requested": 87,
+      "ok": true,
+      "actual": 87,
+      "outerWidth": 87,
+      "innerWidth": 87,
+      "error": null,
+      "t": "2026-08-30T04:47:18Z"
+    },
+    {
+      "action": "popup_w_88",
+      "requested": 88,
+      "ok": true,
+      "actual": 88,
+      "outerWidth": 88,
+      "innerWidth": 88,
+      "error": null,
+      "t": "2026-08-30T04:47:19Z"
+    },
+    {
+      "action": "popup_w_90",
+      "requested": 90,
+      "ok": true,
+      "actual": 90,
+      "outerWidth": 90,
+      "innerWidth": 90,
+      "error": null,
+      "t": "2026-08-30T04:47:20Z"
+    },
+    {
+      "action": "popup_w_100",
+      "requested": 100,
+      "ok": true,
+      "actual": 100,
+      "outerWidth": 100,
+      "innerWidth": 100,
+      "error": null,
+      "t": "2026-08-30T04:47:21Z"
+    },
+    {
+      "action": "popup_w_200",
+      "requested": 200,
+      "ok": true,
+      "actual": 200,
+      "outerWidth": 200,
+      "innerWidth": 200,
+      "error": null,
+      "t": "2026-08-30T04:47:22Z"
+    },
+    {
+      "action": "popup_w_300",
+      "requested": 300,
+      "ok": true,
+      "actual": 300,
+      "outerWidth": 300,
+      "innerWidth": 300,
+      "error": null,
+      "t": "2026-08-30T04:47:23Z"
+    },
+    {
+      "action": "popup_w_320",
+      "requested": 320,
+      "ok": true,
+      "actual": 320,
+      "outerWidth": 320,
+      "innerWidth": 320,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-0320.png",
+        "png_pixels": "pixelWidth: 640 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:24Z"
+    },
+    {
+      "action": "popup_w_375",
+      "requested": 375,
+      "ok": true,
+      "actual": 375,
+      "outerWidth": 375,
+      "innerWidth": 375,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-0375.png",
+        "png_pixels": "pixelWidth: 750 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:25Z"
+    },
+    {
+      "action": "popup_w_390",
+      "requested": 390,
+      "ok": true,
+      "actual": 390,
+      "outerWidth": 390,
+      "innerWidth": 390,
+      "error": null,
+      "t": "2026-08-30T04:47:26Z"
+    },
+    {
+      "action": "popup_w_414",
+      "requested": 414,
+      "ok": true,
+      "actual": 414,
+      "outerWidth": 414,
+      "innerWidth": 414,
+      "error": null,
+      "t": "2026-08-30T04:47:27Z"
+    },
+    {
+      "action": "popup_w_430",
+      "requested": 430,
+      "ok": true,
+      "actual": 430,
+      "outerWidth": 430,
+      "innerWidth": 430,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-0430.png",
+        "png_pixels": "pixelWidth: 860 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:29Z"
+    },
+    {
+      "action": "popup_w_500",
+      "requested": 500,
+      "ok": true,
+      "actual": 500,
+      "outerWidth": 500,
+      "innerWidth": 500,
+      "error": null,
+      "t": "2026-08-30T04:47:30Z"
+    },
+    {
+      "action": "popup_w_600",
+      "requested": 600,
+      "ok": true,
+      "actual": 600,
+      "outerWidth": 600,
+      "innerWidth": 600,
+      "error": null,
+      "t": "2026-08-30T04:47:31Z"
+    },
+    {
+      "action": "popup_h_1",
+      "requested": 1,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-h0001.png",
+        "png_pixels": "pixelWidth: 750 pixelHeight: 192"
+      },
+      "t": "2026-08-30T04:47:32Z"
+    },
+    {
+      "action": "popup_h_50",
+      "requested": 50,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "t": "2026-08-30T04:47:33Z"
+    },
+    {
+      "action": "popup_h_90",
+      "requested": 90,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "t": "2026-08-30T04:47:34Z"
+    },
+    {
+      "action": "popup_h_94",
+      "requested": 94,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "t": "2026-08-30T04:47:35Z"
+    },
+    {
+      "action": "popup_h_95",
+      "requested": 95,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "t": "2026-08-30T04:47:36Z"
+    },
+    {
+      "action": "popup_h_96",
+      "requested": 96,
+      "ok": true,
+      "actual": 96,
+      "outerHeight": 96,
+      "innerHeight": 64,
+      "error": null,
+      "shot": {
+        "file": "out3/popup-http-h0096.png",
+        "png_pixels": "pixelWidth: 750 pixelHeight: 192"
+      },
+      "t": "2026-08-30T04:47:37Z"
+    },
+    {
+      "action": "popup_h_97",
+      "requested": 97,
+      "ok": true,
+      "actual": 97,
+      "outerHeight": 97,
+      "innerHeight": 65,
+      "error": null,
+      "t": "2026-08-30T04:47:39Z"
+    },
+    {
+      "action": "popup_h_100",
+      "requested": 100,
+      "ok": true,
+      "actual": 100,
+      "outerHeight": 100,
+      "innerHeight": 68,
+      "error": null,
+      "t": "2026-08-30T04:47:40Z"
+    },
+    {
+      "action": "popup_h_200",
+      "requested": 200,
+      "ok": true,
+      "actual": 200,
+      "outerHeight": 200,
+      "innerHeight": 168,
+      "error": null,
+      "t": "2026-08-30T04:47:41Z"
+    },
+    {
+      "action": "popup_h_375",
+      "requested": 375,
+      "ok": true,
+      "actual": 375,
+      "outerHeight": 375,
+      "innerHeight": 343,
+      "error": null,
+      "t": "2026-08-30T04:47:42Z"
+    },
+    {
+      "action": "popup_h_400",
+      "requested": 400,
+      "ok": true,
+      "actual": 400,
+      "outerHeight": 400,
+      "innerHeight": 368,
+      "error": null,
+      "t": "2026-08-30T04:47:43Z"
+    },
+    {
+      "action": "popup_h_700",
+      "requested": 700,
+      "ok": true,
+      "actual": 700,
+      "outerHeight": 700,
+      "innerHeight": 668,
+      "error": null,
+      "t": "2026-08-30T04:47:44Z"
+    },
+    {
+      "action": "popup_big",
+      "requested": {
+        "left": 0,
+        "top": 30,
+        "width": 3000,
+        "height": 800
+      },
+      "ok": true,
+      "after": {
+        "left": 0,
+        "top": 30,
+        "width": 3000,
+        "height": 800,
+        "state": "normal"
+      },
+      "outerWidth": 3000,
+      "error": null,
+      "t": "2026-08-30T04:47:45Z"
+    },
+    {
+      "action": "popup_big",
+      "requested": {
+        "left": 0,
+        "top": 30,
+        "width": 3840,
+        "height": 800
+      },
+      "ok": true,
+      "after": {
+        "left": 0,
+        "top": 30,
+        "width": 3840,
+        "height": 800,
+        "state": "normal"
+      },
+      "outerWidth": 3840,
+      "error": null,
+      "t": "2026-08-30T04:47:46Z"
+    },
+    {
+      "action": "popup_big",
+      "requested": {
+        "left": 0,
+        "top": 30,
+        "width": 3841,
+        "height": 800
+      },
+      "ok": false,
+      "after": null,
+      "outerWidth": 3840,
+      "error": "Invalid value for bounds. Bounds must be at least 50% within visible screen space.",
+      "t": "2026-08-30T04:47:46Z"
+    },
+    {
+      "action": "popup_375_final",
+      "api": {
+        "ok": true,
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 375,
+          "height": 700,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 375,
+        "innerWidth": 375,
+        "outerHeight": 700,
+        "innerHeight": 668,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9394/m.html"
+      },
+      "shot": {
+        "file": "out3/popup-http-375-final.png",
+        "png_pixels": "pixelWidth: 750 pixelHeight: 1400"
+      },
+      "t": "2026-08-30T04:47:48Z"
+    },
+    {
+      "action": "move_tab_into_popup",
+      "ok": false,
+      "error": "target tab not found",
+      "tabCount": 3,
+      "note": "chrome.tabs.query は tabs 権限が無いと url を返さない",
+      "t": "2026-08-30T04:47:48Z"
+    },
+    {
+      "action": "tabs_query_without_permission",
+      "count": 3,
+      "sample": [
+        {
+          "id": 1378920560,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920559
+        },
+        {
+          "id": 1378920561,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920559
+        },
+        {
+          "id": 1378920563,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920562
+        }
+      ],
+      "t": "2026-08-30T04:47:48Z"
+    }
+  ],
+  "summary": {
+    "tabbed_375": {
+      "api": {
+        "ok": true,
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 700,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9394/m.html"
+      },
+      "shot": {
+        "file": "out3/tabbed-request375.png",
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1400"
+      }
+    },
+    "popup_created": {
+      "id": 1378920562,
+      "type": "popup",
+      "width": 900,
+      "height": 760
+    },
+    "popup_width": [
+      {
+        "requested": 1,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-0001.png",
+          "png_pixels": "pixelWidth: 172 pixelHeight: 1400"
+        }
+      },
+      {
+        "requested": 50,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null
+      },
+      {
+        "requested": 80,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null
+      },
+      {
+        "requested": 84,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null
+      },
+      {
+        "requested": 85,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null
+      },
+      {
+        "requested": 86,
+        "ok": true,
+        "actual": 86,
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "error": null
+      },
+      {
+        "requested": 87,
+        "ok": true,
+        "actual": 87,
+        "outerWidth": 87,
+        "innerWidth": 87,
+        "error": null
+      },
+      {
+        "requested": 88,
+        "ok": true,
+        "actual": 88,
+        "outerWidth": 88,
+        "innerWidth": 88,
+        "error": null
+      },
+      {
+        "requested": 90,
+        "ok": true,
+        "actual": 90,
+        "outerWidth": 90,
+        "innerWidth": 90,
+        "error": null
+      },
+      {
+        "requested": 100,
+        "ok": true,
+        "actual": 100,
+        "outerWidth": 100,
+        "innerWidth": 100,
+        "error": null
+      },
+      {
+        "requested": 200,
+        "ok": true,
+        "actual": 200,
+        "outerWidth": 200,
+        "innerWidth": 200,
+        "error": null
+      },
+      {
+        "requested": 300,
+        "ok": true,
+        "actual": 300,
+        "outerWidth": 300,
+        "innerWidth": 300,
+        "error": null
+      },
+      {
+        "requested": 320,
+        "ok": true,
+        "actual": 320,
+        "outerWidth": 320,
+        "innerWidth": 320,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-0320.png",
+          "png_pixels": "pixelWidth: 640 pixelHeight: 1400"
+        }
+      },
+      {
+        "requested": 375,
+        "ok": true,
+        "actual": 375,
+        "outerWidth": 375,
+        "innerWidth": 375,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-0375.png",
+          "png_pixels": "pixelWidth: 750 pixelHeight: 1400"
+        }
+      },
+      {
+        "requested": 390,
+        "ok": true,
+        "actual": 390,
+        "outerWidth": 390,
+        "innerWidth": 390,
+        "error": null
+      },
+      {
+        "requested": 414,
+        "ok": true,
+        "actual": 414,
+        "outerWidth": 414,
+        "innerWidth": 414,
+        "error": null
+      },
+      {
+        "requested": 430,
+        "ok": true,
+        "actual": 430,
+        "outerWidth": 430,
+        "innerWidth": 430,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-0430.png",
+          "png_pixels": "pixelWidth: 860 pixelHeight: 1400"
+        }
+      },
+      {
+        "requested": 500,
+        "ok": true,
+        "actual": 500,
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "error": null
+      },
+      {
+        "requested": 600,
+        "ok": true,
+        "actual": 600,
+        "outerWidth": 600,
+        "innerWidth": 600,
+        "error": null
+      }
+    ],
+    "popup_height": [
+      {
+        "requested": 1,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-h0001.png",
+          "png_pixels": "pixelWidth: 750 pixelHeight: 192"
+        }
+      },
+      {
+        "requested": 50,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null
+      },
+      {
+        "requested": 90,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null
+      },
+      {
+        "requested": 94,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null
+      },
+      {
+        "requested": 95,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null
+      },
+      {
+        "requested": 96,
+        "ok": true,
+        "actual": 96,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "error": null,
+        "shot": {
+          "file": "out3/popup-http-h0096.png",
+          "png_pixels": "pixelWidth: 750 pixelHeight: 192"
+        }
+      },
+      {
+        "requested": 97,
+        "ok": true,
+        "actual": 97,
+        "outerHeight": 97,
+        "innerHeight": 65,
+        "error": null
+      },
+      {
+        "requested": 100,
+        "ok": true,
+        "actual": 100,
+        "outerHeight": 100,
+        "innerHeight": 68,
+        "error": null
+      },
+      {
+        "requested": 200,
+        "ok": true,
+        "actual": 200,
+        "outerHeight": 200,
+        "innerHeight": 168,
+        "error": null
+      },
+      {
+        "requested": 375,
+        "ok": true,
+        "actual": 375,
+        "outerHeight": 375,
+        "innerHeight": 343,
+        "error": null
+      },
+      {
+        "requested": 400,
+        "ok": true,
+        "actual": 400,
+        "outerHeight": 400,
+        "innerHeight": 368,
+        "error": null
+      },
+      {
+        "requested": 700,
+        "ok": true,
+        "actual": 700,
+        "outerHeight": 700,
+        "innerHeight": 668,
+        "error": null
+      }
+    ],
+    "popup_big": [
+      {
+        "requested": {
+          "left": 0,
+          "top": 30,
+          "width": 3000,
+          "height": 800
+        },
+        "ok": true,
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 3000,
+          "height": 800,
+          "state": "normal"
+        },
+        "outerWidth": 3000,
+        "error": null
+      },
+      {
+        "requested": {
+          "left": 0,
+          "top": 30,
+          "width": 3840,
+          "height": 800
+        },
+        "ok": true,
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 3840,
+          "height": 800,
+          "state": "normal"
+        },
+        "outerWidth": 3840,
+        "error": null
+      },
+      {
+        "requested": {
+          "left": 0,
+          "top": 30,
+          "width": 3841,
+          "height": 800
+        },
+        "ok": false,
+        "after": null,
+        "outerWidth": 3840,
+        "error": "Invalid value for bounds. Bounds must be at least 50% within visible screen space."
+      }
+    ],
+    "popup_375_final": {
+      "api": {
+        "ok": true,
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 375,
+          "height": 700,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 375,
+        "innerWidth": 375,
+        "outerHeight": 700,
+        "innerHeight": 668,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9394/m.html"
+      },
+      "shot": {
+        "file": "out3/popup-http-375-final.png",
+        "png_pixels": "pixelWidth: 750 pixelHeight: 1400"
+      }
+    },
+    "move_tab_into_popup": {
+      "ok": false,
+      "error": "target tab not found",
+      "tabCount": 3,
+      "note": "chrome.tabs.query は tabs 権限が無いと url を返さない"
+    },
+    "tabs_query_without_permission": {
+      "count": 3,
+      "sample": [
+        {
+          "id": 1378920560,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920559
+        },
+        {
+          "id": 1378920561,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920559
+        },
+        {
+          "id": 1378920563,
+          "hasUrl": false,
+          "hasTitle": false,
+          "windowId": 1378920562
+        }
+      ]
+    }
+  }
+}

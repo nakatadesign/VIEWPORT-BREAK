@@ -1,0 +1,498 @@
+{
+  "master": {
+    "path": "assets/brand/master/viewport-break-logo-master-1200.png",
+    "sha256": "146f5da4d33df470db8544d4c610ac965471ef21ce9f1f9191399fdc742373e7"
+  },
+  "files": [
+    {
+      "path": "assets/brand/out/extension/icon16.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "bytes": 775,
+      "sha256": "bf0388b91daa283cac3b48645f703e1a6a322e5a92208a0ebaf29376c03e5032"
+    },
+    {
+      "path": "assets/brand/out/extension/icon32.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "bytes": 1816,
+      "sha256": "3d57c4cc8e4bfc6331f6a262221614d25eaba532d479e129716989e75909479a"
+    },
+    {
+      "path": "assets/brand/out/extension/icon48.png",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "bytes": 2933,
+      "sha256": "7fcbec017d98fe79cec101ea87e53ba94dbc35a869a01f6a057f0c25c4a77c27"
+    },
+    {
+      "path": "assets/brand/out/extension/icon128.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bytes": 11479,
+      "sha256": "beeebc54bd5df4927f9d6c2b1227bf1626d1de5b91e4180bc3347e978523d3d2"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_16x16.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "bytes": 628,
+      "sha256": "85cd13694dec5954c6a8e4b26cf14d8da2950afd92870e5ec795c96aade52652"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_16x16@2x.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "bytes": 1527,
+      "sha256": "1674324b96d6fbaf2e4ed0657ce5a808018c1b15d7ba052e76572a5a18644fe0"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_32x32.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "bytes": 1527,
+      "sha256": "1674324b96d6fbaf2e4ed0657ce5a808018c1b15d7ba052e76572a5a18644fe0"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_32x32@2x.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "bytes": 3584,
+      "sha256": "eea79f3e95741d5151a66ae63ccd4e61250f0fd2bb738ac5faf0f09c7546ee40"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_128x128.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bytes": 9520,
+      "sha256": "1949b899cf9edf096e42c126b84573c2090424d2afbf12b7b37699e4175e02ad"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_128x128@2x.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bytes": 26508,
+      "sha256": "f2b77a3c0c69640300a3e6a37655c5c757b9ee36e0bbfdd68c45b4fa493a91ae"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_256x256.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bytes": 26508,
+      "sha256": "f2b77a3c0c69640300a3e6a37655c5c757b9ee36e0bbfdd68c45b4fa493a91ae"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_256x256@2x.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 76549,
+      "sha256": "2b66358761e76460888fc102f2d2072bd31714981fc87ffb248dc4bb052d47be"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_512x512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 76549,
+      "sha256": "2b66358761e76460888fc102f2d2072bd31714981fc87ffb248dc4bb052d47be"
+    },
+    {
+      "path": "assets/brand/out/macos/AppIcon.iconset/icon_512x512@2x.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 228214,
+      "sha256": "74cc72a07b6c69e31a1cedadf3dacf83c323cb7fdcd8e4dc2622d318075182cd"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 256952,
+      "sha256": "977e1fe147b55574f3234a6c8a2290ed30e3458d0a4a9eed4a2836ecb5eecf72"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-60@3x.png",
+      "size": [
+        180,
+        180
+      ],
+      "mode": "RGB",
+      "bytes": 16213,
+      "sha256": "90ad0eecced43334770a9015339660a4a385891fba7aaae2198b92c998d3ab07"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-83.5@2x.png",
+      "size": [
+        167,
+        167
+      ],
+      "mode": "RGB",
+      "bytes": 14504,
+      "sha256": "d9c3fe718807680cd7f0f5b21ad4fc2317b073de886bc8cbd4c9f117f4f8269f"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-76@2x.png",
+      "size": [
+        152,
+        152
+      ],
+      "mode": "RGB",
+      "bytes": 12434,
+      "sha256": "aedd40228c6a3c90682b71ce959c8843ed23703ec19e81022d66c179ba18a432"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-60@2x.png",
+      "size": [
+        120,
+        120
+      ],
+      "mode": "RGB",
+      "bytes": 8648,
+      "sha256": "d1e2dd1c17b0e97ac067ff203a74bf69ef7ba80737a4d96bdf8d310583836547"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-40@3x.png",
+      "size": [
+        120,
+        120
+      ],
+      "mode": "RGB",
+      "bytes": 8648,
+      "sha256": "d1e2dd1c17b0e97ac067ff203a74bf69ef7ba80737a4d96bdf8d310583836547"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-29@3x.png",
+      "size": [
+        87,
+        87
+      ],
+      "mode": "RGB",
+      "bytes": 5445,
+      "sha256": "ba5b6277a3b119b10fe50c3635b76e6ff7b18ac58a4500e931e79c4bed49881e"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-40@2x.png",
+      "size": [
+        80,
+        80
+      ],
+      "mode": "RGB",
+      "bytes": 4792,
+      "sha256": "a0c7be4c066b319dd7b8f1b909e01536d9be534761649012be25cc1380ea360e"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-76.png",
+      "size": [
+        76,
+        76
+      ],
+      "mode": "RGB",
+      "bytes": 4408,
+      "sha256": "25bf7011a438f3a92a2c7a453180ce0987a9397c4754e8f3c8336e2aefb06e12"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-20@3x.png",
+      "size": [
+        60,
+        60
+      ],
+      "mode": "RGB",
+      "bytes": 3195,
+      "sha256": "83a0c3878f97e27d4d13de36ee09d0cb3d34daca549cdbcd69383ce213ff3905"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-29@2x.png",
+      "size": [
+        58,
+        58
+      ],
+      "mode": "RGB",
+      "bytes": 3076,
+      "sha256": "cd79283e3b6289acc745925a7c7f2f448c4d939006d17ba153117598de773503"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-20@2x.png",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGB",
+      "bytes": 1889,
+      "sha256": "74a17eef8ac3e4d2c880af4e15fbcbd6fd2cd41e7022a648a9765a124d623951"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-40.png",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGB",
+      "bytes": 1889,
+      "sha256": "74a17eef8ac3e4d2c880af4e15fbcbd6fd2cd41e7022a648a9765a124d623951"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-29.png",
+      "size": [
+        29,
+        29
+      ],
+      "mode": "RGB",
+      "bytes": 1281,
+      "sha256": "01eabce567c17003d11095709dc23e51c37c296503646b849f69d9ba87494166"
+    },
+    {
+      "path": "assets/brand/out/ios/AppIcon-20.png",
+      "size": [
+        20,
+        20
+      ],
+      "mode": "RGB",
+      "bytes": 770,
+      "sha256": "9bd3e5d5dd07ea4bf585e3f68d7adf4f027a9ba536853c64b79ca27f4a8d00cf"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-16x16.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "bytes": 775,
+      "sha256": "bf0388b91daa283cac3b48645f703e1a6a322e5a92208a0ebaf29376c03e5032"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-32x32.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "bytes": 1816,
+      "sha256": "3d57c4cc8e4bfc6331f6a262221614d25eaba532d479e129716989e75909479a"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-48x48.png",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "bytes": 2933,
+      "sha256": "7fcbec017d98fe79cec101ea87e53ba94dbc35a869a01f6a057f0c25c4a77c27"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-96x96.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "bytes": 7771,
+      "sha256": "c875453247979a036cce1ab17664367b288784dd81c93e4cf744ca079ea1f736"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-192x192.png",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGBA",
+      "bytes": 21497,
+      "sha256": "01160c63da062b8e8a69eea63bcc8107be6667287ca0604b83620abdea24cdfa"
+    },
+    {
+      "path": "assets/brand/out/web/favicon-512x512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 97736,
+      "sha256": "4d63a0856964c7d41a70d39e08be298732c84e29e7f650570a3814e83f9d4e1b"
+    },
+    {
+      "path": "assets/brand/out/web/favicon.ico",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "ICO(16/32/48)",
+      "bytes": 4202,
+      "sha256": "f4632cbb229475efb78abc8e372e752970ef28c431fb9987120edc84e8ad1758"
+    },
+    {
+      "path": "assets/brand/out/web/apple-touch-icon.png",
+      "size": [
+        180,
+        180
+      ],
+      "mode": "RGB",
+      "bytes": 16213,
+      "sha256": "90ad0eecced43334770a9015339660a4a385891fba7aaae2198b92c998d3ab07"
+    },
+    {
+      "path": "assets/brand/out/web/pwa-192.png",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGBA",
+      "bytes": 21497,
+      "sha256": "01160c63da062b8e8a69eea63bcc8107be6667287ca0604b83620abdea24cdfa"
+    },
+    {
+      "path": "assets/brand/out/web/pwa-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 97736,
+      "sha256": "4d63a0856964c7d41a70d39e08be298732c84e29e7f650570a3814e83f9d4e1b"
+    },
+    {
+      "path": "assets/brand/out/web/pwa-maskable-192.png",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGBA",
+      "bytes": 14017,
+      "sha256": "07535daebc424e111573a24e57049736328b97c1d61b612dac270dd56fecf986"
+    },
+    {
+      "path": "assets/brand/out/web/pwa-maskable-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 65141,
+      "sha256": "44f66bdc88364914debbe5bb90b1df3f588ed49e0cefabe463dbacc49977ea48"
+    },
+    {
+      "path": "assets/brand/out/share/og-image-1200x630.png",
+      "size": [
+        1200,
+        630
+      ],
+      "mode": "RGB",
+      "bytes": 97956,
+      "sha256": "21760edfa81a3c600ea6c692a91ee2da2e9a384d854e32367ac4e58745da3453"
+    },
+    {
+      "path": "assets/brand/out/share/twitter-card-1200x600.png",
+      "size": [
+        1200,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 93333,
+      "sha256": "a9d7f3706aceed4399c7887ac83930301c220aeff7b58da7e2cbe83e30e35ffa"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-onblack-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 301471,
+      "sha256": "ccf17102fe024ef4003033f48b3e423da5b024f3a0286475ab66f5642c9eb7d7"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-transparent-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 658893,
+      "sha256": "89d2ec0259dc1421f8719b8963fab91a71f47d5845acbd778b1570057347173b"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-onblack-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "bytes": 98908,
+      "sha256": "186428dd65a98d9dee5456f4f2cfa350bdc506366f1ba215c6dbe1e8088eb41f"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-transparent-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 189754,
+      "sha256": "36e10818c3afc810f2819ad9827aff6ddc488985cce85fd99da0fd7134d12f9e"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-onblack-256.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB",
+      "bytes": 32719,
+      "sha256": "37487c04e07861f67a6be7c879ac85ab112a14e8e1c2072ab22fa4edcf8d1390"
+    },
+    {
+      "path": "assets/brand/out/logo/viewport-break-transparent-256.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bytes": 53119,
+      "sha256": "729d2da0712d71e46e79d2dc3a81d80fd2dfb8b42ac01ce7a07788cac6804da0"
+    }
+  ]
+}

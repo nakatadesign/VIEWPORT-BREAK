@@ -1,0 +1,286 @@
+{
+  "meta": {},
+  "steps": [
+    {
+      "action": "before_unquarantine",
+      "quarantine": null,
+      "spctl": "/Applications/VIEWPORT BREAK.app: rejected",
+      "t": "2026-08-30T05:41:30Z"
+    },
+    {
+      "action": "dismiss_leftover_gatekeeper_dialog",
+      "rc": 1,
+      "out": "",
+      "err": "74:103: execution error: System Eventsでエラーが起きました: window 1 of process \"CoreServicesUIAgent\"を取り出すことはできません。正しくないインデックスです。 (-1719)",
+      "t": "2026-08-30T05:41:30Z"
+    },
+    {
+      "action": "unquarantine",
+      "rc": 0,
+      "note": "システム設定の「このまま開く」の代替。その操作自体は未実測",
+      "quarantine_after": null,
+      "t": "2026-08-30T05:41:33Z"
+    },
+    {
+      "action": "setup_dialog_geometry",
+      "raw": "700, 180, 520, 361",
+      "err": "",
+      "t": "2026-08-30T05:41:38Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "20-setup-dialog.png",
+      "rect": [
+        700,
+        180,
+        520,
+        361
+      ],
+      "bytes": 414364,
+      "t": "2026-08-30T05:41:39Z"
+    },
+    {
+      "action": "default_profile_manifest",
+      "content": {
+        "allowed_origins": [
+          "chrome-extension://ejlimgikbnaihoigbcmelaadniiminfj/"
+        ],
+        "description": "VIEWPORT BREAK — Chrome ウィンドウ幅を 500px の下限より下へ設定する",
+        "name": "com.nanago.viewport_deck",
+        "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+        "type": "stdio"
+      },
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "extension_deployed",
+      "dir": "/Users/macmini/Library/Application Support/VIEWPORT BREAK/extension",
+      "files": [
+        "EXTENSION_ID",
+        "background.js",
+        "core.js",
+        "icons",
+        "manifest.json",
+        "popup.css",
+        "popup.html",
+        "popup.js"
+      ],
+      "id_check": {
+        "expected": "ejlimgikbnaihoigbcmelaadniiminfj",
+        "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+        "manifest": "/Users/macmini/Library/Application Support/VIEWPORT BREAK/extension/manifest.json",
+        "ok": true
+      },
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "doctor_after_setup",
+      "rc": 0,
+      "report": {
+        "automation_permission": true,
+        "chrome_running": true,
+        "extension_dir": "/Users/macmini/Library/Application Support/VIEWPORT BREAK/extension",
+        "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+        "extension_installed": true,
+        "host_version": "2.0.0",
+        "native_messaging_manifests": [
+          {
+            "manifest": "/Users/macmini/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          },
+          {
+            "manifest": "/Users/macmini/Library/Application Support/Chromium/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          },
+          {
+            "manifest": "/Users/macmini/Library/Application Support/BraveSoftware/Brave-Browser/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          },
+          {
+            "manifest": "/Users/macmini/Library/Application Support/Microsoft Edge/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          },
+          {
+            "manifest": "/Users/macmini/Library/Application Support/Vivaldi/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          },
+          {
+            "manifest": "/Users/macmini/Library/Application Support/Arc/User Data/NativeMessagingHosts/com.nanago.viewport_deck.json",
+            "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+            "path_exists": true
+          }
+        ],
+        "self": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+        "translocated": false,
+        "windows": [
+          {
+            "height": 847,
+            "id": 212798867,
+            "left": 100,
+            "top": 30,
+            "width": 320
+          }
+        ]
+      },
+      "err": "",
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "install_into_disposable_profile",
+      "rc": 0,
+      "result": {
+        "extension_dir": "/Users/macmini/Library/Application Support/VIEWPORT BREAK/extension",
+        "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+        "host_path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+        "manifests": [
+          "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/e2e-profile/NativeMessagingHosts/com.nanago.viewport_deck.json"
+        ],
+        "ok": true
+      },
+      "err": "",
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "disposable_manifest",
+      "exists": true,
+      "content": {
+        "allowed_origins": [
+          "chrome-extension://ejlimgikbnaihoigbcmelaadniiminfj/"
+        ],
+        "description": "VIEWPORT BREAK — Chrome ウィンドウ幅を 500px の下限より下へ設定する",
+        "name": "com.nanago.viewport_deck",
+        "path": "/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break",
+        "type": "stdio"
+      },
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "owner_windows_before",
+      "ids": [
+        212798867
+      ],
+      "t": "2026-08-30T05:41:41Z"
+    },
+    {
+      "action": "chrome_launched",
+      "browser": "Chrome/151.0.7922.174",
+      "pid": 76329,
+      "profile": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/e2e-profile",
+      "t": "2026-08-30T05:41:42Z"
+    },
+    {
+      "action": "applescript_sees_disposable_window",
+      "windows": [
+        {
+          "height": 760,
+          "id": 1400165156,
+          "left": 900,
+          "top": 120,
+          "width": 1000
+        }
+      ],
+      "note": "AppleScript から使い捨て Chrome のウィンドウが見えるかの確認",
+      "t": "2026-08-30T05:41:45Z"
+    },
+    {
+      "action": "load_unpacked",
+      "path": "/Users/macmini/Library/Application Support/VIEWPORT BREAK/extension",
+      "returned_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+      "matches_fixed_id": true,
+      "note": "chrome://extensions の「パッケージ化されていない拡張機能を読み込む」と同じ結果になる CDP 経路",
+      "t": "2026-08-30T05:41:45Z"
+    },
+    {
+      "action": "service_worker",
+      "found": 1,
+      "url": "chrome-extension://ejlimgikbnaihoigbcmelaadniiminfj/background.js",
+      "t": "2026-08-30T05:41:48Z"
+    },
+    {
+      "action": "host_ping_from_extension",
+      "result": "{\"engine\":\"applescript:set-bounds\",\"impl\":\"swift\",\"path\":\"/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break\",\"host_version\":\"2.0.0\",\"ok\":true}",
+      "t": "2026-08-30T05:41:48Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "25-chrome-extensions.png",
+      "rect": [
+        900,
+        120,
+        1000,
+        700
+      ],
+      "bytes": 285041,
+      "t": "2026-08-30T05:41:51Z"
+    },
+    {
+      "action": "popup_opened",
+      "state": "{\"buttons\":[\"320\",\"360\",\"375\",\"390\",\"414\",\"430\",\"640\",\"768\",\"1024\",\"1280\",\"1440\",\"1920\"],\"current\":\"1000\"}",
+      "t": "2026-08-30T05:41:54Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "30-before-375.png",
+      "rect": [
+        900,
+        120,
+        1000,
+        700
+      ],
+      "bytes": 156109,
+      "t": "2026-08-30T05:41:54Z"
+    },
+    {
+      "action": "popup_click_375",
+      "seconds": 2.5,
+      "result": "{\"msg\":\"375px\",\"curW\":\"375\"}",
+      "note": "popup.js の click ハンドラ = ツールバーから押したときと同じ経路",
+      "t": "2026-08-30T05:41:57Z"
+    },
+    {
+      "action": "applescript_readback",
+      "before": {
+        "height": 760,
+        "id": 1400165156,
+        "left": 900,
+        "top": 120,
+        "width": 1000
+      },
+      "after": {
+        "height": 760,
+        "id": 1400165156,
+        "left": 900,
+        "top": 120,
+        "width": 375
+      },
+      "reached_375": true,
+      "t": "2026-08-30T05:41:58Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "31-after-375.png",
+      "rect": [
+        900,
+        120,
+        375,
+        700
+      ],
+      "bytes": 97509,
+      "t": "2026-08-30T05:41:58Z"
+    },
+    {
+      "action": "chrome_windows_api_readback",
+      "value": "{\"id\":1400165156,\"left\":900,\"top\":120,\"width\":375,\"height\":760}",
+      "t": "2026-08-30T05:41:58Z"
+    },
+    {
+      "action": "chrome_terminated",
+      "t": "2026-08-30T05:41:58Z"
+    }
+  ]
+}

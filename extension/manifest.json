@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "name": "VIEWPORT BREAK",
+  "version": "1.4.1",
+  "description": "Chrome ウィンドウ自体を 375/390px などのレスポンシブ確認幅へ即座に切り替える。500px の下限を native host 経由で貫通する。",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1jiTmAu/SQ1uj1XH+gsAT+0zyCOG/dxXQUk+dxgkBGhZem3m5iaARM5PHJuGjOlqeZZQneUtb+Zx0we/JKihy0C03S1f30eex8AzWq6LqA0XuuNqXQVUdTchlGZbrodycDwOzd2YwJ3NgjJ1SWRVjqWZRCQzALBMxjbUsQu50M1VloT2AGN2YVjLe0i2QJnK60OMetmtG0j77Kge/7cVXMle9OpAqCS4RYnrIcvRdzbdGAKIuIj4FbN2Fig6tx9dDy3au2dZdiAgvMD2bP1OwoMyUfBZh2kdR6q+5eR/71Aodkvxg97McPbvvvH2mfvQcS2EOIDiLIwxhFddwMswMwIDAQAB",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_title": "VIEWPORT BREAK — ウィンドウ幅を切り替える",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "commands": {
+    "width-360": {
+      "description": "幅 360px にする"
+    },
+    "width-375": {
+      "suggested_key": {
+        "mac": "Alt+Shift+1"
+      },
+      "description": "幅 375px にする"
+    },
+    "width-390": {
+      "suggested_key": {
+        "mac": "Alt+Shift+2"
+      },
+      "description": "幅 390px にする"
+    },
+    "width-768": {
+      "suggested_key": {
+        "mac": "Alt+Shift+3"
+      },
+      "description": "幅 768px にする"
+    },
+    "width-1280": {
+      "suggested_key": {
+        "mac": "Alt+Shift+4"
+      },
+      "description": "幅 1280px にする"
+    }
+  }
+}

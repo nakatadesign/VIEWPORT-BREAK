@@ -1,0 +1,10 @@
+"VIEWPORT BREAK" ASN:0x0-0x91e91e: (in front) 
+    bundleID="com.nanago.viewport-break"
+    bundle path="/Applications/VIEWPORT BREAK.app"
+    executable path="/Applications/VIEWPORT BREAK.app/Contents/MacOS/viewport-break"
+    pid = 76247 type="Foreground" flavor=3 Version="1.0.0" fileType="APPL" creator="????" Arch=ARM64 
+    coalition: 62999
+    launch time =  2026/08/30 14:41:33 ( 26 minutes, 37.0283 seconds ago )
+    checkin time = 2026/08/30 14:41:33 ( 26 minutes, 36.9688 seconds ago )
+    launch to checkin time: 0.0594411 seconds
+

@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "probe_url": "http://127.0.0.1:9396/m.html",
+    "chrome": "Chrome/151.0.7922.174"
+  },
+  "steps": [
+    {
+      "action": "cdp_ready",
+      "browser": "Chrome/151.0.7922.174",
+      "t": "2026-08-30T04:49:15Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "elhbfkjaijcdcdfpjpkmdkmaohfbplhd",
+      "t": "2026-08-30T04:49:17Z"
+    },
+    {
+      "action": "service_worker_attached",
+      "ok": true,
+      "t": "2026-08-30T04:49:17Z"
+    },
+    {
+      "action": "active_tab_to_popup_375",
+      "ok": true,
+      "movedTabId": 1447628157,
+      "hadUrl": false,
+      "newWindowId": 1447628158,
+      "type": "popup",
+      "after": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 760
+      },
+      "tabCount": 1,
+      "t": "2026-08-30T04:49:18Z"
+    },
+    {
+      "action": "shot",
+      "file": "out4/moved-tab-popup-375.png",
+      "png_pixels": "pixelWidth: 1800 pixelHeight: 1520",
+      "t": "2026-08-30T04:49:19Z"
+    },
+    {
+      "action": "moved_popup_viewport",
+      "outerWidth": 900,
+      "innerWidth": 900,
+      "outerHeight": 760,
+      "innerHeight": 728,
+      "devicePixelRatio": 2,
+      "href": "http://127.0.0.1:9396/m.html",
+      "t": "2026-08-30T04:49:19Z"
+    },
+    {
+      "action": "shrink_320",
+      "ok": true,
+      "width": 320,
+      "height": 700,
+      "t": "2026-08-30T04:49:20Z"
+    },
+    {
+      "action": "shrink_200",
+      "ok": true,
+      "width": 200,
+      "height": 700,
+      "t": "2026-08-30T04:49:20Z"
+    },
+    {
+      "action": "shrink_86",
+      "ok": true,
+      "width": 86,
+      "height": 700,
+      "t": "2026-08-30T04:49:21Z"
+    },
+    {
+      "action": "popup_back_to_normal",
+      "ok": true,
+      "type": "normal",
+      "after": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 760
+      },
+      "t": "2026-08-30T04:49:22Z"
+    },
+    {
+      "action": "shot",
+      "file": "out4/restored-normal-900.png",
+      "png_pixels": "pixelWidth: 1800 pixelHeight: 1520",
+      "t": "2026-08-30T04:49:22Z"
+    },
+    {
+      "action": "zero_permission_capabilities",
+      "caps": {
+        "windows.getAll": {
+          "ok": true,
+          "v": 1
+        },
+        "windows.create_popup": {
+          "ok": true,
+          "v": "created+removed"
+        },
+        "tabs.query_url": {
+          "ok": true,
+          "v": {
+            "hasUrl": false,
+            "hasTitle": false,
+            "hasPendingUrl": false
+          }
+        },
+        "tabs.captureVisibleTab": {
+          "ok": false,
+          "error": "Either the '<all_urls>' or 'activeTab' permission is required."
+        },
+        "scripting": {
+          "ok": true,
+          "v": "undefined"
+        },
+        "storage": {
+          "ok": true,
+          "v": "undefined"
+        },
+        "sendNativeMessage": {
+          "ok": true,
+          "v": "undefined"
+        },
+        "debugger": {
+          "ok": true,
+          "v": "undefined"
+        },
+        "system.display": {
+          "ok": true,
+          "v": "undefined"
+        }
+      },
+      "t": "2026-08-30T04:49:22Z"
+    }
+  ],
+  "summary": {
+    "active_tab_to_popup": {
+      "ok": true,
+      "movedTabId": 1447628157,
+      "hadUrl": false,
+      "newWindowId": 1447628158,
+      "type": "popup",
+      "after": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 760
+      },
+      "tabCount": 1,
+      "shot": {
+        "file": "out4/moved-tab-popup-375.png",
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 1520"
+      }
+    },
+    "moved_popup_viewport": {
+      "outerWidth": 900,
+      "innerWidth": 900,
+      "outerHeight": 760,
+      "innerHeight": 728,
+      "devicePixelRatio": 2,
+      "href": "http://127.0.0.1:9396/m.html"
+    },
+    "shrink": [
+      {
+        "requested": 320,
+        "ok": true,
+        "width": 320,
+        "height": 700
+      },
+      {
+        "requested": 200,
+        "ok": true,
+        "width": 200,
+        "height": 700
+      },
+      {
+        "requested": 86,
+        "ok": true,
+        "width": 86,
+        "height": 700
+      }
+    ],
+    "popup_back_to_normal": {
+      "ok": true,
+      "type": "normal",
+      "after": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 760
+      },
+      "shot": {
+        "file": "out4/restored-normal-900.png",
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 1520"
+      }
+    },
+    "zero_permission_capabilities": {
+      "windows.getAll": {
+        "ok": true,
+        "v": 1
+      },
+      "windows.create_popup": {
+        "ok": true,
+        "v": "created+removed"
+      },
+      "tabs.query_url": {
+        "ok": true,
+        "v": {
+          "hasUrl": false,
+          "hasTitle": false,
+          "hasPendingUrl": false
+        }
+      },
+      "tabs.captureVisibleTab": {
+        "ok": false,
+        "error": "Either the '<all_urls>' or 'activeTab' permission is required."
+      },
+      "scripting": {
+        "ok": true,
+        "v": "undefined"
+      },
+      "storage": {
+        "ok": true,
+        "v": "undefined"
+      },
+      "sendNativeMessage": {
+        "ok": true,
+        "v": "undefined"
+      },
+      "debugger": {
+        "ok": true,
+        "v": "undefined"
+      },
+      "system.display": {
+        "ok": true,
+        "v": "undefined"
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "dmg": "/Users/macmini/Projects/viewport-deck/build/VIEWPORT BREAK 1.0.0.dmg"
+  },
+  "steps": [
+    {
+      "action": "dmg_before_download",
+      "path": "/Users/macmini/Projects/viewport-deck/build/VIEWPORT BREAK 1.0.0.dmg",
+      "bytes": 190977,
+      "sha256": "5fad10ac171fd9a49ff12631b31ef3cd4540406bc9f52a14288cd86b22261c7c",
+      "xattr": {
+        "names": [
+          "com.apple.FinderInfo",
+          "com.apple.provenance"
+        ],
+        "com.apple.quarantine": null
+      },
+      "t": "2026-08-30T05:27:36Z"
+    },
+    {
+      "action": "serve",
+      "url": "http://127.0.0.1:8731/VIEWPORT%20BREAK%201.0.0.dmg",
+      "root": "/Users/macmini/Projects/viewport-deck/build",
+      "t": "2026-08-30T05:27:36Z"
+    },
+    {
+      "action": "launch_chrome_for_download",
+      "pid": 58339,
+      "profile": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/dl-profile",
+      "t": "2026-08-30T05:27:36Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "01-chrome-download.png",
+      "rect": [
+        900,
+        120,
+        900,
+        700
+      ],
+      "bytes": 219520,
+      "t": "2026-08-30T05:27:38Z"
+    },
+    {
+      "action": "downloaded",
+      "path": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/Downloads/VIEWPORT BREAK 1.0.0.dmg",
+      "bytes": 190977,
+      "sha256_matches_build": true,
+      "xattr": {
+        "names": [
+          "com.apple.metadata:kMDItemWhereFroms",
+          "com.apple.provenance",
+          "com.apple.quarantine"
+        ],
+        "com.apple.quarantine": "0281;6a93bf49;Chrome;1C4520A3-32EE-4DE2-928A-1C8EA19CDFF3"
+      },
+      "t": "2026-08-30T05:27:38Z"
+    },
+    {
+      "action": "hdiutil_attach",
+      "rc": 0,
+      "err": "",
+      "t": "2026-08-30T05:27:43Z"
+    },
+    {
+      "action": "mounted",
+      "mount_point": "/Volumes/VIEWPORT BREAK",
+      "contents": [
+        "Applications",
+        "VIEWPORT BREAK.app",
+        "はじめにお読みください.txt"
+      ],
+      "t": "2026-08-30T05:27:43Z"
+    },
+    {
+      "action": "app_in_dmg",
+      "xattr": {
+        "names": [
+          "com.apple.provenance"
+        ],
+        "com.apple.quarantine": null
+      },
+      "codesign": "Executable=/Volumes/VIEWPORT BREAK/VIEWPORT BREAK.app/Contents/MacOS/viewport-break\nIdentifier=com.nanago.viewport-break\nFormat=app bundle with Mach-O universal (x86_64 arm64)\nCodeDirectory v=20400 size=594 flags=0x2(adhoc) hashes=12+3 location=embedded\nSignature=adhoc\nInfo.plist entries=12\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=12\nInternal requirements count=0 size=12",
+      "spctl": {
+        "cmd": [
+          "/usr/sbin/spctl",
+          "-a",
+          "-vvv",
+          "-t",
+          "exec",
+          "/Volumes/VIEWPORT BREAK/VIEWPORT BREAK.app"
+        ],
+        "rc": 3,
+        "out": "",
+        "err": "/Volumes/VIEWPORT BREAK/VIEWPORT BREAK.app: rejected"
+      },
+      "t": "2026-08-30T05:27:43Z"
+    },
+    {
+      "action": "copied_to_applications_stand_in",
+      "path": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/Applications/VIEWPORT BREAK.app",
+      "xattr": {
+        "names": [
+          "com.apple.provenance"
+        ],
+        "com.apple.quarantine": null
+      },
+      "spctl": {
+        "cmd": [
+          "/usr/sbin/spctl",
+          "-a",
+          "-vvv",
+          "-t",
+          "exec",
+          "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/Applications/VIEWPORT BREAK.app"
+        ],
+        "rc": 3,
+        "out": "",
+        "err": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/Applications/VIEWPORT BREAK.app: rejected"
+      },
+      "t": "2026-08-30T05:27:43Z"
+    },
+    {
+      "action": "detached",
+      "mount_point": "/Volumes/VIEWPORT BREAK",
+      "t": "2026-08-30T05:27:43Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+<div id="app">
+  <header>
+    <div class="now">
+      <span id="curW" class="num">—</span><span class="unit">px</span>
+      <span id="curH" class="sub"></span>
+    </div>
+  </header>
+
+  <div id="grid" class="grid"></div>
+
+  <form id="customForm" class="custom">
+    <label class="field">
+      <input id="customW" type="number" min="1" max="4000" step="1" placeholder="任意の幅" inputmode="numeric">
+      <span class="field__unit">px</span>
+    </label>
+    <button type="submit" class="btn">適用</button>
+  </form>
+
+  <div id="msg" class="msg" role="status"></div>
+</div>
+<script type="module" src="popup.js"></script>

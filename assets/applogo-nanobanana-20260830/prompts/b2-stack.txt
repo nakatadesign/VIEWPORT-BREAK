@@ -1,0 +1,14 @@
+Generate a square app icon image, 1024x1024, and save it to /Users/macmini/Projects/viewport-deck/assets/applogo-nanobanana-20260830/raw/b2-stack.png
+
+CRITICAL CANVAS RULE: the rounded-square icon must fill the ENTIRE 1024x1024 canvas edge to edge. Do not place the icon on another background plate. Do not leave any margin, border, white space or outer frame around the icon. The backdrop color IS the icon body.
+
+Backdrop: a flat deep charcoal-navy field, muted saturation, perfectly even, no vignette, no texture.
+Subject: three horizontal bars stacked vertically with even gaps, all sharing the same left edge, each bar clearly shorter than the one above it, so the three form a bold descending width staircase. Rounded ends. Purely abstract geometry. No characters, no scenery, no text, no letters, no numbers.
+Complexity: exactly 3 bars and nothing else. One decisive identifying feature: the descending width staircase. At most 2 internal color regions.
+Color count: exactly 3 meaningful colors — a bright azure blue for the top bar, a pale warm off-white for the lower two bars, and the backdrop color.
+
+Color behavior: continuous smooth gradients only, one shared light source from the upper-left toward the lower-right, gradient transitions spread across at least half the width of the main shape, no banding, no cel shading, no separate shadow layer, no small glossy specular dot; highlights must be broad soft areas.
+Composition: the mark is centered inside the icon, upright and not tilted, occupying about 72 percent of the icon, with clearly readable separation from the backdrop.
+Style: a flat-first modern software app icon with subtle depth, in the macOS rounded-square idiom, that also reads correctly as a small browser toolbar button. Not an illustration, not a scene, not a sticker, not a photograph.
+Finish: must stay clearly readable when scaled down to 16x16 pixels — this is the hardest requirement, so keep the shapes big, few and boldly separated. Must still be identifiable as a pure black silhouette. Neutral daylight white balance, no yellow cast, no orange cast, no sepia.
+Constraints: do not add any text, letters, numbers, logotype or watermark. Do not use sharp needle-like points. Do not draw thin fragile outlines or small details that vanish when shrunk. Do not let the mark and the backdrop sit at similar lightness; keep a strong lightness contrast between them. Do not make the backdrop glow like neon and do not let it drift toward muddy grey. Do not stack shading into bands or cel-shaded cells. Do not tilt the main shape. Do not add stray diagonal streaks, shards or reflections that are not part of the described geometry. Do not produce a contact sheet of several variants; produce exactly one design.

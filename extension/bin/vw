@@ -1,0 +1,6 @@
+#!/bin/bash
+# vw — VIEWPORT BREAK の CLI。拡張を使わずにウィンドウ幅を変える。
+#   vw 375        現在の Chrome ウィンドウを 375px 幅にする
+#   vw 375 900    幅と高さ
+#   vw --list     ウィンドウ一覧
+exec "$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/host/viewport_deck_host.py" "$@"

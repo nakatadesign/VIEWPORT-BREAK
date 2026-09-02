@@ -1,0 +1,84 @@
+{
+  "A_before_quit": {
+    "cdp": {
+      "left": 60,
+      "top": 60,
+      "width": 375,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "iw": 375
+  },
+  "A_after_restart": {
+    "cdp": {
+      "left": 60,
+      "top": 60,
+      "width": 500,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "iw": 500
+  },
+  "B_ax_sweep": {
+    "375": {
+      "ax_readback": "500, 900",
+      "cdp": 500
+    },
+    "420": {
+      "ax_readback": "500, 900",
+      "cdp": 500
+    },
+    "480": {
+      "ax_readback": "500, 900",
+      "cdp": 500
+    },
+    "500": {
+      "ax_readback": "500, 900",
+      "cdp": 500
+    },
+    "520": {
+      "ax_readback": "520, 900",
+      "cdp": 520
+    }
+  },
+  "C_dock_toggle": [
+    {
+      "iw": 150,
+      "w": 375
+    },
+    {
+      "iw": 150,
+      "w": 375
+    }
+  ],
+  "C_final": {
+    "iw": 150,
+    "bounds": {
+      "left": 60,
+      "top": 60,
+      "width": 375,
+      "height": 900,
+      "windowState": "normal"
+    }
+  },
+  "D_kiosk_initial": {
+    "cdp": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "windowState": "fullscreen"
+    },
+    "iw": 1920
+  },
+  "D_kiosk_to375": {
+    "cdp": {
+      "left": 60,
+      "top": 60,
+      "width": 500,
+      "height": 800,
+      "windowState": "normal"
+    },
+    "iw": 500
+  }
+}

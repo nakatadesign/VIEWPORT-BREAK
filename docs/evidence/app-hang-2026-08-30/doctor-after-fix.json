@@ -1,0 +1,51 @@
+{
+  "automation_permission" : true,
+  "chrome_running" : true,
+  "extension_dir" : "\/Users\/macmini\/Library\/Application Support\/VIEWPORT BREAK\/extension",
+  "extension_id" : "ejlimgikbnaihoigbcmelaadniiminfj",
+  "extension_installed" : true,
+  "host_version" : "2.0.0",
+  "native_messaging_manifests" : [
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/Google\/Chrome\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    },
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/Chromium\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    },
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/BraveSoftware\/Brave-Browser\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    },
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/Microsoft Edge\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    },
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/Vivaldi\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    },
+    {
+      "manifest" : "\/Users\/macmini\/Library\/Application Support\/Arc\/User Data\/NativeMessagingHosts\/com.nanago.viewport_deck.json",
+      "path" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+      "path_exists" : true
+    }
+  ],
+  "self" : "\/Applications\/VIEWPORT BREAK.app\/Contents\/MacOS\/viewport-break",
+  "translocated" : false,
+  "windows" : [
+    {
+      "height" : 847,
+      "id" : 212798867,
+      "left" : 100,
+      "top" : 30,
+      "width" : 320
+    }
+  ]
+}

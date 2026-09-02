@@ -1,0 +1,227 @@
+{
+  "normal_tabbed": {
+    "args": [
+      "--user-data-dir=/private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/profiles/floor-poc",
+      "--remote-debugging-port=9344",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-features=Translate",
+      "--remote-allow-origins=*"
+    ],
+    "targets": [
+      [
+        "page",
+        "file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/harness/probe.html",
+        "floor probe"
+      ]
+    ],
+    "launch_bounds": {
+      "left": 22,
+      "top": 52,
+      "width": 500,
+      "height": 900,
+      "windowState": "normal"
+    },
+    "launch_page": {
+      "iw": 500,
+      "ih": 813,
+      "ow": 500,
+      "oh": 900,
+      "sx": 22,
+      "dpr": 2
+    },
+    "sweep": [
+      {
+        "req": 800,
+        "outer": 800,
+        "innerWidth": 800,
+        "clamped": false
+      },
+      {
+        "req": 600,
+        "outer": 600,
+        "innerWidth": 600,
+        "clamped": false
+      },
+      {
+        "req": 520,
+        "outer": 520,
+        "innerWidth": 520,
+        "clamped": false
+      },
+      {
+        "req": 500,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": false
+      },
+      {
+        "req": 480,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 450,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 390,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 375,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 360,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 320,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 280,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 200,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      },
+      {
+        "req": 100,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": true
+      }
+    ]
+  },
+  "app_mode": {
+    "args": [
+      "--user-data-dir=/private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/profiles/floor-poc",
+      "--remote-debugging-port=9344",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-features=Translate",
+      "--remote-allow-origins=*",
+      "--app=file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/harness/probe.html"
+    ],
+    "targets": [
+      [
+        "page",
+        "file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf843-8023-4915-be84-6c21aaa420d2/scratchpad/harness/probe.html",
+        "floor probe"
+      ]
+    ],
+    "launch_bounds": {
+      "left": 22,
+      "top": 52,
+      "width": 1200,
+      "height": 916,
+      "windowState": "normal"
+    },
+    "launch_page": {
+      "iw": 1200,
+      "ih": 884,
+      "ow": 1200,
+      "oh": 916,
+      "sx": 22,
+      "dpr": 2
+    },
+    "sweep": [
+      {
+        "req": 800,
+        "outer": 800,
+        "innerWidth": 800,
+        "clamped": false
+      },
+      {
+        "req": 600,
+        "outer": 600,
+        "innerWidth": 600,
+        "clamped": false
+      },
+      {
+        "req": 520,
+        "outer": 520,
+        "innerWidth": 520,
+        "clamped": false
+      },
+      {
+        "req": 500,
+        "outer": 500,
+        "innerWidth": 500,
+        "clamped": false
+      },
+      {
+        "req": 480,
+        "outer": 480,
+        "innerWidth": 480,
+        "clamped": false
+      },
+      {
+        "req": 450,
+        "outer": 450,
+        "innerWidth": 450,
+        "clamped": false
+      },
+      {
+        "req": 390,
+        "outer": 390,
+        "innerWidth": 390,
+        "clamped": false
+      },
+      {
+        "req": 375,
+        "outer": 375,
+        "innerWidth": 375,
+        "clamped": false
+      },
+      {
+        "req": 360,
+        "outer": 360,
+        "innerWidth": 360,
+        "clamped": false
+      },
+      {
+        "req": 320,
+        "outer": 320,
+        "innerWidth": 320,
+        "clamped": false
+      },
+      {
+        "req": 280,
+        "outer": 280,
+        "innerWidth": 280,
+        "clamped": false
+      },
+      {
+        "req": 200,
+        "outer": 200,
+        "innerWidth": 200,
+        "clamped": false
+      },
+      {
+        "req": 100,
+        "outer": 100,
+        "innerWidth": 100,
+        "clamped": false
+      }
+    ]
+  }
+}
