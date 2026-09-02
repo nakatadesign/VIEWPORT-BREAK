@@ -10,7 +10,14 @@ assets/brand/
   master/viewport-break-logo-master-1200.png   ← 無加工のマスター。1200x1200 RGB
   build_brand_assets.py                        ← master からすべての派生を作る
   out/                                         ← 派生物（コミット済み。再生成可能）
+  hero/                                        ← README 冒頭用の別レンダー（手動入稿。out/ とは別系統）
 ```
+
+`hero/` は master 由来ではない別レンダーで、`build_brand_assets.py` の対象外。
+`viewport-break-hero-1280x640.png` が入稿された無加工の原本、
+`viewport-break-hero-760x470.png` はそこから中央を切り出しただけのもの（再サンプルなし）。
+マークは 1280x640 の中で 422x416px しか占めておらず、左右は真っ黒（RGB 0,0,0）の余白だった。
+README では黒い面積を減らすため 760x470 の方を `width="320"` で使う。
 
 master は **無加工**。sha256 `146f5da4d33df470db8544d4c610ac965471ef21ce9f1f9191399fdc742373e7`。
 `build_brand_assets.py` は起動時にこの値を照合し、違っていれば何もせず止まる。
