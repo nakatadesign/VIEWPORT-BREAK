@@ -5,8 +5,8 @@
 <h1 align="center">VIEWPORT BREAK</h1>
 
 <p align="center">
-  Chrome の<strong>ウィンドウ自体</strong>を 375 / 390px などのレスポンシブ確認幅へ即座に切り替える。<br>
-  通常は超えられない <strong>500px の下限</strong>を native messaging host 経由で貫通する。
+  Chrome のウィンドウは <strong>500px</strong> より狭くならない。<br>
+  VIEWPORT BREAK はその下限を貫通して、ウィンドウ自体を 375 / 390px にする。
 </p>
 
 <p align="center">
@@ -19,41 +19,50 @@
 
 ---
 
-## これは何か
+## Chrome のウィンドウは 500px より狭くならない
 
-スマートフォン幅での見え方を、実ブラウザのまま確認するための Chrome 拡張です。
-macOS アプリがそれを補助します。使うのは Web 制作者とフロントエンド開発者。
+タブ付きの Chrome ウィンドウには、幅 500px の下限があります。
+iPhone 幅の 375 / 390px でレスポンシブを確かめたくても、ウィンドウがそこまで縮みません。
+VIEWPORT BREAK はこの壁を越え、375px のウィンドウで実サイトを確認できるようにする Chrome 拡張です。
 
-DevTools のデバイスエミュレーションと違い、ウィンドウが本当にその幅になります。
-タブもアドレスバーもブックマークバーも DevTools もそのまま残るので、
-拡大率、スクロールバー、フォントレンダリングまで含めて実機に近い条件で見られます。
+### 500px はどこで止まっているのか
 
-### なぜ専用ツールが要るのか
-
-タブ付きの通常 Chrome ウィンドウには、幅 500 DIP という下限があります。
-`chrome.windows.update` でも Chrome DevTools Protocol でも、500px より狭くはできません
+`chrome.windows.update` も、Chrome DevTools Protocol の `Browser.setWindowBounds` も、500px より狭くはできません。
+どちらも Chromium の `Widget::SetBounds()` を通り、`kMainBrowserContentsMinimumWidth = 500` でクランプされるからです
 （実測記録は [`docs/WINDOW_FLOOR_2026-08-30.md`](docs/WINDOW_FLOOR_2026-08-30.md)、
 拡張単体での再実測は [`docs/EXTENSION_ONLY_LIMITS_2026-08-30.md`](docs/EXTENSION_ONLY_LIMITS_2026-08-30.md)）。
 
-VIEWPORT BREAK は小さな native messaging host を併用し、AppleScript の `set bounds` 経由でこの下限を抜けます。
-iPhone 幅の 375 / 390px が、エミュレーションではなく実ウィンドウで出せます。
+抜け穴は AppleScript の `set bounds` でした。この経路だけは値が NSWindow へ直接渡り、`Widget::SetBounds()` を通りません。
+VIEWPORT BREAK は小さな native messaging host を併用して、ここを抜けます。
+
+### DevTools のデバイスエミュレーションとの違い
+
+エミュレーションが差し替えるのはページの描画幅だけで、ウィンドウは元の幅のまま残ります。
+VIEWPORT BREAK が動かすのは OS のウィンドウそのもの。375px を要求したときの実測値は、
+`outerWidth` も `innerWidth` も 375 でした
+（[`docs/evidence/window-floor-2026-08-30/t9_ext.json`](docs/evidence/window-floor-2026-08-30/t9_ext.json)。
+320〜1920px の掃引で AppleScript の読み返し・ウィンドウ外形・`innerWidth` の 3 系統が全幅一致した記録は
+[`docs/evidence/extension-2026-08-30/sweep_host_widths.json`](docs/evidence/extension-2026-08-30/sweep_host_widths.json)）。
+
+タブもアドレスバーもブックマークバーも DevTools も付いたままです。
+拡大率、スクロールバー、フォントレンダリングまで含めて、その幅のウィンドウで実際に起きることがそのまま見えます。
 
 ---
 
 ## スクリーンショット
 
-以下は [`docs/screenshots/`](docs/screenshots/) にある実測キャプチャです。
-ストア公開用のスクリーンショットはまだ撮っていないので、ここは差し替え枠として置いてあります。
+320px まで縮めた実際の Chrome ウィンドウです。タブ、アドレスバー、拡張のパズルアイコンがそのまま残っています。
+AppleScript で読み返した幅が 320 であることを確認したうえで撮ってあり、生データは
+[`docs/evidence/min1px-recovery-2026-08-30/out/shots.json`](docs/evidence/min1px-recovery-2026-08-30/out/shots.json)。
 
-| ポップアップ | 375px / 390px / 768px / 1920px の比較 |
-|---|---|
-| ![popup](docs/evidence/extension-ui-2026-08-30/01-rest-light.png) | ![comparison](docs/screenshots/comparison-4widths.png) |
+![320px まで縮めた Chrome ウィンドウ](docs/evidence/min1px-recovery-2026-08-30/out/02-b-320px.png)
 
-| 375px | DevTools を bottom dock にした 390px |
-|---|---|
-| ![375px](docs/screenshots/viewport-0375px.png) | ![devtools](docs/screenshots/viewport-devtools-bottom-0390px.png) |
+配布用のスクリーンショットはまだ撮っていません。
 
-<!-- TODO: 配布用に撮り直したスクリーンショット（Retina / ダークモード / 実サイト）へ差し替える -->
+<!-- TODO: 配布用スクリーンショット（ポップアップの現行 UI / Retina / ダークモード / 実サイト）を撮る。
+     docs/evidence/extension-ui-2026-08-30/ の popup 画像は 320 が別枠ボタンだった頃のもので、
+     現行のプリセット 12 枠と一致しない。docs/screenshots/ は方式を決める前の PoC 証跡で、
+     CDP Emulation.setDeviceMetricsOverride で撮っている。どちらもこの製品の動作写真としては使えない -->
 
 ---
 
@@ -64,7 +73,7 @@ iPhone 幅の 375 / 390px が、エミュレーションではなく実ウィン
 | OS | macOS 12 以降 | AppleScript（`set bounds`）に依存するため macOS 専用。Windows / Linux は非対応 |
 | ブラウザ | Google Chrome 116 以降 | `manifest.json` の `minimum_chrome_version` |
 | ブラウザの版 | 標準版 Google Chrome のみ | 1.0.1 以降、native messaging host の登録先を標準版に限定。Brave / Edge / Vivaldi / Arc / Chromium は対象外 |
-| ランタイム | 追加インストール不要 | host が使うのは `/usr/bin/python3` と `/usr/bin/osascript` だけ（どちらも macOS 標準） |
+| ランタイム | DMG 版は追加インストール不要 | 配布版の host は Swift の universal binary で、外部ランタイムに依存しない。リポジトリから直接読み込む開発者向け経路だけは `/usr/bin/python3` を使うため Command Line Tools が要る |
 | 権限 | オートメーション権限（初回のみ） | Chrome を制御する許可。これが無いと 500px 未満へは切り替わらない |
 
 ---
@@ -217,6 +226,11 @@ host が使えなければ chrome.windows.update へフォールバック（500p
 対象ウィンドウは、`chrome.windows` の bounds と AppleScript の bounds を突き合わせて特定します
 （両者は座標系も単位も一致します）。複数ウィンドウを開いていても誤爆しません。
 
+図はリポジトリから読み込んだときの Python 経路です。DMG 版は同じ設計を Swift の単一バイナリ
+（[`packaging/helper/Sources/main.swift`](packaging/helper/Sources/main.swift)）で実装しており、
+`osascript` を起動せず `NSAppleScript` で in-process 実行します。オートメーション権限の許可ダイアログに
+「python3」ではなく製品名が出るのは、この違いによるものです。
+
 ---
 
 ## 既知の制限
@@ -229,8 +243,8 @@ host が使えなければ chrome.windows.update へフォールバック（500p
 - Chrome を再起動すると幅は 500px に戻る。位置と高さは復元されるが、幅だけ戻る
 - DevTools は bottom dock か undocked にしておく。right dock だと 375px のうち 225px を DevTools が奪い、
   確認したいコンテンツ幅が残らない
-- オートメーション権限が必須。許可を出していない状態では host 呼び出しが 15 秒待ってタイムアウトし、
-  `chrome.windows.update` へフォールバックする（つまり 500px 止まり）
+- オートメーション権限が必須。許可しないと host 呼び出しが失敗し、`chrome.windows.update` へ
+  フォールバックする（つまり 500px 止まり）。Python 経路では、ダイアログに答えないままだと 15 秒でタイムアウトする
 - AppleScript 経路は Chrome の更新で塞がれうる。塞がれれば 500px 未満は到達不能になり、
   そのときは拡張がフォールバックして、500px 止まりであることを UI に出す
 - 標準版 Google Chrome 専用。Brave / Edge / Vivaldi / Arc / Chromium には登録しない
@@ -249,7 +263,7 @@ extension/          Chrome 拡張本体（MV3）と native messaging host
   install.sh                   host を登録／削除する
 packaging/          DMG 配布物のビルド
   build_dmg.sh                 .app と DMG を作る（ad-hoc 署名まで）
-  helper/Sources/main.swift     セットアップ用 macOS ヘルパー
+  helper/Sources/main.swift    配布版の本体。native messaging host・インストーラ・CLI を兼ねる
   dmg/インストール手順.txt        購入者向けの同梱文書
   tests/test_release_contract.py 配布候補の契約を検証する
 assets/brand/       確定ロゴと、そこから派生するアイコン一式の生成
