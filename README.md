@@ -294,10 +294,6 @@ tools/              拡張 ID / 鍵まわりの補助スクリプト
 正式な製品名は VIEWPORT BREAK です。根拠は `extension/manifest.json` の `name` と、
 `packaging/build_dmg.sh` の `APP_NAME` および `BUNDLE_ID`（`com.nanago.viewport-break`）。
 
-似た名前が 2 つ残っています。`viewport-deck` は元の企画名（ハードウェアデッキ構想）で、
-今はローカルのディレクトリ名として残っているだけ。`viewpoint-deck` は企画資料のフォルダ名に由来する表記ゆれで、
-製品名ではありません。
-
 ---
 
 ## ライセンス

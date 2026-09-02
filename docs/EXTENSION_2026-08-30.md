@@ -222,7 +222,7 @@ Automation 権限に依存せず、経路そのものの健全性だけを示す
 
 ### 5.3 popup UI
 
-<img src="evidence/extension-2026-08-30/popup.png" width="292" alt="Viewport Deck の popup">
+<img src="evidence/extension-2026-08-30/popup.png" width="292" alt="VIEWPORT BREAK の popup">
 
 実測した表示内容:
 

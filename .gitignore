@@ -16,16 +16,15 @@ packaging/tests/__pycache__/
 # ---- 公開リポジトリに入れない素材（意図的な除外）----
 # ロゴ／アイコンの試行錯誤記録。オーナーの私信由来の参照画像・
 # iMessage の handle・実名を含むため、このリポジトリには入れない。
-# 原本はローカルの作業リポジトリ（~/Projects/viewport-deck）にのみ残す。
+# 原本はローカルの作業リポジトリにのみ残す。
 logo-icon-*/
 logo-applogo-*/
 logo-nanobanana/
 **/ref/owner-*
 **/raw/
 
-# 他案件（ハードウェア版デッキ）の資料および社内運用資料。
-# 本プロダクトの成果物ではないため入れない。
-docs/2026-08-29-viewport-deck-brief-summary.md
+# 本プロダクトの成果物ではない別案件の資料および社内運用資料。
+docs/*-brief-summary.md
 docs/BOM_AND_BUILD_PLAN.md
 docs/ORDER_LIST.md
 docs/OPEN_QUESTIONS.md

@@ -359,8 +359,8 @@ host の `MIN_WIDTH, MAX_WIDTH = 50, 8000` は**今回いっさい変更して�
 下限を 1 にする条件として、**popup を経由しない復帰口を用意し、実際に戻せることを確認した。**
 
 ```bash
-/Users/macmini/Projects/viewport-deck/extension/bin/vw --restore        # 一番狭いウィンドウを 1280px へ
-/Users/macmini/Projects/viewport-deck/extension/bin/vw --restore 900    # 幅を指定
+extension/bin/vw --restore        # 一番狭いウィンドウを 1280px へ
+extension/bin/vw --restore 900    # 幅を指定
 ```
 
 host に `restore_width()` と CLI の `--restore` / native message の `cmd:"restore"` を追加した。

@@ -23,7 +23,7 @@ async function reportFailure(message) {
   try {
     await showFailure(message);
   } catch (e) {
-    console.error('[viewport-deck] 失敗バッジを更新できなかった', e);
+    console.error('[VIEWPORT BREAK] 失敗バッジを更新できなかった', e);
   }
 }
 
@@ -36,12 +36,12 @@ chrome.commands.onCommand.addListener(async (cmd) => {
     if (r.clamped) {
       const message = `${want}px に届かず ${r.width}px で停止（${r.path}）`;
       await reportFailure(message);
-      console.warn(`[viewport-deck] ${message}`);
+      console.warn(`[VIEWPORT BREAK] ${message}`);
     } else {
       await clearFailure();
     }
   } catch (e) {
     await reportFailure(`失敗: ${(e && e.message) || String(e)}`);
-    console.error('[viewport-deck]', e);
+    console.error('[VIEWPORT BREAK]', e);
   }
 });

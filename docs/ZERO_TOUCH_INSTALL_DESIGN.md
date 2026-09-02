@@ -1,6 +1,6 @@
 # VIEWPORT BREAK — ゼロタッチ配布 設計
 
-作成 2026-08-30 / 前提資料 `/Users/macmini/Projects/viewport-deck/docs/DMG_DISTRIBUTION_2026-08-30.md`
+作成 2026-08-30 / 前提資料 `docs/DMG_DISTRIBUTION_2026-08-30.md`
 検証機 macOS 26.3.1 (25D771280a, arm64) + Google Chrome 151.0.7922.174
 
 **目的**: 購入者にターミナルで `xattr` を打たせずに、DMG を開いてドラッグするだけで
@@ -70,7 +70,7 @@ run loop の次のターンへ逃がし、`AEProcessAppleEvent` の出現数 0 �
 
 ### 1.3 「xattr を打たせる」現行手順の位置づけ
 
-`/Users/macmini/Projects/viewport-deck/packaging/dmg/はじめにお読みください.txt` の手順 2 は、
+`packaging/dmg/はじめにお読みください.txt` の手順 2 は、
 DMG をマウントする**前**に quarantine を外させる。§1.1 (2) の伝播をボリューム単位で断つので
 効果は確実で、実測でも Gatekeeper ダイアログは出なくなった。
 
@@ -196,7 +196,7 @@ native messaging manifest を自動設置）。**変えるのは署名だけ。*
    最短で効く案 A に先に払うのが合理的。
 3. **購入者の手数が純減する唯一の案。** 案 B / C は手数を「ターミナル → 管理者パスワード +
    システム設定」に置き換えるだけで、体験は良くならない。案 A は手順が丸ごと消える。
-4. **既存コードの変更が最小。** `/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh` の
+4. **既存コードの変更が最小。** `packaging/build_dmg.sh` の
    署名行の差し替えと entitlements 追加だけ。Swift ヘルパー（約 660 行）も拡張も無改修。
    translocation 対策・パーミッション正規化・Apple Event ハンドラ修正といった既存の実測資産が全部生きる。
 5. **アップデート体験の欠陥が同時に直る。** ad-hoc 署名がビルド毎に変わる問題（§1.3）が
@@ -226,7 +226,7 @@ native messaging manifest を自動設置）。**変えるのは署名だけ。*
 
 ## 4. 実装ステップ
 
-すべて絶対パスで記す。作業ディレクトリは `/Users/macmini/Projects/viewport-deck`。
+パスはすべてリポジトリルートからの相対で記す。
 
 ### 4.0 前提 — オーナーの GO
 
@@ -239,7 +239,7 @@ Hardened Runtime を有効にすると Apple Events の送信が既定で塞が�
 本製品は `NSAppleScript` で Chrome を操作するため、entitlement が必須。
 
 ```
-/Users/macmini/Projects/viewport-deck/packaging/viewport-break.entitlements
+packaging/viewport-break.entitlements
 ```
 
 ```xml
@@ -270,9 +270,9 @@ Hardened Runtime を有効にすると Apple Events の送信が既定で塞が�
    ```
    `xcrun notarytool` は本機に存在（`/Library/Developer/CommandLineTools/usr/bin/notarytool` 1.1.0）
 
-### 4.3 `/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh` の改修
+### 4.3 `packaging/build_dmg.sh` の改修
 
-対象: `/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh`
+対象: `packaging/build_dmg.sh`
 
 | 現行 | 変更後 |
 | --- | --- |
@@ -286,7 +286,7 @@ Hardened Runtime を有効にすると Apple Events の送信が既定で塞が�
 ```sh
 SIGN_ID="${SIGN_ID:-Developer ID Application: <名義> (<TeamID>)}"
 NOTARY_PROFILE="${NOTARY_PROFILE:-viewport-break-notary}"
-ENTITLEMENTS="/Users/macmini/Projects/viewport-deck/packaging/viewport-break.entitlements"
+ENTITLEMENTS="packaging/viewport-break.entitlements"
 
 # 1) 署名（Hardened Runtime + Apple Events entitlement + セキュアタイムスタンプ）
 codesign --force --sign "$SIGN_ID" \
@@ -321,7 +321,7 @@ xcrun notarytool log <submission-id> --keychain-profile viewport-break-notary
 
 ### 4.4 `はじめにお読みください.txt` の改訂
 
-対象: `/Users/macmini/Projects/viewport-deck/packaging/dmg/はじめにお読みください.txt`
+対象: `packaging/dmg/はじめにお読みください.txt`
 
 | 行 | 対応 |
 | --- | --- |
@@ -342,13 +342,13 @@ xcrun notarytool log <submission-id> --keychain-profile viewport-break-notary
 ストアが採番する ID が現行と変わった場合、**次の 4 か所を同時に更新**する。
 1 か所でもズレると native messaging が拒否される。
 
-1. `/Users/macmini/Projects/viewport-deck/extension/manifest.json` の `key`
-2. `/Users/macmini/Projects/viewport-deck/extension/EXTENSION_ID`
-3. `/Users/macmini/Projects/viewport-deck/packaging/helper/Sources/main.swift` の `EXT_ID`（31 行目）
-4. `/Users/macmini/Projects/viewport-deck/packaging/dmg/はじめにお読みください.txt` の案内文中の ID
+1. `extension/manifest.json` の `key`
+2. `extension/EXTENSION_ID`
+3. `packaging/helper/Sources/main.swift` の `EXT_ID`（31 行目）
+4. `packaging/dmg/はじめにお読みください.txt` の案内文中の ID
 
-`/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh` は 1 と 3 の一致をビルド前に検証して食い違いを止める。
-併せて `/Users/macmini/Projects/viewport-deck/extension/manifest.json` の `name` を製品名 `VIEWPORT BREAK` に
+`packaging/build_dmg.sh` は 1 と 3 の一致をビルド前に検証して食い違いを止める。
+併せて `extension/manifest.json` の `name` を製品名 `VIEWPORT BREAK` に
 揃えるのはこのタイミングが適切。
 → 2026-08-31 に対応済み（`name` / `default_title` を `VIEWPORT BREAK` へ統一）。
 `HOST_NAME = com.nanago.viewport_deck` は native messaging の登録キーなので**改名していない**。
@@ -358,7 +358,7 @@ xcrun notarytool log <submission-id> --keychain-profile viewport-break-notary
 ## 5. 検証手順
 
 各項目は **command / cwd / 対象 artifact の sha256 / exit code / timestamp / 生出力の保存先**を
-記録する。保存先は `/Users/macmini/Projects/viewport-deck/docs/evidence/notarized-dmg-<日付>/`。
+記録する。保存先は `docs/evidence/notarized-dmg-<日付>/`。
 
 ### 5.1 ビルド成果物の静的検証（機械判定）
 
@@ -374,7 +374,7 @@ xcrun notarytool log <submission-id> --keychain-profile viewport-break-notary
 
 ### 5.2 ダウンロード再現（既存の実測資産を再利用）
 
-`/Users/macmini/Projects/viewport-deck/docs/evidence/dmg-installer-2026-08-30/run_download_gatekeeper.py`
+`docs/evidence/dmg-installer-2026-08-30/run_download_gatekeeper.py`
 を新 DMG に対して実行し、**quarantine が付いた本物の状態**から確認する。
 
 | # | 確認 | 期待 |
@@ -398,7 +398,7 @@ staple を忘れると、オンラインでは通るのにオフラインで止�
 
 ### 5.4 機能の通し（既存スクリプト）
 
-`/Users/macmini/Projects/viewport-deck/docs/evidence/dmg-installer-2026-08-30/run_install_e2e.py`
+`docs/evidence/dmg-installer-2026-08-30/run_install_e2e.py`
 
 | # | 確認 | 期待 |
 | --- | --- | --- |
@@ -456,7 +456,7 @@ staple を忘れると、オンラインでは通るのにオフラインで止�
 | Chrome 側の将来変更 | 未パッケージ拡張やデベロッパーモードの扱いが Chrome の更新で変わりうる。制御外。ストア限定公開（§2.5）はこのリスクへの保険でもある |
 | 複数 Chrome インスタンス | `tell application "Google Chrome"` は実行中のどれか 1 つに解決される。意図しないウィンドウが縮む可能性（既知・本設計では未対応） |
 | 自動アップデート機構が無い | DMG を配り直すしかない。ストア限定公開にすれば拡張側だけは自動更新になる |
-| ウィンドウ幅は Chrome 再起動で 500px に戻る | 既存の制約。`/Users/macmini/Projects/viewport-deck/docs/WINDOW_FLOOR_2026-08-30.md` |
+| ウィンドウ幅は Chrome 再起動で 500px に戻る | 既存の制約。`docs/WINDOW_FLOOR_2026-08-30.md` |
 | **本設計の実効 effort が推奨より低い** | 推奨 max に対し実効 high（context safety cap）。§5 の検証設計は実行されていないため、実施時に項目の抜けが見つかる可能性がある |
 
 ### 6.4 rollback
@@ -465,7 +465,7 @@ staple を忘れると、オンラインでは通るのにオフラインで止�
 
 | # | 対象 | 戻し方 | 条件 |
 | --- | --- | --- | --- |
-| 1 | **ビルドスクリプト** | `/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh` の変更を git で戻す（`git -C /Users/macmini/Projects/viewport-deck revert <commit>`）。ad-hoc 署名に戻り、従来どおり DMG が焼ける | 公証が通らない / entitlement 問題が解けない |
+| 1 | **ビルドスクリプト** | `packaging/build_dmg.sh` の変更を git で戻す（`git revert <commit>`）。ad-hoc 署名に戻り、従来どおり DMG が焼ける | 公証が通らない / entitlement 問題が解けない |
 | 2 | **配布物** | 現行の公証なし DMG（sha256 `c2d1411f17abb9991e43f6c594ac86d579dc03062aaa272e40ded01239480114`）を Dropbox から**消さずに残しておき**、URL を差し戻す | 新 DMG に想定外の不具合 |
 | 3 | **購入者向け手順** | `はじめにお読みください.txt` の xattr 手順を復活（§4.4 で 119 行目を残してあるので全消ししない） | 上記いずれか |
 
@@ -503,8 +503,8 @@ staple を忘れると、オンラインでは通るのにオフラインで止�
 | 9 | **ストア外 CRX の強制インストールが可能** | Chrome 151 同梱の `com.google.Chrome.manifest` の `ExtensionInstallForcelist` 説明 | 各要素は `<拡張 ID>;<update URL>`、scheme は **http / https / file** |
 | 10 | 拡張関連ポリシーの存在 | 同上 | `ExtensionSettings` / `ExtensionDeveloperModeSettings` / `ExtensionUnpublishedAvailability` / `NativeMessagingAllowlist` / `NativeMessagingBlocklist` / `NativeMessagingUserLevelHosts` |
 | 11 | 環境 | `sw_vers` / `Google Chrome --version` | macOS 26.3.1 (25D771280a) / Google Chrome 151.0.7922.174 |
-| 12 | 改修対象の位置 | `/Users/macmini/Projects/viewport-deck/packaging/build_dmg.sh` | 135 行目 `codesign --force --deep --sign -` / 163 行目 `hdiutil create` |
-| 13 | 現行の xattr 手順の位置 | `/Users/macmini/Projects/viewport-deck/packaging/dmg/はじめにお読みください.txt` | 52 / 57 / 119 行目 |
+| 12 | 改修対象の位置 | `packaging/build_dmg.sh` | 135 行目 `codesign --force --deep --sign -` / 163 行目 `hdiutil create` |
+| 13 | 現行の xattr 手順の位置 | `packaging/dmg/はじめにお読みください.txt` | 52 / 57 / 119 行目 |
 
 ## 8. 未検証（推測を書かないための明示）
 
@@ -526,7 +526,7 @@ staple を忘れると、オンラインでは通るのにオフラインで止�
 
 | パス | 内容 |
 | --- | --- |
-| `/Users/macmini/Projects/viewport-deck/docs/DMG_DISTRIBUTION_2026-08-30.md` | 本設計の前提。DMG 第一版の実測と「応答しないため開けません」の原因調査 |
-| `/Users/macmini/Projects/viewport-deck/docs/WINDOW_FLOOR_2026-08-30.md` | Chrome の 500px 下限と再起動で戻る挙動 |
-| `/Users/macmini/Projects/viewport-deck/docs/evidence/dmg-installer-2026-08-30/` | §5.2 / §5.4 で再利用する実測スクリプトと生ログ |
-| `/Users/macmini/Projects/viewport-deck/docs/evidence/app-hang-2026-08-30/` | §1.1 (4)(5) の証跡（`lsappinfo` / `sample` / ダイアログ画像） |
+| `docs/DMG_DISTRIBUTION_2026-08-30.md` | 本設計の前提。DMG 第一版の実測と「応答しないため開けません」の原因調査 |
+| `docs/WINDOW_FLOOR_2026-08-30.md` | Chrome の 500px 下限と再起動で戻る挙動 |
+| `docs/evidence/dmg-installer-2026-08-30/` | §5.2 / §5.4 で再利用する実測スクリプトと生ログ |
+| `docs/evidence/app-hang-2026-08-30/` | §1.1 (4)(5) の証跡（`lsappinfo` / `sample` / ダイアログ画像） |

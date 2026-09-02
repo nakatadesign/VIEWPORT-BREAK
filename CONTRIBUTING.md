@@ -45,9 +45,8 @@ cd extension && ./install.sh
 ### 1. 名称を揺らさない
 
 製品名は **VIEWPORT BREAK**（大文字・スペース区切り）。
-`viewport-deck` はディレクトリ名、`com.nanago.viewport_deck` は host の登録名、
-`com.nanago.viewport-break` はアプリの bundle ID。**既存の識別子は改名しない**
-（変えると登録済みの native messaging host と拡張の対応が壊れる）。
+`com.nanago.viewport_deck` は host の登録名、`com.nanago.viewport-break` はアプリの bundle ID。
+**既存の識別子は改名しない**（変えると登録済みの native messaging host と拡張の対応が壊れる）。
 
 ### 2. 拡張 ID を変えない
 

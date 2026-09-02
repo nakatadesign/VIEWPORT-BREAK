@@ -1,4 +1,4 @@
-# VIEWPORT DECK — 最小 PoC 実測結果（2026-08-30）
+# VIEWPORT BREAK — 最小 PoC 実測結果（2026-08-30）
 
 - 対象: `MAC_MINI_HANDOFF_2026-08-30.md` §6 Step 0〜3 / `HANDOFF_REPLY_2026-08-30.md` §7 の未確認 7 項目（U-1〜U-7）
 - 実施根拠: オーナー承認（「Chrome を起動して最小 PoC を実施してよい。あわせて幅制御の代替手段をリサーチしてよい」）
@@ -11,7 +11,7 @@
 |---|---|
 | Chrome | 151.0.7922.174（`/Applications/Google Chrome.app`） |
 | CDP プロトコル | 1.3 / 57 ドメイン（`/json/protocol` を取得して解析） |
-| 専用プロファイル | `/Users/macmini/Library/Caches/viewport-deck-poc/chrome-profile`（新規作成 → **PoC 後に削除済み**） |
+| 専用プロファイル | PoC 専用に新規作成した一時プロファイル（→ **PoC 後に削除済み**） |
 | デバッグポート | `127.0.0.1:9333`（PoC 中のみ。終了により解放） |
 | CDP クライアント | Python + `websocket-client`（既存）。**`npm i` もネットワークも不要だった** |
 | ディスプレイ | 3840×2160 物理 / 論理 1920×1080、`devicePixelRatio = 2` |

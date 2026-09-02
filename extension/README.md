@@ -33,7 +33,7 @@ extension/
 ### 1. native messaging host を登録する
 
 ```bash
-cd /Users/macmini/Projects/viewport-deck/extension
+cd extension
 ./install.sh
 ```
 
@@ -115,7 +115,7 @@ cd /Users/macmini/Projects/viewport-deck/extension
 PATH に置くなら:
 
 ```bash
-ln -s /Users/macmini/Projects/viewport-deck/extension/bin/vw /usr/local/bin/vw
+ln -s "$PWD/bin/vw" /usr/local/bin/vw
 ```
 
 ---
@@ -125,7 +125,7 @@ ln -s /Users/macmini/Projects/viewport-deck/extension/bin/vw /usr/local/bin/vw
 **まずこれを打つ。**
 
 ```bash
-/Users/macmini/Projects/viewport-deck/extension/bin/vw --restore
+./bin/vw --restore
 ```
 
 一番狭い Chrome ウィンドウを **1280px** へ戻す。幅を指定するなら `--restore 900`。

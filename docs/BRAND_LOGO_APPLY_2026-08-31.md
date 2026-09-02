@@ -1,6 +1,6 @@
 # 確定ロゴの適用と製品名の統一 — 2026-08-31
 
-対象: `/Users/macmini/Projects/viewport-deck` / ブランチ `brand/viewport-break-logo-final` / commit `96fde1f`（push していない）
+対象: 本リポジトリ / ブランチ `brand/viewport-break-logo-final` / commit `96fde1f`（push していない）
 
 確定ロゴ = 黒背景・アイソメの透明ガラス板 2 枚が重なった V と B のマーク。1200x1200 RGB。
 元画像 sha256 `146f5da4d33df470db8544d4c610ac965471ef21ce9f1f9191399fdc742373e7`。
@@ -92,9 +92,7 @@ grep（`icon` / `favicon` / `apple-touch` / `icns` / `AppIcon` / `CFBundleIcon` 
 | --- | --- |
 | `HOST_NAME = "com.nanago.viewport_deck"` | native messaging の登録キー。`core.js` / `install.sh` / `main.swift` / release contract test の 4 箇所で一致必須。改名すると既に登録済みの環境と繋がらなくなる（`main.swift:30` に「改名しない」と明記あり） |
 | `extension/host/viewport_deck_host.py` | ファイル名。host manifest の `path` が指す |
-| `viewport-deck`（リポジトリ・ディレクトリ名） | パス。README・install.sh・docs が参照 |
 | `com.nanago.viewport-break` / `viewport-break` | bundle id と実行ファイル名。既に break 系 |
-| `[viewport-deck]` | `background.js` の console ログ接頭辞。UI ではなく devtools 側 |
 
 拡張 ID は `manifest.json` の `key` から導出されるので、`name` の変更では**変わらない**。
 `ejlimgikbnaihoigbcmelaadniiminfj` のままであることを `tools/extension_id.py` で確認済み。
@@ -195,7 +193,7 @@ master は純黒地にガラスの反射だけが乗った絵で、黒地 = 何�
 ```
 open -na "Google Chrome" --args \
   --user-data-dir=/tmp/vb-check \
-  --load-extension=/Users/macmini/Projects/viewport-deck/extension \
+  --load-extension="$PWD/extension" \
   "chrome://extensions/?id=ejlimgikbnaihoigbcmelaadniiminfj"
 ```
 
