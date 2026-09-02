@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/out/logo/viewport-break-transparent-512.png" width="128" alt="VIEWPORT BREAK">
+  <img src="assets/brand/out/logo/viewport-break-onblack-512.png" width="128" alt="VIEWPORT BREAK">
 </p>
 
 <h1 align="center">VIEWPORT BREAK</h1>
@@ -51,18 +51,24 @@ VIEWPORT BREAK が動かすのは OS のウィンドウそのもの。375px を�
 
 ## スクリーンショット
 
-320px まで縮めた実際の Chrome ウィンドウです。タブ、アドレスバー、拡張のパズルアイコンがそのまま残っています。
-AppleScript で読み返した幅が 320 であることを確認したうえで撮ってあり、生データは
-[`docs/evidence/min1px-recovery-2026-08-30/out/shots.json`](docs/evidence/min1px-recovery-2026-08-30/out/shots.json)。
+すべて実際の Chrome ウィンドウの写真です。DevTools のデバイスエミュレーションではありません。
+幅は製品本体（native messaging host）が AppleScript の `set bounds` で変えていて、
+撮影は対象ウィンドウ 1 枚だけを撮っています。撮影方法と実測値は
+[`docs/screenshots/measurements.json`](docs/screenshots/measurements.json)、
+並べて見るなら [`docs/screenshots/index.html`](docs/screenshots/index.html)。
 
-![320px まで縮めた Chrome ウィンドウ](docs/evidence/min1px-recovery-2026-08-30/out/02-b-320px.png)
+ツールバーのアイコンから開いたポップアップです。上に現在のウィンドウ幅、下にプリセット 12 枠と任意幅の入力欄。
 
-配布用のスクリーンショットはまだ撮っていません。
+![VIEWPORT BREAK のポップアップ](docs/screenshots/popup-1280px.png)
 
-<!-- TODO: 配布用スクリーンショット（ポップアップの現行 UI / Retina / ダークモード / 実サイト）を撮る。
-     docs/evidence/extension-ui-2026-08-30/ の popup 画像は 320 が別枠ボタンだった頃のもので、
-     現行のプリセット 12 枠と一致しない。docs/screenshots/ は方式を決める前の PoC 証跡で、
-     CDP Emulation.setDeviceMetricsOverride で撮っている。どちらもこの製品の動作写真としては使えない -->
+同じページを 375 / 390 / 768 / 1920px のウィンドウで開いたもの。並びの幅の比が、そのまま実際の表示幅の比です。
+
+![375 / 390 / 768 / 1920px の比較](docs/screenshots/comparison-4widths.png)
+
+375px のウィンドウ。Chrome 単体では届かない幅ですが、タブもアドレスバーもそのまま残っています。
+このカットは、ポップアップの `375` を実際に押して撮りました。
+
+![375px の Chrome ウィンドウ](docs/screenshots/viewport-0375px.png)
 
 ---
 
@@ -123,7 +129,7 @@ chrome://extensions を開く → デベロッパー モードを ON
 拡張 ID は `manifest.json` の `key` で固定してあります。ディレクトリを移動しても、
 host 側の `allowed_origins` は壊れません。
 
-なお、コマンドラインの `--load-extension` は Chrome 151 では黙って無視されます（実測）。
+なお、コマンドラインの `--load-extension` は Chrome 151 / 152 では黙って無視されます（実測）。
 必ず `chrome://extensions` から読み込んでください。
 
 ### アンインストール

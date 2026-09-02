@@ -1,100 +1,97 @@
 {
+ "date": "2026-09-02",
  "url": "https://www.apple.com/jp/",
+ "browser": "Chrome/152.0.7977.65",
+ "extensionId": "ejlimgikbnaihoigbcmelaadniiminfj",
+ "method": {
+  "resize": "extension/bin/vw（native messaging host 本体の CLI）→ AppleScript set bounds。CDP の Emulation.setDeviceMetricsOverride は使っていない。実ウィンドウが本当にその幅になっている。",
+  "capture": "screencapture -x -o -l <CGWindowID>。対象ウィンドウ 1 枚だけを撮るので、背後のデスクトップ・他アプリ・システムダイアログは写らない。",
+  "profile": "撮影専用の空プロファイル（--user-data-dir）。ブックマークバー無し、拡張は VIEWPORT BREAK だけをツールバーに固定。",
+  "devtools": "全カットで DevTools は閉じている。"
+ },
  "steps": [
   {
-   "kind": "no-devtools",
    "requested": 375,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0375px.png",
+   "shot": "viewport-0375px.png",
+   "shotPixels": [
+    750,
+    1720
+   ],
+   "hostReadback": "375x860 @(40,70)",
    "innerWidth": 375,
-   "innerHeight": 873,
+   "innerHeight": 773,
    "vvWidth": 360,
    "dpr": 2,
    "clientWidth": 360,
    "scrollWidth": 360,
    "hScroll": false,
    "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
+   "match": true
   },
   {
-   "kind": "no-devtools",
    "requested": 390,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0390px.png",
+   "shot": "viewport-0390px.png",
+   "shotPixels": [
+    780,
+    1720
+   ],
+   "hostReadback": "390x860 @(40,70)",
    "innerWidth": 390,
-   "innerHeight": 873,
+   "innerHeight": 773,
    "vvWidth": 375,
    "dpr": 2,
    "clientWidth": 375,
    "scrollWidth": 375,
    "hScroll": false,
    "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
+   "match": true
   },
   {
-   "kind": "no-devtools",
    "requested": 768,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-0768px.png",
+   "shot": "viewport-0768px.png",
+   "shotPixels": [
+    1536,
+    1720
+   ],
+   "hostReadback": "768x860 @(40,70)",
    "innerWidth": 768,
-   "innerHeight": 873,
+   "innerHeight": 773,
    "vvWidth": 753,
    "dpr": 2,
    "clientWidth": 753,
    "scrollWidth": 753,
    "hScroll": false,
    "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
+   "match": true
   },
   {
-   "kind": "no-devtools",
    "requested": 1920,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-1920px.png",
+   "shot": "viewport-1920px.png",
+   "shotPixels": [
+    3840,
+    1720
+   ],
+   "hostReadback": "1920x860 @(0,70)",
    "innerWidth": 1920,
-   "innerHeight": 873,
+   "innerHeight": 773,
    "vvWidth": 1905,
    "dpr": 2,
    "clientWidth": 1905,
    "scrollWidth": 1905,
    "hScroll": false,
    "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
-  },
-  {
-   "kind": "devtools-bottom",
-   "requested": 390,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-devtools-bottom-0390px.png",
-   "innerWidth": 390,
-   "innerHeight": 573,
-   "vvWidth": 375,
-   "dpr": 2,
-   "clientWidth": 375,
-   "scrollWidth": 375,
-   "hScroll": false,
-   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
-  },
-  {
-   "kind": "devtools-bottom",
-   "requested": 1920,
-   "shot": "/private/tmp/claude-501/-Users-macmini-Projects/e2c7d648-f027-45e8-baa5-b044363c8ec3/scratchpad/shots/shot-devtools-bottom-1920px.png",
-   "innerWidth": 1920,
-   "innerHeight": 573,
-   "vvWidth": 1905,
-   "dpr": 2,
-   "clientWidth": 1905,
-   "scrollWidth": 1905,
-   "hScroll": false,
-   "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-   "title": "Apple（日本）"
+   "match": true
   }
  ],
- "baseline": {
-  "innerWidth": 1920,
-  "innerHeight": 873,
-  "vvWidth": 1905,
-  "dpr": 2,
-  "clientWidth": 1905,
-  "scrollWidth": 1905,
-  "hScroll": false,
-  "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
-  "title": "Apple（日本）"
+ "popupEndToEnd": {
+  "shot": "popup-1280px.png",
+  "note": "ツールバーのアイコンを実クリックして開いた本物のポップアップ。同じ手順で 375 を押すと、拡張 → native host → AppleScript を通ってウィンドウが 375x860 になることを確認した（Chrome 単体の下限 500px を下回る）。",
+  "clickResult": {
+   "requested": 375,
+   "afterBounds": "375x860 @(40,70)",
+   "innerWidth": 375,
+   "outerWidth": 375
+  },
+  "fallbackObserved": "native host の manifest を置いていないプロファイルでは chrome.windows.update へフォールバックし、同じ操作が 500x860 で止まった。README の「host が使えなければ 500px 止まり」と一致する。"
  }
 }
