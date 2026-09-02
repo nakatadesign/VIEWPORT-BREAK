@@ -1,0 +1,16 @@
+VIEWPORT BREAK @APP_VERSION@ — DMGを開く前に
+================================================
+
+このアプリはAppleの公証を受けていません。
+ダウンロードしたDMGにはmacOSが「検疫（quarantine）」の印を付けるため、
+開く前に、このDMGだけの検疫属性を外してください。
+
+対象ファイル: @DMG_FILENAME@
+
+1. ターミナルで次を入力し、末尾の半角スペースの後へDMGをFinderからドラッグしてReturn:
+
+   xattr -dr com.apple.quarantine
+
+2. 何も表示されずに次の行が出れば成功です。
+
+3. DMGを開き、VIEWPORT BREAKをApplicationsへドラッグする。

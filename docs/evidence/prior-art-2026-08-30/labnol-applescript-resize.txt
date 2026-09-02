@@ -1,0 +1,48 @@
+SOURCE_URL: https://www.labnol.org/software/resize-mac-windows-to-specific-size/28345
+FETCHED_AT: 2026-08-30T02:29:33.925823+00:00
+EXTRACT: html->text (scripts/styles stripped)
+------------------------------------------------------------
+
+How to Resize Windows on your Mac to Specific Sizes About Topics Contact Dec 10, 2013 How to Resize Windows on your Mac to Specific Sizes 
+#apple mac Table of Contents 1. Resize Windows with Apple Script One of my favorite Windows utility happens to be Sizer , a tiny app that can resize any window on the desktop to an exact size. For instance, when I am recording screencasts for the YouTube channel , I use the 1280x720 (HD) or 1920x1080 (1080p) preset to automatically resize the target window before hitting the Record button. 
+ Surprisingly, there’s no Sizer like app available for the Mac platform. 
+ Resize any window to a specified size with Apple Script 
+ I did find some paid alternatives in the Mac App store - Mercury Mover , TileWindows and Divvy to name a few - that do allow you to reposition and resize windows on the Mac with keyboard shortcuts but these apps are more targeted at power users for working efficiently with multiple windows while Sizer is purely a resizing utility. 
+ Resize Windows with Apple Script 
+ If you are looking for something more simple, without the extra bells and whistles, a little AppleScript should do the trick. 
+ Just open the AppleScript editor and copy-paste the script below. You can change the app name (theApp) from “Google Chrome” to iTunes or any other window that you wish to resize. The script resizes the window to 1920x1080 and moves it to the center. You can set a different default height and width through the appHeight and appWidth variables. 
+ Now you can press Cmd + R to run the script. Alternatively, you may export the script as an application (.app) and run it anytime with a double-click. 
+ There are some Safari (Resize Me) and Chrome extensions as well that will you resize the windows to any specified size on your Mac but they will obviously work with the browser window only. 
+ (* 
+ This Apple script will resize any program window to an exact size and the window is then moved to the center of your screen. Specify the program name, height and width below and run the script. 
+ Written by Amit Agarwal on December 10, 2013 
+ *) 
+ set theApp to "Google Chrome" 
+ set appHeight to 1080 
+ set appWidth to 1920 
+ tell application "Finder" 
+ set screenResolution to bounds of window of desktop 
+ end tell 
+ set screenWidth to item 3 of screenResolution 
+ set screenHeight to item 4 of screenResolution 
+ tell application theApp 
+ activate 
+ reopen 
+ set yAxis to (screenHeight - appHeight) / 2 as integer 
+ set xAxis to (screenWidth - appWidth) / 2 as integer 
+ set the bounds of the first window to {xAxis, yAxis, appWidth + xAxis, appHeight + yAxis} 
+ end tell Stay up to date 
+Get notified when I publish something new, and unsubscribe at any time.
+ Join Up Next How to Handle OAuth Permissions in Google Add-ons Google Apps Script now lets users grant partial permissions to add-ons. Learn how to detect missing OAuth scopes and prompt users to authorize the required permissions. How to Check for Email Replies in Gmail Google Maps Formulas for Google Sheets How to Easily Find Receipts and Invoices in Gmail Secret Gmail Hack to Find All Bulk Emails in your Inbox How to Unsubscribe from Mailing Lists and Newsletters in Gmail Amit Agarwal is a web geek, solo entrepreneur and loves making things
+ on the Internet. Google recently awarded him the Google Developer Expert and Google Cloud Champion title for his work on Google Workspace and Google Apps Script .
+Awards & Recognition
+ Google Developer Expert Google awarded us the Developer Expert title recogizing our work in Workspace ProductHunt Golden Kitty Our Gmail tool won the Lifehack of the Year award at ProductHunt Golden Kitty Awards Microsoft MVP Alumni Microsoft awarded us the Most Valuable Professional title for 5 years in a row Google Cloud Champion Google awarded us the Champion Innovator award for technical expertise Google Workspace Add-ons 
+Powerful tools to supercharge your productivity in Google Workspace
+ Mail Merge with Attachments Send personalized bulk emails to your contacts directly from Google Sheets. Automate campaigns with custom templates, attach files, and track email opens in real-time. Install Tutorials Document Studio Automatically generate pixel-perfect documents, invoices, and certificates from Google Sheets and Forms. Create PDFs, Google Docs, and slide presentations using custom templates. Install Tutorials Save Emails and Attachments Automatically backup Gmail messages and attachments to Google Drive. Organize emails by labels, search by sender, and create searchable archives of your important conversations. Install Tutorials Google Forms Email Notifications Send instant email notifications to form respondents and your team when Google Forms are submitted. Customize messages with form answers and add conditional logic. Install Tutorials Email Google Spreadsheets Schedule and send Google Sheets as email attachments on autopilot. Share entire spreadsheets, specific cell ranges, or dynamic charts with your team at regular intervals. Install Tutorials Creator Studio for Google Slides Convert Google Slides presentations into engaging animated GIFs and video files. Perfect for creating social media content, tutorials, and shareable visual stories. Install Tutorials 
+Want to stay up to date? Sign up for our email newsletter.
+ Email address Subscribe 
+We will never send any spam emails.
+ Promise 🫶🏻
+ About Contact Forms Studio Calendar UPI Reverse Search Topics Sitemap 
+© 2004 — 2026 Digital Inspiration ®   All rights
+ reserved.

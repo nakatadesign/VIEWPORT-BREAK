@@ -1,0 +1,172 @@
+{
+  "a-split": {
+    "bg_rgb": [
+      52,
+      62,
+      98
+    ],
+    "bg_oklch": [
+      0.372,
+      0.063,
+      271.2
+    ],
+    "mark_rgb": [
+      36,
+      36,
+      60
+    ],
+    "mark_oklch": [
+      0.272,
+      0.044,
+      283.1
+    ],
+    "brightest_rgb": [
+      252,
+      252,
+      252
+    ],
+    "brightest_oklch": [
+      0.991,
+      0.0,
+      89.9
+    ],
+    "contrast_mark_vs_bg": 1.44,
+    "contrast_brightest_vs_bg": 10.18
+  },
+  "b2-stack": {
+    "bg_rgb": [
+      46,
+      59,
+      78
+    ],
+    "bg_oklch": [
+      0.349,
+      0.038,
+      257.8
+    ],
+    "mark_rgb": [
+      228,
+      228,
+      204
+    ],
+    "mark_oklch": [
+      0.912,
+      0.032,
+      107.0
+    ],
+    "brightest_rgb": [
+      252,
+      252,
+      252
+    ],
+    "brightest_oklch": [
+      0.991,
+      0.0,
+      89.9
+    ],
+    "contrast_mark_vs_bg": 8.79,
+    "contrast_brightest_vs_bg": 11.05
+  },
+  "d2-fracture": {
+    "bg_rgb": [
+      45,
+      35,
+      44
+    ],
+    "bg_oklch": [
+      0.271,
+      0.022,
+      329.4
+    ],
+    "mark_rgb": [
+      204,
+      180,
+      180
+    ],
+    "mark_oklch": [
+      0.79,
+      0.028,
+      17.8
+    ],
+    "brightest_rgb": [
+      252,
+      252,
+      252
+    ],
+    "brightest_oklch": [
+      0.991,
+      0.0,
+      89.9
+    ],
+    "contrast_mark_vs_bg": 7.75,
+    "contrast_brightest_vs_bg": 14.74
+  },
+  "e-bracket": {
+    "bg_rgb": [
+      71,
+      104,
+      137
+    ],
+    "bg_oklch": [
+      0.506,
+      0.065,
+      249.2
+    ],
+    "mark_rgb": [
+      36,
+      60,
+      84
+    ],
+    "mark_oklch": [
+      0.348,
+      0.052,
+      249.5
+    ],
+    "brightest_rgb": [
+      252,
+      252,
+      252
+    ],
+    "brightest_oklch": [
+      0.991,
+      0.0,
+      89.9
+    ],
+    "contrast_mark_vs_bg": 1.95,
+    "contrast_brightest_vs_bg": 5.67
+  },
+  "f2-gate": {
+    "bg_rgb": [
+      197,
+      116,
+      89
+    ],
+    "bg_oklch": [
+      0.642,
+      0.11,
+      39.1
+    ],
+    "mark_rgb": [
+      108,
+      132,
+      156
+    ],
+    "mark_oklch": [
+      0.603,
+      0.046,
+      248.6
+    ],
+    "brightest_rgb": [
+      252,
+      252,
+      252
+    ],
+    "brightest_oklch": [
+      0.991,
+      0.0,
+      89.9
+    ],
+    "contrast_mark_vs_bg": 1.11,
+    "contrast_brightest_vs_bg": 3.4
+  }
+}

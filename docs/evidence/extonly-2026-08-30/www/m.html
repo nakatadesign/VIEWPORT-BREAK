@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>viewport probe</title>
+<style>html,body{margin:0;font:13px/1.4 -apple-system,system-ui,sans-serif;background:#0f1216;color:#e9eef4}
+#b{padding:10px}#w{font-size:30px;font-weight:700;letter-spacing:-.02em}
+.k{color:#8b98a6;font-size:11px}.bar{height:6px;background:#3b82f6;margin-top:8px}</style>
+<div id="b"><div id="w">-</div><div class="k" id="d">-</div><div class="bar"></div></div>
+<script>
+function p(){document.getElementById('w').textContent=outerWidth+' x '+outerHeight;
+document.getElementById('d').textContent='inner '+innerWidth+' x '+innerHeight+' / dpr '+devicePixelRatio;}
+addEventListener('resize',p);p();
+window.vdM=()=>({outerWidth,innerWidth,outerHeight,innerHeight,devicePixelRatio,href:location.href});
+</script>

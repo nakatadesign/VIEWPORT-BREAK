@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "extonly-probe",
+  "version": "1.0.0",
+  "description": "chrome.windows.update だけでウィンドウ寸法を変える最小テスト拡張。native messaging / host permissions / content script を一切含まない。",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

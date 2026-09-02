@@ -1,0 +1,178 @@
+{
+ "chrome": "Chrome/151.0.7922.174",
+ "ts": "2026-08-30T11:09:19+0900",
+ "method": "host.set_width() 直呼び（拡張が native messaging で呼ぶのと同一コード）",
+ "verify_paths": [
+  "CDP Browser.getWindowBounds",
+  "page window.innerWidth",
+  "AppleScript 読み返し"
+ ],
+ "sweep": [
+  {
+   "requested": 1920,
+   "as_w": 1920,
+   "as_h": 900,
+   "cdp_w": 1920,
+   "cdp_h": 900,
+   "inner_w": 1920,
+   "inner_h": 813,
+   "ms": 324,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 1440,
+   "as_w": 1440,
+   "as_h": 900,
+   "cdp_w": 1440,
+   "cdp_h": 900,
+   "inner_w": 1440,
+   "inner_h": 813,
+   "ms": 322,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 1280,
+   "as_w": 1280,
+   "as_h": 900,
+   "cdp_w": 1280,
+   "cdp_h": 900,
+   "inner_w": 1280,
+   "inner_h": 813,
+   "ms": 354,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 1024,
+   "as_w": 1024,
+   "as_h": 900,
+   "cdp_w": 1024,
+   "cdp_h": 900,
+   "inner_w": 1024,
+   "inner_h": 813,
+   "ms": 355,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 768,
+   "as_w": 768,
+   "as_h": 900,
+   "cdp_w": 768,
+   "cdp_h": 900,
+   "inner_w": 768,
+   "inner_h": 813,
+   "ms": 324,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 500,
+   "as_w": 500,
+   "as_h": 900,
+   "cdp_w": 500,
+   "cdp_h": 900,
+   "inner_w": 500,
+   "inner_h": 813,
+   "ms": 354,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 430,
+   "as_w": 430,
+   "as_h": 900,
+   "cdp_w": 430,
+   "cdp_h": 900,
+   "inner_w": 430,
+   "inner_h": 813,
+   "ms": 359,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 414,
+   "as_w": 414,
+   "as_h": 900,
+   "cdp_w": 414,
+   "cdp_h": 900,
+   "inner_w": 414,
+   "inner_h": 813,
+   "ms": 354,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 393,
+   "as_w": 393,
+   "as_h": 900,
+   "cdp_w": 393,
+   "cdp_h": 900,
+   "inner_w": 393,
+   "inner_h": 813,
+   "ms": 326,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 390,
+   "as_w": 390,
+   "as_h": 900,
+   "cdp_w": 390,
+   "cdp_h": 900,
+   "inner_w": 390,
+   "inner_h": 813,
+   "ms": 354,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 375,
+   "as_w": 375,
+   "as_h": 900,
+   "cdp_w": 375,
+   "cdp_h": 900,
+   "inner_w": 375,
+   "inner_h": 813,
+   "ms": 360,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 360,
+   "as_w": 360,
+   "as_h": 900,
+   "cdp_w": 360,
+   "cdp_h": 900,
+   "inner_w": 360,
+   "inner_h": 813,
+   "ms": 354,
+   "error": null,
+   "agree": true
+  },
+  {
+   "requested": 320,
+   "as_w": 320,
+   "as_h": 900,
+   "cdp_w": 320,
+   "cdp_h": 900,
+   "inner_w": 320,
+   "inner_h": 813,
+   "ms": 355,
+   "error": null,
+   "agree": true
+  }
+ ],
+ "all_agree": true,
+ "reached_below_500": [
+  430,
+  414,
+  393,
+  390,
+  375,
+  360,
+  320
+ ]
+}

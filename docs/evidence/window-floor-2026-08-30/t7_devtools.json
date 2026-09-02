@@ -1,0 +1,105 @@
+{
+  "bottom": {
+    "before_devtools": {
+      "w": {
+        "left": 60,
+        "top": 60,
+        "width": 375,
+        "height": 900,
+        "windowState": "normal"
+      },
+      "page": {
+        "iw": 375,
+        "ih": 813,
+        "ow": 375,
+        "oh": 900,
+        "sx": 60,
+        "dpr": 2
+      }
+    },
+    "after_devtools": {
+      "w": {
+        "left": 60,
+        "top": 60,
+        "width": 375,
+        "height": 900,
+        "windowState": "normal"
+      },
+      "page": {
+        "iw": 375,
+        "ih": 513,
+        "ow": 375,
+        "oh": 900,
+        "sx": 60,
+        "dpr": 2
+      }
+    },
+    "devtools_targets": [
+      "devtools://devtools/bundled/devtools_app.html?remo"
+    ]
+  },
+  "undocked": {
+    "before_devtools": {
+      "w": {
+        "left": 60,
+        "top": 60,
+        "width": 375,
+        "height": 900,
+        "windowState": "normal"
+      },
+      "page": {
+        "iw": 375,
+        "ih": 813,
+        "ow": 375,
+        "oh": 900,
+        "sx": 60,
+        "dpr": 2
+      }
+    },
+    "after_devtools": {
+      "w": {
+        "left": 60,
+        "top": 60,
+        "width": 375,
+        "height": 900,
+        "windowState": "normal"
+      },
+      "page": {
+        "iw": 375,
+        "ih": 813,
+        "ow": 375,
+        "oh": 900,
+        "sx": 60,
+        "dpr": 2
+      }
+    },
+    "devtools_targets": [
+      "devtools://devtools/bundled/device_mode_emulation_",
+      "devtools://devtools/bundled/devtools_app.html?remo"
+    ]
+  },
+  "appmode_375": {
+    "w": {
+      "left": 22,
+      "top": 52,
+      "width": 375,
+      "height": 900,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 375,
+      "ih": 868,
+      "ow": 375,
+      "oh": 900,
+      "sx": 22,
+      "dpr": 2
+    }
+  },
+  "appmode_cmdT": {
+    "pages_before": 1,
+    "pages_after": 1,
+    "urls": [
+      "file:///private/tmp/claude-501/-Users-macmini-Projects/a83cf"
+    ]
+  }
+}

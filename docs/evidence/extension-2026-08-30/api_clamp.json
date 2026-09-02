@@ -1,0 +1,79 @@
+{
+ "chrome": "Chrome/151.0.7922.174",
+ "ts": "2026-08-30T11:11:39+0900",
+ "what": "chrome.windows.update だけで幅を要求したときの到達幅（拡張 API の素の能力）",
+ "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+ "rows": [
+  {
+   "requested": 1920,
+   "cdp_w": 1920,
+   "inner_w": 1920,
+   "as_w": 1920,
+   "reached": true
+  },
+  {
+   "requested": 1280,
+   "cdp_w": 1280,
+   "inner_w": 1280,
+   "as_w": 1280,
+   "reached": true
+  },
+  {
+   "requested": 768,
+   "cdp_w": 768,
+   "inner_w": 768,
+   "as_w": 768,
+   "reached": true
+  },
+  {
+   "requested": 501,
+   "cdp_w": 501,
+   "inner_w": 501,
+   "as_w": 501,
+   "reached": true
+  },
+  {
+   "requested": 500,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": true
+  },
+  {
+   "requested": 499,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": false
+  },
+  {
+   "requested": 430,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": false
+  },
+  {
+   "requested": 390,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": false
+  },
+  {
+   "requested": 375,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": false
+  },
+  {
+   "requested": 320,
+   "cdp_w": 500,
+   "inner_w": 500,
+   "as_w": 500,
+   "reached": false
+  }
+ ],
+ "floor_observed": 500
+}

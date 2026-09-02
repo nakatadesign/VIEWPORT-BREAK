@@ -1,0 +1,118 @@
+{
+  "applescript_full_sweep": [
+    {
+      "req": 500,
+      "win": 500,
+      "iw": 500,
+      "barCSS": 500,
+      "ok": true
+    },
+    {
+      "req": 450,
+      "win": 450,
+      "iw": 450,
+      "barCSS": 450,
+      "ok": true
+    },
+    {
+      "req": 430,
+      "win": 430,
+      "iw": 430,
+      "barCSS": 430,
+      "ok": true
+    },
+    {
+      "req": 414,
+      "win": 414,
+      "iw": 414,
+      "barCSS": 414,
+      "ok": true
+    },
+    {
+      "req": 393,
+      "win": 393,
+      "iw": 393,
+      "barCSS": 393,
+      "ok": true
+    },
+    {
+      "req": 390,
+      "win": 390,
+      "iw": 390,
+      "barCSS": 390,
+      "ok": true
+    },
+    {
+      "req": 375,
+      "win": 375,
+      "iw": 375,
+      "barCSS": 375,
+      "ok": true
+    },
+    {
+      "req": 360,
+      "win": 360,
+      "iw": 360,
+      "barCSS": 360,
+      "ok": true
+    },
+    {
+      "req": 320,
+      "win": 320,
+      "iw": 320,
+      "barCSS": 320,
+      "ok": true
+    },
+    {
+      "req": 280,
+      "win": 280,
+      "iw": 280,
+      "barCSS": 280,
+      "ok": true
+    },
+    {
+      "req": 240,
+      "win": 240,
+      "iw": 240,
+      "barCSS": 240,
+      "ok": true
+    },
+    {
+      "req": 200,
+      "win": 200,
+      "iw": 200,
+      "barCSS": 200,
+      "ok": true
+    },
+    {
+      "req": 150,
+      "win": 150,
+      "iw": 150,
+      "barCSS": 150,
+      "ok": true
+    },
+    {
+      "req": 100,
+      "win": 100,
+      "iw": 100,
+      "barCSS": 100,
+      "ok": true
+    },
+    {
+      "req": 50,
+      "win": 50,
+      "iw": 50,
+      "barCSS": 50,
+      "ok": true
+    }
+  ],
+  "settings_at_375": {
+    "bounds": {
+      "left": 60,
+      "top": 60,
+      "width": 375,
+      "height": 900,
+      "windowState": "normal"
+    }
+  }
+}

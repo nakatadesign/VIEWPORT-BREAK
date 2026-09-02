@@ -1,0 +1,209 @@
+{
+  "steps": [
+    {
+      "action": "launch_chrome",
+      "pid": 13494,
+      "profile": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/profile",
+      "port": 9351,
+      "t": "2026-08-30T03:49:06Z"
+    },
+    {
+      "action": "cdp_ready",
+      "browser": "Chrome/151.0.7922.174",
+      "t": "2026-08-30T03:49:06Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+      "t": "2026-08-30T03:49:06Z"
+    },
+    {
+      "action": "shot",
+      "file": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/out/01-rest-light.png",
+      "dark": false,
+      "clicks": [],
+      "dom": {
+        "w": "900",
+        "h": "× 900",
+        "msg": "",
+        "hostEl": false,
+        "btns": [
+          "360",
+          "375",
+          "390",
+          "402",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920",
+          "320"
+        ],
+        "current": [],
+        "radius": "999px",
+        "bg": "rgb(255, 255, 255)",
+        "border": "rgb(218, 220, 224)",
+        "applyBorder": "1px solid rgb(218, 220, 224)",
+        "applyRadius": "999px",
+        "fieldBg": "rgb(241, 243, 244)",
+        "caret": "none"
+      },
+      "t": "2026-08-30T03:49:08Z"
+    },
+    {
+      "action": "shot",
+      "file": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/out/02-dark.png",
+      "dark": true,
+      "clicks": [],
+      "dom": {
+        "w": "900",
+        "h": "× 900",
+        "msg": "",
+        "hostEl": false,
+        "btns": [
+          "360",
+          "375",
+          "390",
+          "402",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920",
+          "320"
+        ],
+        "current": [],
+        "radius": "999px",
+        "bg": "rgb(32, 33, 36)",
+        "border": "rgb(60, 64, 67)",
+        "applyBorder": "1px solid rgb(60, 64, 67)",
+        "applyRadius": "999px",
+        "fieldBg": "rgb(42, 43, 46)",
+        "caret": "none"
+      },
+      "t": "2026-08-30T03:49:10Z"
+    },
+    {
+      "action": "shot",
+      "file": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/out/03-click-1024.png",
+      "dark": false,
+      "clicks": [
+        "[...grid.children].find(b=>b.textContent.includes('1024')).click()"
+      ],
+      "dom": {
+        "w": "1024",
+        "h": "× 900",
+        "msg": "1024px",
+        "hostEl": false,
+        "btns": [
+          "360",
+          "375",
+          "390",
+          "402",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920",
+          "320"
+        ],
+        "current": [
+          "1024"
+        ],
+        "radius": "999px",
+        "bg": "rgb(255, 255, 255)",
+        "border": "rgb(218, 220, 224)",
+        "applyBorder": "1px solid rgb(218, 220, 224)",
+        "applyRadius": "999px",
+        "fieldBg": "rgb(241, 243, 244)",
+        "caret": "none"
+      },
+      "t": "2026-08-30T03:49:13Z"
+    },
+    {
+      "action": "shot",
+      "file": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/out/04-click-375-nohost.png",
+      "dark": false,
+      "clicks": [
+        "[...grid.children].find(b=>b.textContent.trim()==='375').click()"
+      ],
+      "dom": {
+        "w": "500",
+        "h": "× 900",
+        "msg": "375px に届かず 500px で止まった。500px 未満には native host が要る（未導入: README の install.sh を実行する）。",
+        "hostEl": false,
+        "btns": [
+          "360",
+          "375",
+          "390",
+          "402",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920",
+          "320"
+        ],
+        "current": [],
+        "radius": "999px",
+        "bg": "rgb(255, 255, 255)",
+        "border": "rgb(218, 220, 224)",
+        "applyBorder": "1px solid rgb(218, 220, 224)",
+        "applyRadius": "999px",
+        "fieldBg": "rgb(241, 243, 244)",
+        "caret": "none"
+      },
+      "t": "2026-08-30T03:49:16Z"
+    },
+    {
+      "action": "shot",
+      "file": "/private/tmp/claude-501/-Users-macmini-Projects/a8964fba-febd-4a45-9a91-52e7234d989d/scratchpad/shot/out/05-custom-900.png",
+      "dark": false,
+      "clicks": [
+        "customW.value=900; customForm.requestSubmit()"
+      ],
+      "dom": {
+        "w": "900",
+        "h": "× 900",
+        "msg": "900px",
+        "hostEl": false,
+        "btns": [
+          "360",
+          "375",
+          "390",
+          "402",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920",
+          "320"
+        ],
+        "current": [],
+        "radius": "999px",
+        "bg": "rgb(255, 255, 255)",
+        "border": "rgb(218, 220, 224)",
+        "applyBorder": "1px solid rgb(218, 220, 224)",
+        "applyRadius": "999px",
+        "fieldBg": "rgb(241, 243, 244)",
+        "caret": "none"
+      },
+      "t": "2026-08-30T03:49:20Z"
+    }
+  ]
+}

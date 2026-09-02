@@ -1,0 +1,8 @@
+YOLO mode is enabled. All tool calls will be automatically approved.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Ripgrep is not available. Falling back to GrepTool.
+[STARTUP] Phase 'cleanup_ops' was started but never ended. Skipping metrics.
+[STARTUP] Cannot measure phase 'cleanup_ops': start mark 'startup:cleanup_ops:start' not found (likely cleared by reset).
+I will copy the generated app icon from its temporary output directory to the requested raw asset folder.
+I will list the target destination folder to verify that the copied icon file is correctly in place and has a non-zero size.
+The requested 1024x1024 app icon has been successfully generated and saved to `/Users/macmini/Projects/viewport-deck/assets/applogo-nanobanana-20260830/raw/a-split.png`.

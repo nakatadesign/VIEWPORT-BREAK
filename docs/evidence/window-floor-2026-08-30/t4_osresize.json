@@ -1,0 +1,94 @@
+{
+  "initial": {
+    "as_bounds": "50, 60, 550, 900",
+    "cdp_bounds": {
+      "left": 50,
+      "top": 60,
+      "width": 500,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 500,
+      "ih": 753,
+      "ow": 500,
+      "oh": 840,
+      "sx": 50,
+      "dpr": 2
+    }
+  },
+  "applescript_375": {
+    "as_bounds": "50, 60, 425, 900",
+    "cdp_bounds": {
+      "left": 50,
+      "top": 60,
+      "width": 375,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 375,
+      "ih": 753,
+      "ow": 375,
+      "oh": 840,
+      "sx": 50,
+      "dpr": 2
+    }
+  },
+  "applescript_320": {
+    "as_bounds": "50, 60, 370, 900",
+    "cdp_bounds": {
+      "left": 50,
+      "top": 60,
+      "width": 320,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 320,
+      "ih": 753,
+      "ow": 320,
+      "oh": 840,
+      "sx": 50,
+      "dpr": 2
+    }
+  },
+  "applescript_280": {
+    "as_bounds": "50, 60, 330, 900",
+    "cdp_bounds": {
+      "left": 50,
+      "top": 60,
+      "width": 280,
+      "height": 840,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 280,
+      "ih": 753,
+      "ow": 280,
+      "oh": 840,
+      "sx": 50,
+      "dpr": 2
+    }
+  },
+  "ax_probe": "280, 840",
+  "ax_after_375": {
+    "as_bounds": "50, 60, 550, 960",
+    "cdp_bounds": {
+      "left": 50,
+      "top": 60,
+      "width": 500,
+      "height": 900,
+      "windowState": "normal"
+    },
+    "page": {
+      "iw": 500,
+      "ih": 813,
+      "ow": 500,
+      "oh": 900,
+      "sx": 50,
+      "dpr": 2
+    }
+  },
+  "ax_size_readback": "500, 900"
+}

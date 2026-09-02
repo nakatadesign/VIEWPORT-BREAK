@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "canvas": {
+    "size": 1000
+  },
+  "colors": {
+    "paper": "#FFFFFF",
+    "ink": "#111111"
+  },
+  "body": [
+    {
+      "type": "line",
+      "key": "break-line-upper-left-edge",
+      "start": [
+        464.0,
+        40.0
+      ],
+      "end": [
+        464.0,
+        121.70910663881955
+      ]
+    },
+    {
+      "type": "circle",
+      "key": "viewport-left-arc",
+      "cx": 500.0,
+      "cy": 500.0,
+      "radius": 380.0,
+      "start": [
+        464.0,
+        121.70910663881955
+      ],
+      "middle": [
+        120.0,
+        500.0
+      ],
+      "end": [
+        464.0,
+        878.2908933611805
+      ]
+    },
+    {
+      "type": "line",
+      "key": "break-line-lower-left-edge",
+      "start": [
+        464.0,
+        878.2908933611805
+      ],
+      "end": [
+        464.0,
+        960.0
+      ]
+    },
+    {
+      "type": "line",
+      "key": "break-line-bottom-cap",
+      "start": [
+        464.0,
+        960.0
+      ],
+      "end": [
+        536.0,
+        960.0
+      ]
+    },
+    {
+      "type": "line",
+      "key": "break-line-lower-right-edge",
+      "start": [
+        536.0,
+        960.0
+      ],
+      "end": [
+        536.0,
+        878.2908933611805
+      ]
+    },
+    {
+      "type": "circle",
+      "key": "viewport-right-arc",
+      "cx": 500.0,
+      "cy": 500.0,
+      "radius": 380.0,
+      "start": [
+        536.0,
+        878.2908933611805
+      ],
+      "middle": [
+        880.0,
+        500.0
+      ],
+      "end": [
+        536.0,
+        121.70910663881955
+      ]
+    },
+    {
+      "type": "line",
+      "key": "break-line-upper-right-edge",
+      "start": [
+        536.0,
+        121.70910663881955
+      ],
+      "end": [
+        536.0,
+        40.0
+      ]
+    },
+    {
+      "type": "line",
+      "key": "break-line-top-cap",
+      "start": [
+        536.0,
+        40.0
+      ],
+      "end": [
+        464.0,
+        40.0
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "chord",
+      "key": "viewport-left-void",
+      "fill": "paper",
+      "line_start": [
+        464.0,
+        797.8321675037805
+      ],
+      "line_end": [
+        464.0,
+        202.16783249621943
+      ],
+      "arc": {
+        "cx": 500.0,
+        "cy": 500.0,
+        "radius": 300.0,
+        "middle": [
+          200.0,
+          500.0
+        ]
+      }
+    },
+    {
+      "type": "chord",
+      "key": "viewport-right-void",
+      "fill": "paper",
+      "line_start": [
+        536.0,
+        202.16783249621943
+      ],
+      "line_end": [
+        536.0,
+        797.8321675037805
+      ],
+      "arc": {
+        "cx": 500.0,
+        "cy": 500.0,
+        "radius": 300.0,
+        "middle": [
+          800.0,
+          500.0
+        ]
+      }
+    }
+  ],
+  "expected_counts": {
+    "circles": 4,
+    "lines": 8
+  }
+}

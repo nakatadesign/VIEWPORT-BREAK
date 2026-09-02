@@ -1,0 +1,17 @@
+{
+ "what": "host が Chrome を起動しないよう AppleScript に `is running` guard を入れた後の再検証",
+ "why": "guard 追加で AppleScript を書き換えたため、到達幅を測り直した",
+ "verify_paths": ["AppleScript 読み返し", "CDP Browser.getWindowBounds", "page window.innerWidth"],
+ "rows": [
+  {"requested":1920,"as_w":1920,"cdp_w":1920,"inner_w":1920,"cdp_h":900,"agree":true},
+  {"requested":1280,"as_w":1280,"cdp_w":1280,"inner_w":1280,"cdp_h":900,"agree":true},
+  {"requested":768,"as_w":768,"cdp_w":768,"inner_w":768,"cdp_h":900,"agree":true},
+  {"requested":430,"as_w":430,"cdp_w":430,"inner_w":430,"cdp_h":900,"agree":true},
+  {"requested":390,"as_w":390,"cdp_w":390,"inner_w":390,"cdp_h":900,"agree":true},
+  {"requested":375,"as_w":375,"cdp_w":375,"inner_w":375,"cdp_h":900,"agree":true},
+  {"requested":320,"as_w":320,"cdp_w":320,"inner_w":320,"cdp_h":900,"agree":true}
+ ],
+ "all_agree": true,
+ "chrome_not_running_behavior": {"cmd":"list","response":{"ok":false,"error":"Chrome が起動していない"},
+   "note":"Chrome 停止中に叩いても Chrome を起動しないことを実測で確認した"}
+}

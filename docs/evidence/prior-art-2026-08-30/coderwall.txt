@@ -1,0 +1,164 @@
+SOURCE_URL: https://coderwall.com/p/mhzoza/scale-chrome-browser-window-to-any-width
+FETCHED_AT: 2026-08-30T02:29:33.923727+00:00
+EXTRACT: html->text (scripts/styles stripped)
+------------------------------------------------------------
+
+Scale Chrome Browser Window to Any Width (Example) 
+ dataLayer = [{
+ 'user_email': '',
+ 'user_created_at': ''
+ }];
+Coderwall
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ More 
+Tips
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ PHP 
+ Android 
+ .NET 
+ Java 
+ Jobs 
+ Jobs 
+ Sign In or Up 
+ Last Updated: September 30, 2022 
+·
+28.71K
+·
+ mklickman 
+ Scale Chrome Browser Window to Any Width 
+ #responsive 
+ #chrome 
+ #browser 
+ #workflow 
+ #rwd 
+ #width 
+ The Problem 
+ Chrome won't let me scale my browser window below X pixels wide!!!1 #omg #wtf #bbq" 
+ I've been plagued by Google Chrome's apparent inability to scale below a certain width (~400px for me; YMMV) for quite some time now. The nature of the problem is actually related to how Chrome treats extension icons: as you scale the browser window down horizontally, Chrome resizes the address bar, but will make sure your extensions are still accessible. 
+ Obviously, first-jump solutions like disabling your extensions are a no-go for me, because who wants to do that? It's time-consuming, and super brutish; I always believed there was a more elegant solution. Needless to say, I've found what I was looking for. 
+ Disclaimer : I am not 100% sure how this will manifest in your specific case. With my setup, I have seven visible icons at full width. When I resize down to the lowest possible width, the two rightmost icons (regardless of how I have them arranged) and part of the third become obscured. After that, the window will not scale any lower. I'm not exactly sure what the Chrome's actual 'protocol' is for this behavior. 
+ <br><br> 
+ The Solution: "Dock to Right" 
+ Chrome's web inspector comes with and option to "Dock to Right", which moves it from the default in-window position of being along the bottom, to (surprise!) along the right-hand side. 
+ The reason this is so awesome is because of where the inspector sits: inside the browser window, but outside the viewport. That allows you to resize the viewport so your content adjusts (if you're working with a responsive design, for example), but your browser window stays the same size, thus avoiding the "extensionz be crampin' m'style" problem. 
+ To actually do this, just open up your inspector, and click and hold the "dock to main window"/"undock into separate window" icon at the very bottom left. This threw me for a bit of a loop at first, since as many of you probably know, the inspector used to have a checkbox-type option for this in the inspector prefs pane (the gear icon at the bottom right). 
+ Why The "Screen Resolution" Override Doesn't Work 
+ Well, for me at least. If you open the inspector prefs window and click on the "Overrides" tab, you can check the box next to "Device Metrics", and then set a specific screen resolution. Needless to say, this is ridiculously cumbersome, and just plain impractical unless you need to target a specific width. I don't use this option because I get in a use-case rut very easily, and don't realize that I've been developing for hours without checking other window widths for problems. That, coupled with the fact that I usually use <a href=" https://gist.github.com/4622360 " target="_blank">this little guy</a> to display the current width of the viewport, makes this option pretty much useless to me. Feel free to share if you do like this approach. 
+ Conclusion 
+ Anyway, I hope that helps you guys as much as it's helped me. Even in the short time I've been doing this, it's greatly improved my workflow. Feel free to comment with improvements/insights/potato salad recipes/etc. Thanks for reading! 
+ #responsive 
+ #chrome 
+ #browser 
+ #workflow 
+ #rwd 
+ #width 
+Written by
+ Marshall Klickman 
+ Say Thanks 
+Respond
+ Related protips 
+Change the Bootstrap NavBar Breakpoint
+508.7K
+39
+Responsive Morris.js graphs in Bootstrap 3 tabs
+43.94K
+6
+Dynamic, Responsive font-sizes and spacing using em units and JavaScript
+25.08K
+0
+5 Responses
+ Add your response 
+hrtovey
+ Just started figuring out Responsive Design and this was really helpful! Thank you for sharing. 
+over 1 year ago
+·
+shawn erquhart
+ Not sure how long ago this was posted, but it turns out we're causing this behavior as users - Chrome enforces visibility of any extension icons that aren't hidden. Shrink your extensions area down by extending the width of the address bar (click and drag the right side) and the minimum width will adjust. 
+ Source: http://stackoverflow.com/questions/8681903/browser-doesnt-scale-below-400px 
+over 1 year ago
+·
+middlenamejames
+ Docking the inspector to the right works, but when the inspector isn't displayed the window still doesn't scale smaller than 400px. This is really strange because I swear, yesterday Chrome was not behaving this way. 
+over 1 year ago
+·
+benbodhi
+ Awesome Tip!!! 
+over 1 year ago
+·
+crixlet
+ Awesome! Thank you. 
+over 1 year ago
+·
+ Have a fresh tip? Share with Coderwall community! 
+ Post 
+ Post a tip 
+Best
+ #Responsive 
+Authors
+ iatek 
+508.7K
+ #responsive 
+ #Javascript 
+ #css 
+ b3rgstrom 
+43.94K
+ #responsive 
+ #Ruby 
+ #javascript 
+ mklickman 
+28.71K
+ #responsive 
+ #javascript 
+ #PHP 
+ larrywilliamson 
+25.08K
+ #responsive 
+ #JavaScript 
+ #Ruby 
+ basiclines 
+20.42K
+ #responsive 
+ #javascript 
+ #Shell 
+Related Tags
+ #responsive 
+ #chrome 
+ #browser 
+ #workflow 
+ #rwd 
+ #width 
+ Sponsored by 
+ #native_company# 
+ #native_desc# 
+ #native_cta# 
+Filed Under
+ Accelerate Your Web Development Skills 
+Awesome Job
+See All Jobs
+Post a job for only
+$299
+ Sponsored by #native_company# — Learn More 
+ #native_title# 
+ #native_desc# 
+ #native_cta# 
+@coderwall
+ APM product comparisons
+Contact
+ Privacy 
+ Terms 
+ Copyright 2026 
+This site is protected by reCAPTCHA and the Google
+Privacy Policy
+and
+Terms of Service
+apply.

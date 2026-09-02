@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "probe_url": "http://127.0.0.1:9398/m.html",
+    "chrome": "Chrome/151.0.7922.174",
+    "moved_popup_create_result": {
+      "id": 1263215015,
+      "type": "popup",
+      "left": 620,
+      "top": 140,
+      "width": 900,
+      "height": 760
+    }
+  },
+  "shots": [
+    {
+      "file": "01-tabbed-900-baseline.png",
+      "note": "通常ウィンドウ 基準 900px",
+      "requested": 900,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 760,
+        "type": "normal"
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 1800 pixelHeight: 1520"
+    },
+    {
+      "file": "02-tabbed-request375-actual500.png",
+      "note": "通常ウィンドウに 375px を要求 → 500px でクランプ",
+      "requested": 375,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 500,
+        "height": 760,
+        "type": "normal"
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+    },
+    {
+      "file": "03-tabbed-request1-actual500.png",
+      "note": "通常ウィンドウに 1px を要求 → 500px でクランプ",
+      "requested": 1,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 500,
+        "height": 760,
+        "type": "normal"
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+    },
+    {
+      "file": "04-tabbed-requestH1-actualH375.png",
+      "note": "通常ウィンドウに 高さ1px を要求 → 375px でクランプ",
+      "requested": 1,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 900,
+        "height": 375,
+        "type": "normal"
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+    },
+    {
+      "file": "05-popup-375.png",
+      "note": "同じタブを popup 型ウィンドウにして 375px",
+      "requested": 375,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 375,
+        "height": 760,
+        "type": "popup"
+      },
+      "page": {
+        "outerWidth": 375,
+        "innerWidth": 375,
+        "outerHeight": 760,
+        "innerHeight": 728,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 750 pixelHeight: 1520"
+    },
+    {
+      "file": "06-popup-320.png",
+      "note": "同 popup を 320px",
+      "requested": 320,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 320,
+        "height": 760,
+        "type": "popup"
+      },
+      "page": {
+        "outerWidth": 320,
+        "innerWidth": 320,
+        "outerHeight": 760,
+        "innerHeight": 728,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 640 pixelHeight: 1520"
+    },
+    {
+      "file": "07-popup-86-floor.png",
+      "note": "同 popup の実下限 86px（1px を要求した結果）",
+      "requested": 1,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 86,
+        "height": 760,
+        "type": "popup"
+      },
+      "page": {
+        "outerWidth": 86,
+        "innerWidth": 86,
+        "outerHeight": 760,
+        "innerHeight": 728,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 172 pixelHeight: 1520"
+    },
+    {
+      "file": "08-popup-heightfloor-96.png",
+      "note": "popup の高さ下限 96px（1px を要求した結果）",
+      "requested": 1,
+      "window_rect": {
+        "left": 620,
+        "top": 140,
+        "width": 500,
+        "height": 96,
+        "type": "popup"
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 96,
+        "innerHeight": 64,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 1000 pixelHeight: 192"
+    },
+    {
+      "file": "09-popup-3000-onscreen-part.png",
+      "note": "3000px 要求が通った状態（画面に映る 1920px 分のみ撮影）",
+      "requested": 3000,
+      "window_rect": {
+        "left": 0,
+        "top": 30,
+        "width": 3000,
+        "height": 700,
+        "type": "popup"
+      },
+      "page": {
+        "outerWidth": 3000,
+        "innerWidth": 3000,
+        "outerHeight": 700,
+        "innerHeight": 668,
+        "devicePixelRatio": 2,
+        "href": "http://127.0.0.1:9398/m.html"
+      },
+      "png_pixels": "pixelWidth: 3840 pixelHeight: 1400"
+    }
+  ]
+}

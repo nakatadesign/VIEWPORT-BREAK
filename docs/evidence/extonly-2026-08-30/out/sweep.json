@@ -1,0 +1,2568 @@
+{
+  "meta": {
+    "chrome": "Chrome/151.0.7922.174",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "extension_id": "elhbfkjaijcdcdfpjpkmdkmaohfbplhd",
+    "api_availability": {
+      "ok": true,
+      "hasWindowsApi": true,
+      "hasWindowsUpdate": true,
+      "hasNativeMessaging": false,
+      "permissions": null,
+      "hostPermissions": null
+    },
+    "baseline": {
+      "windowId": 1689477998,
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      }
+    }
+  },
+  "steps": [
+    {
+      "action": "launch_chrome",
+      "pid": 94827,
+      "profile": "/private/tmp/claude-501/-Users-macmini-Projects/4ff08c7f-870b-45c2-888c-ea7b6020860e/scratchpad/extonly/profile",
+      "port": 9391,
+      "note": "native messaging host manifest を置いていない使い捨てプロファイル",
+      "t": "2026-08-30T04:41:11Z"
+    },
+    {
+      "action": "cdp_ready",
+      "browser": "Chrome/151.0.7922.174",
+      "t": "2026-08-30T04:41:12Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "elhbfkjaijcdcdfpjpkmdkmaohfbplhd",
+      "path": "/private/tmp/claude-501/-Users-macmini-Projects/4ff08c7f-870b-45c2-888c-ea7b6020860e/scratchpad/extonly/ext",
+      "t": "2026-08-30T04:41:13Z"
+    },
+    {
+      "action": "api_availability",
+      "ping": {
+        "ok": true,
+        "hasWindowsApi": true,
+        "hasWindowsUpdate": true,
+        "hasNativeMessaging": false,
+        "permissions": null,
+        "hostPermissions": null
+      },
+      "t": "2026-08-30T04:41:16Z"
+    },
+    {
+      "action": "baseline",
+      "windowId": 1689477998,
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:16Z"
+    },
+    {
+      "action": "width-0001",
+      "requested": {
+        "width": 1,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0001.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:19Z"
+    },
+    {
+      "action": "width-0050",
+      "requested": {
+        "width": 50,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0050.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:22Z"
+    },
+    {
+      "action": "width-0200",
+      "requested": {
+        "width": 200,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0200.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:25Z"
+    },
+    {
+      "action": "width-0300",
+      "requested": {
+        "width": 300,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0300.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:28Z"
+    },
+    {
+      "action": "width-0400",
+      "requested": {
+        "width": 400,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0400.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:32Z"
+    },
+    {
+      "action": "width-0500",
+      "requested": {
+        "width": 500,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0500.png",
+        "bytes": 81885,
+        "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:35Z"
+    },
+    {
+      "action": "width-0600",
+      "requested": {
+        "width": 600,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 600,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 600,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 600,
+        "innerWidth": 600,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/width-0600.png",
+        "bytes": 93042,
+        "png_pixels": "pixelWidth: 1200 pixelHeight: 1520"
+      },
+      "t": "2026-08-30T04:41:38Z"
+    },
+    {
+      "action": "edge-w-499",
+      "requested": {
+        "width": 499,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:41Z"
+    },
+    {
+      "action": "edge-w-500",
+      "requested": {
+        "width": 500,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:42Z"
+    },
+    {
+      "action": "edge-w-501",
+      "requested": {
+        "width": 501,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 501,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 501,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 501,
+        "innerWidth": 501,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:43Z"
+    },
+    {
+      "action": "edge-w-498",
+      "requested": {
+        "width": 498,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 501,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:45Z"
+    },
+    {
+      "action": "edge-w-490",
+      "requested": {
+        "width": 490,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:46Z"
+    },
+    {
+      "action": "height-0001",
+      "requested": {
+        "height": 1,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/height-0001.png",
+        "bytes": 91360,
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+      },
+      "t": "2026-08-30T04:41:49Z"
+    },
+    {
+      "action": "height-0050",
+      "requested": {
+        "height": 50,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/height-0050.png",
+        "bytes": 91360,
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+      },
+      "t": "2026-08-30T04:41:52Z"
+    },
+    {
+      "action": "height-0100",
+      "requested": {
+        "height": 100,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:41:55Z"
+    },
+    {
+      "action": "height-0200",
+      "requested": {
+        "height": 200,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/height-0200.png",
+        "bytes": 91360,
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+      },
+      "t": "2026-08-30T04:41:59Z"
+    },
+    {
+      "action": "height-0300",
+      "requested": {
+        "height": 300,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:02Z"
+    },
+    {
+      "action": "height-0400",
+      "requested": {
+        "height": 400,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 400,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 400,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 400,
+        "innerHeight": 313,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:05Z"
+    },
+    {
+      "action": "height-0600",
+      "requested": {
+        "height": 600,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 600,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 600,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 600,
+        "innerHeight": 513,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/height-0600.png",
+        "bytes": 106281,
+        "png_pixels": "pixelWidth: 1800 pixelHeight: 1200"
+      },
+      "t": "2026-08-30T04:42:08Z"
+    },
+    {
+      "action": "edge-h-2",
+      "requested": {
+        "height": 2,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:11Z"
+    },
+    {
+      "action": "edge-h-3",
+      "requested": {
+        "height": 3,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:12Z"
+    },
+    {
+      "action": "edge-h-5",
+      "requested": {
+        "height": 5,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:13Z"
+    },
+    {
+      "action": "edge-h-10",
+      "requested": {
+        "height": 10,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:14Z"
+    },
+    {
+      "action": "edge-h-15",
+      "requested": {
+        "height": 15,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:16Z"
+    },
+    {
+      "action": "edge-h-20",
+      "requested": {
+        "height": 20,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:17Z"
+    },
+    {
+      "action": "edge-h-25",
+      "requested": {
+        "height": 25,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:18Z"
+    },
+    {
+      "action": "edge-h-30",
+      "requested": {
+        "height": 30,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 375,
+        "innerHeight": 288,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:19Z"
+    },
+    {
+      "action": "over-1900",
+      "requested": {
+        "width": 1900,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 1900,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 1900,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 1900,
+        "innerWidth": 1900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:22Z"
+    },
+    {
+      "action": "over-1920",
+      "requested": {
+        "width": 1920,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 1900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 1920,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 1920,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 1920,
+        "innerWidth": 1920,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:24Z"
+    },
+    {
+      "action": "over-2000",
+      "requested": {
+        "width": 2000,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 1920,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 2000,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 2000,
+          "height": 760,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 2000,
+        "innerWidth": 2000,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:25Z"
+    },
+    {
+      "action": "over-3000",
+      "requested": {
+        "width": 3000,
+        "state": "normal"
+      },
+      "api": {
+        "ok": false,
+        "error": "Invalid value for bounds. Bounds must be at least 50% within visible screen space."
+      },
+      "page": {
+        "outerWidth": 2000,
+        "innerWidth": 2000,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:25Z"
+    },
+    {
+      "action": "over-3000x2000",
+      "requested": {
+        "width": 3000,
+        "height": 2000,
+        "state": "normal"
+      },
+      "api": {
+        "ok": false,
+        "error": "Invalid value for bounds. Bounds must be at least 50% within visible screen space."
+      },
+      "page": {
+        "outerWidth": 900,
+        "innerWidth": 900,
+        "outerHeight": 760,
+        "innerHeight": 673,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:28Z"
+    },
+    {
+      "action": "over-3000-at-0",
+      "requested": {
+        "left": 0,
+        "top": 0,
+        "width": 3000,
+        "height": 1000,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 0,
+          "top": 30,
+          "width": 3000,
+          "height": 960,
+          "state": "normal"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 3000,
+          "height": 960,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 3000,
+        "innerWidth": 3000,
+        "outerHeight": 960,
+        "innerHeight": 873,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "shot": {
+        "file": "out/over-3000-at-0.png",
+        "bytes": 200823,
+        "png_pixels": "pixelWidth: 3840 pixelHeight: 1920"
+      },
+      "t": "2026-08-30T04:42:31Z"
+    },
+    {
+      "action": "state-maximized",
+      "requested": {
+        "state": "maximized"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 760,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 0,
+          "top": 30,
+          "width": 1920,
+          "height": 960,
+          "state": "maximized"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 1920,
+          "height": 960,
+          "state": "maximized"
+        }
+      },
+      "page": {
+        "outerWidth": 1920,
+        "innerWidth": 1920,
+        "outerHeight": 960,
+        "innerHeight": 873,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:34Z"
+    },
+    {
+      "action": "after-max-375",
+      "requested": {
+        "width": 375,
+        "state": "normal"
+      },
+      "api": {
+        "ok": true,
+        "before": {
+          "left": 0,
+          "top": 30,
+          "width": 1920,
+          "height": 960,
+          "state": "maximized"
+        },
+        "returned": {
+          "left": 0,
+          "top": 30,
+          "width": 500,
+          "height": 960,
+          "state": "normal"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 500,
+          "height": 960,
+          "state": "normal"
+        }
+      },
+      "page": {
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "outerHeight": 960,
+        "innerHeight": 873,
+        "devicePixelRatio": 2,
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "availWidth": 1920,
+        "availHeight": 960
+      },
+      "t": "2026-08-30T04:42:36Z"
+    }
+  ],
+  "summary": {
+    "width_sweep": [
+      {
+        "requested": {
+          "width": 1,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0001.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 50,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0050.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 200,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0200.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 300,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0300.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 400,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0400.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 500,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0500.png",
+          "bytes": 81885,
+          "png_pixels": "pixelWidth: 1000 pixelHeight: 1520"
+        }
+      },
+      {
+        "requested": {
+          "width": 600,
+          "state": "normal"
+        },
+        "returned": {
+          "left": 620,
+          "top": 140,
+          "width": 600,
+          "height": 760,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 600,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 600,
+          "innerWidth": 600,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/width-0600.png",
+          "bytes": 93042,
+          "png_pixels": "pixelWidth: 1200 pixelHeight: 1520"
+        }
+      }
+    ],
+    "width_edge": [
+      {
+        "requested": {
+          "width": 499,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "width": 500,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "width": 501,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 501,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 501,
+          "innerWidth": 501,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "width": 498,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "width": 490,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 500,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      }
+    ],
+    "height_sweep": [
+      {
+        "requested": {
+          "height": 1,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/height-0001.png",
+          "bytes": 91360,
+          "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+        }
+      },
+      {
+        "requested": {
+          "height": 50,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/height-0050.png",
+          "bytes": 91360,
+          "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+        }
+      },
+      {
+        "requested": {
+          "height": 100,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "height": 200,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/height-0200.png",
+          "bytes": 91360,
+          "png_pixels": "pixelWidth: 1800 pixelHeight: 750"
+        }
+      },
+      {
+        "requested": {
+          "height": 300,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "height": 400,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 400,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 400,
+          "innerHeight": 313,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "height": 600,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 600,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 600,
+          "innerHeight": 513,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/height-0600.png",
+          "bytes": 106281,
+          "png_pixels": "pixelWidth: 1800 pixelHeight: 1200"
+        }
+      }
+    ],
+    "height_edge": [
+      {
+        "requested": {
+          "height": 2,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 3,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 5,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 10,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 15,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 20,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 25,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "height": 30,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 900,
+          "height": 375,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 375,
+          "innerHeight": 288,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      }
+    ],
+    "over_screen": [
+      {
+        "requested": {
+          "width": 1900,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 1900,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 1900,
+          "innerWidth": 1900,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "width": 1920,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 1920,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 1920,
+          "innerWidth": 1920,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "width": 2000,
+          "state": "normal"
+        },
+        "after": {
+          "left": 620,
+          "top": 140,
+          "width": 2000,
+          "height": 760,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 2000,
+          "innerWidth": 2000,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "width": 3000,
+          "state": "normal"
+        },
+        "after": null,
+        "page": {
+          "outerWidth": 2000,
+          "innerWidth": 2000,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "width": 3000,
+          "height": 2000,
+          "state": "normal"
+        },
+        "after": null,
+        "page": {
+          "outerWidth": 900,
+          "innerWidth": 900,
+          "outerHeight": 760,
+          "innerHeight": 673,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": null
+      },
+      {
+        "requested": {
+          "left": 0,
+          "top": 0,
+          "width": 3000,
+          "height": 1000,
+          "state": "normal"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 3000,
+          "height": 960,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 3000,
+          "innerWidth": 3000,
+          "outerHeight": 960,
+          "innerHeight": 873,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        },
+        "shot": {
+          "file": "out/over-3000-at-0.png",
+          "bytes": 200823,
+          "png_pixels": "pixelWidth: 3840 pixelHeight: 1920"
+        }
+      }
+    ],
+    "misc": [
+      {
+        "requested": {
+          "state": "maximized"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 1920,
+          "height": 960,
+          "state": "maximized"
+        },
+        "page": {
+          "outerWidth": 1920,
+          "innerWidth": 1920,
+          "outerHeight": 960,
+          "innerHeight": 873,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      },
+      {
+        "requested": {
+          "width": 375,
+          "state": "normal"
+        },
+        "after": {
+          "left": 0,
+          "top": 30,
+          "width": 500,
+          "height": 960,
+          "state": "normal"
+        },
+        "page": {
+          "outerWidth": 500,
+          "innerWidth": 500,
+          "outerHeight": 960,
+          "innerHeight": 873,
+          "devicePixelRatio": 2,
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "availWidth": 1920,
+          "availHeight": 960
+        }
+      }
+    ]
+  }
+}

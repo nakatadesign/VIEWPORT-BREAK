@@ -1,0 +1,32 @@
+[
+  {
+    "requested": 320,
+    "applescript_readback": 320,
+    "shot": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/win-0320px.png",
+    "bytes": 92338
+  },
+  {
+    "requested": 200,
+    "applescript_readback": 200,
+    "shot": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/win-0200px.png",
+    "bytes": 72547
+  },
+  {
+    "requested": 100,
+    "applescript_readback": 100,
+    "shot": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/win-0100px.png",
+    "bytes": 53137
+  },
+  {
+    "requested": 50,
+    "applescript_readback": 50,
+    "shot": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/win-0050px.png",
+    "bytes": 36578
+  },
+  {
+    "requested": 20,
+    "applescript_readback": 20,
+    "shot": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/win-0020px.png",
+    "bytes": 20239
+  }
+]

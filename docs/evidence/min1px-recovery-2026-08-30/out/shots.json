@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "owner_ids_before": [
+      212798867
+    ],
+    "chrome": "Chrome/151.0.7922.174",
+    "backdrop_id": 810892401,
+    "target_id": 810892403,
+    "owner_ids_after": [
+      212798867
+    ]
+  },
+  "shots": [
+    {
+      "requested": 820,
+      "applescript_readback": 820,
+      "file": "docs/evidence/min1px-recovery-2026-08-30/out/02-a-820px.png",
+      "bytes": 151756
+    },
+    {
+      "requested": 320,
+      "applescript_readback": 320,
+      "file": "docs/evidence/min1px-recovery-2026-08-30/out/02-b-320px.png",
+      "bytes": 188129
+    },
+    {
+      "requested": 50,
+      "applescript_readback": 50,
+      "file": "docs/evidence/min1px-recovery-2026-08-30/out/02-c-050px.png",
+      "bytes": 120985
+    },
+    {
+      "requested": 1,
+      "applescript_readback": 1,
+      "file": "docs/evidence/min1px-recovery-2026-08-30/out/02-d-001px.png",
+      "bytes": 81523
+    }
+  ],
+  "restore_guard": {
+    "narrowest": {
+      "id": 810892403,
+      "left": 640,
+      "top": 160,
+      "width": 1,
+      "height": 620
+    },
+    "ok": true
+  },
+  "restore": {
+    "rc": 0,
+    "stdout": "{\"ok\": true, \"restored_to\": 800, \"before\": {\"id\": 810892403, \"left\": 640, \"top\": 160, \"width\": 1, \"height\": 620}, \"bounds\": {\"id\": 810892403, \"left\": 640, \"top\": 160, \"width\": 800, \"height\": 620}}",
+    "applescript_readback": 800,
+    "file": "docs/evidence/min1px-recovery-2026-08-30/out/03-restored-800.png",
+    "bytes": 153059
+  }
+}

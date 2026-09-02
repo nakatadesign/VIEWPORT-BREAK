@@ -1,0 +1,101 @@
+[
+  {
+    "name": "a-p0-o2-r15-b2",
+    "pad_px": 0.0,
+    "overshoot_px": 2.0,
+    "ring_px": 1.5,
+    "bar_px": 2.0,
+    "r_outer": 375.0,
+    "circle_diameter_px_at_16": 12.0,
+    "design_sha256": "a2c9d05f6712eb80f4ded343dd57b21dfc55616c344616e3ffa9c2a1e43f6614",
+    "svg_sha256": "2b6ea402fe4867075defe90b80c6d7f36e4b5fa092d1df3084fda6c70404136f"
+  },
+  {
+    "name": "b-p0-o2-r17-b2",
+    "pad_px": 0.0,
+    "overshoot_px": 2.0,
+    "ring_px": 1.7,
+    "bar_px": 2.0,
+    "r_outer": 375.0,
+    "circle_diameter_px_at_16": 12.0,
+    "design_sha256": "93540aaab85241cfaa988eb852777621cd4db5ebd5704cf7feea6c6e9c1452af",
+    "svg_sha256": "de82e3e285cc41eb0a851d6476267498b0222ed5ff17cc6d372cccbf2be91f39"
+  },
+  {
+    "name": "c-p0-o2-r2-b2",
+    "pad_px": 0.0,
+    "overshoot_px": 2.0,
+    "ring_px": 2.0,
+    "bar_px": 2.0,
+    "r_outer": 375.0,
+    "circle_diameter_px_at_16": 12.0,
+    "design_sha256": "6bcacd166b4bed2fb6fe9272a9bb76e56c2e2de8df884d1458ab20ffdffc8fed",
+    "svg_sha256": "0c2c3dcd3ebb7f888b1026d0d84f273e766a0e77aef157d4309e76c88d2b7514"
+  },
+  {
+    "name": "d-p0-o3-r17-b2",
+    "pad_px": 0.0,
+    "overshoot_px": 3.0,
+    "ring_px": 1.7,
+    "bar_px": 2.0,
+    "r_outer": 312.5,
+    "circle_diameter_px_at_16": 10.0,
+    "design_sha256": "8efb06b2ecdf0e96d5c3ab71e4810171cdb9c3229e2f6631529691794ecf60aa",
+    "svg_sha256": "16b21becf374d3995f2e21d7303b349fdf1fc18bfeebe11951a30124584e2228"
+  },
+  {
+    "name": "e-p0-o25-r17-b2",
+    "pad_px": 0.0,
+    "overshoot_px": 2.5,
+    "ring_px": 1.7,
+    "bar_px": 2.0,
+    "r_outer": 343.75,
+    "circle_diameter_px_at_16": 11.0,
+    "design_sha256": "893bc083fd036b506a67038eedbb5cf8fff13858e27764c91156984391661a96",
+    "svg_sha256": "8d8270ab334e7667ae41147449de6aae980e6e33d68de0c3548643f9fcc5a691"
+  },
+  {
+    "name": "f-p0-o2-r17-b25",
+    "pad_px": 0.0,
+    "overshoot_px": 2.0,
+    "ring_px": 1.7,
+    "bar_px": 2.5,
+    "r_outer": 375.0,
+    "circle_diameter_px_at_16": 12.0,
+    "design_sha256": "ad1aaf0ed47d8c4bf55795fb098131a15ef3fec1387e49b030b4081da664d7f3",
+    "svg_sha256": "8b46b598b0fad447ce793b0aeec8a330ac8fc529e1539b25148e5eab4213c716"
+  },
+  {
+    "name": "g-p1-o2-r17-b2",
+    "pad_px": 1.0,
+    "overshoot_px": 2.0,
+    "ring_px": 1.7,
+    "bar_px": 2.0,
+    "r_outer": 312.5,
+    "circle_diameter_px_at_16": 10.0,
+    "design_sha256": "56f3a4f90bc023ad98ea91a5f4da45502610eefdd347e8433bd8904823bd4aca",
+    "svg_sha256": "5d3cef6c8de6b5067729739a10ac563cad9ae387c38dbe6c3b7e3cb6f51ada71"
+  },
+  {
+    "name": "h-p1-o25-r15-b2",
+    "pad_px": 1.0,
+    "overshoot_px": 2.5,
+    "ring_px": 1.5,
+    "bar_px": 2.0,
+    "r_outer": 281.25,
+    "circle_diameter_px_at_16": 9.0,
+    "design_sha256": "ab49e746aac6f5a4e2ca30b31b9b5e9902326dc9d7ec4778e0c7f3b741701ff8",
+    "svg_sha256": "53a50225a92af34786f412fd0048c4d099599e562c494dc2b6df6577312b1ad1"
+  },
+  {
+    "name": "i-p0-o2-r2-b25",
+    "pad_px": 0.0,
+    "overshoot_px": 2.0,
+    "ring_px": 2.0,
+    "bar_px": 2.5,
+    "r_outer": 375.0,
+    "circle_diameter_px_at_16": 12.0,
+    "design_sha256": "2aa9f59148524c367a6f36db27a9f632fa8b6ca735127751049c7f52c933eb8b",
+    "svg_sha256": "51907039fc210b2b3cc3158694d21f45a73a461cbf69d866ad74cc3ec41d9ff9"
+  }
+]

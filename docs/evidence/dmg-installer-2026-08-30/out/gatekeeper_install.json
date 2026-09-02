@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "dmg": "/private/tmp/claude-501/-Users-macmini-Projects/db538db5-132c-4282-b6de-7ecd20918185/scratchpad/vb-e2e/Downloads/VIEWPORT BREAK 1.0.0.dmg"
+  },
+  "steps": [
+    {
+      "action": "cleanup_previous_processes",
+      "still_running": "",
+      "t": "2026-08-30T05:40:16Z"
+    },
+    {
+      "action": "removed_existing_app",
+      "path": "/Applications/VIEWPORT BREAK.app",
+      "t": "2026-08-30T05:40:16Z"
+    },
+    {
+      "action": "mounted",
+      "mount_point": "/Volumes/VIEWPORT BREAK",
+      "rc": 0,
+      "volume_xattr": {
+        "names": [
+          "com.apple.provenance"
+        ],
+        "com.apple.quarantine": null
+      },
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "quarantine_value_on_downloaded_dmg",
+      "value": "0281;6a93bf49;Chrome;1C4520A3-32EE-4DE2-928A-1C8EA19CDFF3",
+      "note": "Chrome がダウンロード時に書いた実測値。これを .app へ転記する",
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "ditto",
+      "rc": 0,
+      "err": "",
+      "xattr_right_after_ditto": {
+        "names": [
+          "com.apple.provenance",
+          "com.apple.quarantine"
+        ],
+        "com.apple.quarantine": "0281;00000000;;1C4520A3-32EE-4DE2-928A-1C8EA19CDFF3"
+      },
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "apply_quarantine",
+      "rc": 0,
+      "err": "",
+      "note": "Finder のドラッグで LaunchServices が行う伝播を、実測値の転記で代替した",
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "installed_app",
+      "path": "/Applications/VIEWPORT BREAK.app",
+      "xattr": {
+        "names": [
+          "com.apple.provenance",
+          "com.apple.quarantine"
+        ],
+        "com.apple.quarantine": "0281;6a93bf49;Chrome;1C4520A3-32EE-4DE2-928A-1C8EA19CDFF3"
+      },
+      "exe_xattr": {
+        "names": [
+          "com.apple.provenance",
+          "com.apple.quarantine"
+        ],
+        "com.apple.quarantine": "0281;6a93bf49;Chrome;1C4520A3-32EE-4DE2-928A-1C8EA19CDFF3"
+      },
+      "spctl": {
+        "rc": 3,
+        "out": "",
+        "err": "/Applications/VIEWPORT BREAK.app: rejected"
+      },
+      "codesign_verify": {
+        "rc": 0,
+        "out": "",
+        "err": "/Applications/VIEWPORT BREAK.app: valid on disk\n/Applications/VIEWPORT BREAK.app: satisfies its Designated Requirement"
+      },
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "detached",
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "launch_attempt_1",
+      "note": "quarantine 付きの未公証 .app を open する",
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "open_rc",
+      "rc": 0,
+      "err": "",
+      "t": "2026-08-30T05:40:17Z"
+    },
+    {
+      "action": "screenshot",
+      "file": "10-gatekeeper-first-launch.png",
+      "rect": [
+        826,
+        206,
+        272,
+        304
+      ],
+      "bytes": 217622,
+      "t": "2026-08-30T05:40:21Z"
+    },
+    {
+      "action": "frontmost_after_launch",
+      "process": "Messages",
+      "ui": "Messages\n----",
+      "t": "2026-08-30T05:40:33Z"
+    },
+    {
+      "action": "after_dismiss",
+      "process": "Messages",
+      "app_running": "74491",
+      "t": "2026-08-30T05:40:35Z"
+    }
+  ]
+}

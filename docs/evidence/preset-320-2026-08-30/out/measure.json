@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "chrome": "Chrome/151.0.7922.174",
+    "target_window": {
+      "id": 236310481,
+      "left": 700,
+      "top": 89,
+      "width": 901,
+      "height": 901
+    }
+  },
+  "steps": [
+    {
+      "action": "owner_windows_before",
+      "windows": [
+        {
+          "id": 212798867,
+          "left": 100,
+          "top": 30,
+          "width": 360,
+          "height": 847
+        }
+      ],
+      "t": "2026-08-30T04:08:55Z"
+    },
+    {
+      "action": "launch_chrome",
+      "pid": 41673,
+      "profile": "/private/tmp/claude-501/-Users-macmini-Projects/c9e5f2cb-c90f-4d68-b0a4-9d54f0ca1736/scratchpad/vd-measure/profile",
+      "port": 9371,
+      "t": "2026-08-30T04:08:55Z"
+    },
+    {
+      "action": "cdp_ready",
+      "browser": "Chrome/151.0.7922.174",
+      "t": "2026-08-30T04:08:55Z"
+    },
+    {
+      "action": "applescript_windows_after_launch",
+      "windows": [
+        {
+          "id": 236310481,
+          "left": 700,
+          "top": 89,
+          "width": 901,
+          "height": 901
+        }
+      ],
+      "candidates": [
+        {
+          "id": 236310481,
+          "left": 700,
+          "top": 89,
+          "width": 901,
+          "height": 901
+        }
+      ],
+      "t": "2026-08-30T04:08:57Z"
+    },
+    {
+      "action": "load_unpacked",
+      "extension_id": "ejlimgikbnaihoigbcmelaadniiminfj",
+      "t": "2026-08-30T04:08:57Z"
+    },
+    {
+      "action": "popup_rest_light",
+      "dom": {
+        "w": "901",
+        "h": "× 901",
+        "msg": "",
+        "btnCount": 12,
+        "btns": [
+          "320",
+          "360",
+          "375",
+          "390",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920"
+        ],
+        "titles": [
+          "320px — iPhone SE(1st)/5s の論理幅。レスポンシブ設計の下限として押さえる幅",
+          "360px — Android で最多の論理幅（Galaxy S 系 360×780 ほか）",
+          "375px — iPhone SE / 8 / X / 13 mini — 日本のモバイル約 20%",
+          "390px — iPhone 12–14 — 日本 14.0%",
+          "414px — iPhone XR / 11 / Plus 系 — 日本の最多 23.4%。Android の 412 もこの帯",
+          "430px — iPhone 15/16 Plus・Pro Max（440 の 17 Pro Max もこの帯）",
+          "640px — Tailwind sm の境界。実機ではなくブレークポイントの確認用",
+          "768px — iPad 縦 / md ブレークポイント",
+          "1024px — iPad 横 / lg",
+          "1280px — ノート / xl",
+          "1440px — デスクトップ",
+          "1920px — FHD"
+        ],
+        "stressEls": 0,
+        "pseudoBefore": [],
+        "bodyHasMinCheckText": false,
+        "gridCols": "85.3281px 85.3359px 85.3359px",
+        "gridRows": "34.5px 34.5px 34.5px 34.5px",
+        "rowCount": 4,
+        "fullWidthBtns": [],
+        "current": [],
+        "customMin": "50",
+        "customMax": "4000",
+        "appH": 317
+      },
+      "file": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/01-rest-light.png",
+      "t": "2026-08-30T04:08:59Z"
+    },
+    {
+      "action": "popup_dark",
+      "dom": {
+        "w": "901",
+        "h": "× 901",
+        "msg": "",
+        "btnCount": 12,
+        "btns": [
+          "320",
+          "360",
+          "375",
+          "390",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920"
+        ],
+        "titles": [
+          "320px — iPhone SE(1st)/5s の論理幅。レスポンシブ設計の下限として押さえる幅",
+          "360px — Android で最多の論理幅（Galaxy S 系 360×780 ほか）",
+          "375px — iPhone SE / 8 / X / 13 mini — 日本のモバイル約 20%",
+          "390px — iPhone 12–14 — 日本 14.0%",
+          "414px — iPhone XR / 11 / Plus 系 — 日本の最多 23.4%。Android の 412 もこの帯",
+          "430px — iPhone 15/16 Plus・Pro Max（440 の 17 Pro Max もこの帯）",
+          "640px — Tailwind sm の境界。実機ではなくブレークポイントの確認用",
+          "768px — iPad 縦 / md ブレークポイント",
+          "1024px — iPad 横 / lg",
+          "1280px — ノート / xl",
+          "1440px — デスクトップ",
+          "1920px — FHD"
+        ],
+        "stressEls": 0,
+        "pseudoBefore": [],
+        "bodyHasMinCheckText": false,
+        "gridCols": "85.3281px 85.3359px 85.3359px",
+        "gridRows": "34.5px 34.5px 34.5px 34.5px",
+        "rowCount": 4,
+        "fullWidthBtns": [],
+        "current": [],
+        "customMin": "50",
+        "customMax": "4000",
+        "appH": 317
+      },
+      "file": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/02-dark.png",
+      "t": "2026-08-30T04:09:01Z"
+    },
+    {
+      "action": "popup_click_320",
+      "dom": {
+        "w": "320",
+        "h": "× 901",
+        "msg": "320px",
+        "btnCount": 12,
+        "btns": [
+          "320",
+          "360",
+          "375",
+          "390",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920"
+        ],
+        "titles": [
+          "320px — iPhone SE(1st)/5s の論理幅。レスポンシブ設計の下限として押さえる幅",
+          "360px — Android で最多の論理幅（Galaxy S 系 360×780 ほか）",
+          "375px — iPhone SE / 8 / X / 13 mini — 日本のモバイル約 20%",
+          "390px — iPhone 12–14 — 日本 14.0%",
+          "414px — iPhone XR / 11 / Plus 系 — 日本の最多 23.4%。Android の 412 もこの帯",
+          "430px — iPhone 15/16 Plus・Pro Max（440 の 17 Pro Max もこの帯）",
+          "640px — Tailwind sm の境界。実機ではなくブレークポイントの確認用",
+          "768px — iPad 縦 / md ブレークポイント",
+          "1024px — iPad 横 / lg",
+          "1280px — ノート / xl",
+          "1440px — デスクトップ",
+          "1920px — FHD"
+        ],
+        "stressEls": 0,
+        "pseudoBefore": [],
+        "bodyHasMinCheckText": false,
+        "gridCols": "85.3281px 85.3359px 85.3359px",
+        "gridRows": "34.5px 34.5px 34.5px 34.5px",
+        "rowCount": 4,
+        "fullWidthBtns": [],
+        "current": [
+          "320"
+        ],
+        "customMin": "50",
+        "customMax": "4000",
+        "appH": 317,
+        "outerWidth_after_click": 320,
+        "applescript_after_click": [
+          {
+            "id": 236310481,
+            "left": 700,
+            "top": 89,
+            "width": 320,
+            "height": 901
+          }
+        ]
+      },
+      "file": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/03-click-320.png",
+      "t": "2026-08-30T04:09:06Z"
+    },
+    {
+      "action": "custom_49_rejected",
+      "dom": {
+        "w": "320",
+        "h": "× 901",
+        "msg": "",
+        "btnCount": 12,
+        "btns": [
+          "320",
+          "360",
+          "375",
+          "390",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920"
+        ],
+        "titles": [
+          "320px — iPhone SE(1st)/5s の論理幅。レスポンシブ設計の下限として押さえる幅",
+          "360px — Android で最多の論理幅（Galaxy S 系 360×780 ほか）",
+          "375px — iPhone SE / 8 / X / 13 mini — 日本のモバイル約 20%",
+          "390px — iPhone 12–14 — 日本 14.0%",
+          "414px — iPhone XR / 11 / Plus 系 — 日本の最多 23.4%。Android の 412 もこの帯",
+          "430px — iPhone 15/16 Plus・Pro Max（440 の 17 Pro Max もこの帯）",
+          "640px — Tailwind sm の境界。実機ではなくブレークポイントの確認用",
+          "768px — iPad 縦 / md ブレークポイント",
+          "1024px — iPad 横 / lg",
+          "1280px — ノート / xl",
+          "1440px — デスクトップ",
+          "1920px — FHD"
+        ],
+        "stressEls": 0,
+        "pseudoBefore": [],
+        "bodyHasMinCheckText": false,
+        "gridCols": "85.3281px 85.3359px 85.3359px",
+        "gridRows": "34.5px 34.5px 34.5px 34.5px",
+        "rowCount": 4,
+        "fullWidthBtns": [],
+        "current": [
+          "320"
+        ],
+        "customMin": "50",
+        "customMax": "4000",
+        "appH": 317,
+        "outerWidth": 320
+      },
+      "file": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/04-custom-49.png",
+      "t": "2026-08-30T04:09:09Z"
+    },
+    {
+      "action": "custom_50_accepted",
+      "dom": {
+        "w": "50",
+        "h": "× 901",
+        "msg": "50px",
+        "btnCount": 12,
+        "btns": [
+          "320",
+          "360",
+          "375",
+          "390",
+          "414",
+          "430",
+          "640",
+          "768",
+          "1024",
+          "1280",
+          "1440",
+          "1920"
+        ],
+        "titles": [
+          "320px — iPhone SE(1st)/5s の論理幅。レスポンシブ設計の下限として押さえる幅",
+          "360px — Android で最多の論理幅（Galaxy S 系 360×780 ほか）",
+          "375px — iPhone SE / 8 / X / 13 mini — 日本のモバイル約 20%",
+          "390px — iPhone 12–14 — 日本 14.0%",
+          "414px — iPhone XR / 11 / Plus 系 — 日本の最多 23.4%。Android の 412 もこの帯",
+          "430px — iPhone 15/16 Plus・Pro Max（440 の 17 Pro Max もこの帯）",
+          "640px — Tailwind sm の境界。実機ではなくブレークポイントの確認用",
+          "768px — iPad 縦 / md ブレークポイント",
+          "1024px — iPad 横 / lg",
+          "1280px — ノート / xl",
+          "1440px — デスクトップ",
+          "1920px — FHD"
+        ],
+        "stressEls": 0,
+        "pseudoBefore": [],
+        "bodyHasMinCheckText": false,
+        "gridCols": "85.3281px 85.3359px 85.3359px",
+        "gridRows": "34.5px 34.5px 34.5px 34.5px",
+        "rowCount": 4,
+        "fullWidthBtns": [],
+        "current": [],
+        "customMin": "50",
+        "customMax": "4000",
+        "appH": 317,
+        "outerWidth": 50,
+        "applescript": [
+          {
+            "id": 236310481,
+            "left": 700,
+            "top": 89,
+            "width": 50,
+            "height": 901
+          }
+        ]
+      },
+      "file": "/Users/macmini/Projects/viewport-deck/docs/evidence/preset-320-2026-08-30/out/05-custom-50.png",
+      "t": "2026-08-30T04:09:12Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 500,
+      "applescript_readback": 500,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "innerWidth": 500,
+      "match": true,
+      "t": "2026-08-30T04:09:14Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 400,
+      "applescript_readback": 400,
+      "cdp_width": 400,
+      "outerWidth": 400,
+      "innerWidth": 400,
+      "match": true,
+      "t": "2026-08-30T04:09:15Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 320,
+      "applescript_readback": 320,
+      "cdp_width": 320,
+      "outerWidth": 320,
+      "innerWidth": 320,
+      "match": true,
+      "t": "2026-08-30T04:09:16Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 200,
+      "applescript_readback": 200,
+      "cdp_width": 200,
+      "outerWidth": 200,
+      "innerWidth": 200,
+      "match": true,
+      "t": "2026-08-30T04:09:17Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 100,
+      "applescript_readback": 100,
+      "cdp_width": 100,
+      "outerWidth": 100,
+      "innerWidth": 100,
+      "match": true,
+      "t": "2026-08-30T04:09:18Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 50,
+      "applescript_readback": 50,
+      "cdp_width": 50,
+      "outerWidth": 50,
+      "innerWidth": 50,
+      "match": true,
+      "t": "2026-08-30T04:09:19Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 40,
+      "applescript_readback": 40,
+      "cdp_width": 40,
+      "outerWidth": 40,
+      "innerWidth": 40,
+      "match": true,
+      "t": "2026-08-30T04:09:20Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 30,
+      "applescript_readback": 30,
+      "cdp_width": 30,
+      "outerWidth": 30,
+      "innerWidth": 30,
+      "match": true,
+      "t": "2026-08-30T04:09:22Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 20,
+      "applescript_readback": 20,
+      "cdp_width": 20,
+      "outerWidth": 20,
+      "innerWidth": 20,
+      "match": true,
+      "t": "2026-08-30T04:09:23Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 10,
+      "applescript_readback": 10,
+      "cdp_width": 10,
+      "outerWidth": 10,
+      "innerWidth": 10,
+      "match": true,
+      "t": "2026-08-30T04:09:24Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 5,
+      "applescript_readback": 5,
+      "cdp_width": 5,
+      "outerWidth": 5,
+      "innerWidth": 5,
+      "match": true,
+      "t": "2026-08-30T04:09:25Z"
+    },
+    {
+      "action": "sweep_applescript",
+      "requested": 1,
+      "applescript_readback": 1,
+      "cdp_width": 1,
+      "outerWidth": 1,
+      "innerWidth": 1,
+      "match": true,
+      "t": "2026-08-30T04:09:26Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 640,
+      "cdp_width": 640,
+      "outerWidth": 640,
+      "clamped": false,
+      "t": "2026-08-30T04:09:27Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 520,
+      "cdp_width": 520,
+      "outerWidth": 520,
+      "clamped": false,
+      "t": "2026-08-30T04:09:28Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 500,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": false,
+      "t": "2026-08-30T04:09:28Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 480,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:29Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 430,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:29Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 375,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:30Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 320,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:30Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 200,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:31Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 100,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:31Z"
+    },
+    {
+      "action": "sweep_cdp_api",
+      "requested": 50,
+      "cdp_width": 500,
+      "outerWidth": 500,
+      "clamped": true,
+      "t": "2026-08-30T04:09:32Z"
+    },
+    {
+      "action": "host_cli_validation",
+      "results": {
+        "49": {
+          "rc": 1,
+          "stdout": "{\"ok\": false, \"error\": \"幅は 50〜8000 の範囲で指定する: 49\"}",
+          "stderr": ""
+        },
+        "50": {
+          "rc": 0,
+          "stdout": "{\"ok\": true, \"requested\": 50, \"bounds\": {\"id\": 236310481, \"left\": 700, \"top\": 120, \"width\": 50, \"height\": 901}}",
+          "stderr": ""
+        },
+        "8001": {
+          "rc": 1,
+          "stdout": "{\"ok\": false, \"error\": \"幅は 50〜8000 の範囲で指定する: 8001\"}",
+          "stderr": ""
+        }
+      },
+      "t": "2026-08-30T04:09:36Z"
+    }
+  ],
+  "summary": {
+    "sweep_applescript": [
+      {
+        "requested": 500,
+        "applescript_readback": 500,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "innerWidth": 500,
+        "match": true
+      },
+      {
+        "requested": 400,
+        "applescript_readback": 400,
+        "cdp_width": 400,
+        "outerWidth": 400,
+        "innerWidth": 400,
+        "match": true
+      },
+      {
+        "requested": 320,
+        "applescript_readback": 320,
+        "cdp_width": 320,
+        "outerWidth": 320,
+        "innerWidth": 320,
+        "match": true
+      },
+      {
+        "requested": 200,
+        "applescript_readback": 200,
+        "cdp_width": 200,
+        "outerWidth": 200,
+        "innerWidth": 200,
+        "match": true
+      },
+      {
+        "requested": 100,
+        "applescript_readback": 100,
+        "cdp_width": 100,
+        "outerWidth": 100,
+        "innerWidth": 100,
+        "match": true
+      },
+      {
+        "requested": 50,
+        "applescript_readback": 50,
+        "cdp_width": 50,
+        "outerWidth": 50,
+        "innerWidth": 50,
+        "match": true
+      },
+      {
+        "requested": 40,
+        "applescript_readback": 40,
+        "cdp_width": 40,
+        "outerWidth": 40,
+        "innerWidth": 40,
+        "match": true
+      },
+      {
+        "requested": 30,
+        "applescript_readback": 30,
+        "cdp_width": 30,
+        "outerWidth": 30,
+        "innerWidth": 30,
+        "match": true
+      },
+      {
+        "requested": 20,
+        "applescript_readback": 20,
+        "cdp_width": 20,
+        "outerWidth": 20,
+        "innerWidth": 20,
+        "match": true
+      },
+      {
+        "requested": 10,
+        "applescript_readback": 10,
+        "cdp_width": 10,
+        "outerWidth": 10,
+        "innerWidth": 10,
+        "match": true
+      },
+      {
+        "requested": 5,
+        "applescript_readback": 5,
+        "cdp_width": 5,
+        "outerWidth": 5,
+        "innerWidth": 5,
+        "match": true
+      },
+      {
+        "requested": 1,
+        "applescript_readback": 1,
+        "cdp_width": 1,
+        "outerWidth": 1,
+        "innerWidth": 1,
+        "match": true
+      }
+    ],
+    "sweep_cdp_api": [
+      {
+        "requested": 640,
+        "cdp_width": 640,
+        "outerWidth": 640,
+        "clamped": false
+      },
+      {
+        "requested": 520,
+        "cdp_width": 520,
+        "outerWidth": 520,
+        "clamped": false
+      },
+      {
+        "requested": 500,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": false
+      },
+      {
+        "requested": 480,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 430,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 375,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 320,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 200,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 100,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      },
+      {
+        "requested": 50,
+        "cdp_width": 500,
+        "outerWidth": 500,
+        "clamped": true
+      }
+    ],
+    "host_cli": {
+      "49": {
+        "rc": 1,
+        "stdout": "{\"ok\": false, \"error\": \"幅は 50〜8000 の範囲で指定する: 49\"}",
+        "stderr": ""
+      },
+      "50": {
+        "rc": 0,
+        "stdout": "{\"ok\": true, \"requested\": 50, \"bounds\": {\"id\": 236310481, \"left\": 700, \"top\": 120, \"width\": 50, \"height\": 901}}",
+        "stderr": ""
+      },
+      "8001": {
+        "rc": 1,
+        "stdout": "{\"ok\": false, \"error\": \"幅は 50〜8000 の範囲で指定する: 8001\"}",
+        "stderr": ""
+      }
+    }
+  }
+}

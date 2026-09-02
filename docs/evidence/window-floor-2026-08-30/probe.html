@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>floor probe</title>
+<style>body{margin:0;font:12px -apple-system,sans-serif}
+#bar{height:8px;background:linear-gradient(90deg,#f00,#00f)}
+#o{padding:8px;white-space:pre}</style>
+<div id="bar"></div><div id="o"></div>
+<script>
+function u(){o.textContent=`innerWidth  ${innerWidth}
+outerWidth  ${outerWidth}
+innerHeight ${innerHeight}
+dpr         ${devicePixelRatio}
+mq375       ${matchMedia('(max-width:389px)').matches}`;}
+u();addEventListener('resize',u);
+</script>

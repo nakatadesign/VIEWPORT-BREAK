@@ -1,0 +1,52 @@
+VIEWPORT BREAK — 使用許諾条件 / Proprietary License
+
+Copyright (c) 2026 NANAGO Inc. All rights reserved.
+
+本ソフトウェア（VIEWPORT BREAK。Chrome 拡張、native messaging host、
+macOS ヘルパーアプリ、ロゴ・アイコン等のブランド資産、および本リポジトリに
+含まれる文書の一切を含む。以下「本ソフトウェア」）は、著作権者が権利を保有する
+プロプライエタリ・ソフトウェアです。オープンソースソフトウェアではありません。
+
+■ 許諾されること
+
+  著作権者から本ソフトウェアの配布物を正規に取得した方は、自身の業務および
+  私的な用途のために、自身が管理する端末上で本ソフトウェアを使用できます。
+
+■ 禁止されること
+
+  著作権者の事前の書面による許諾なく、以下を行うことはできません。
+
+  1. 本ソフトウェアの全部または一部の複製、再配布、公開、貸与、販売、再販
+  2. 本ソフトウェアの改変、翻案、二次的著作物の作成
+  3. 逆コンパイル、逆アセンブル、その他のリバースエンジニアリング
+     （適用法令により明示的に認められる範囲を除く）
+  4. 本ソフトウェアに含まれる著作権表示・商標・ロゴの削除または改変
+  5. ソースコード、ビルドスクリプト、設計文書、ブランド資産の第三者への開示
+
+■ 無保証および免責
+
+  本ソフトウェアは「現状のまま」提供されます。著作権者は、商品性、特定目的への
+  適合性、および権利非侵害についての保証を含め、明示黙示を問わずいかなる保証も
+  行いません。
+
+  本ソフトウェアは AppleScript を通じて Google Chrome のウィンドウ寸法を変更します。
+  この動作は Google Chrome および macOS の仕様に依存しており、それらの更新によって
+  予告なく利用できなくなる場合があります。
+
+  本ソフトウェアの使用または使用不能から生じるいかなる損害についても、著作権者は
+  責任を負いません。
+
+■ 第三者の権利
+
+  Google Chrome、macOS、AppleScript その他の名称は、各権利者の商標です。
+  本ソフトウェアは Google LLC および Apple Inc. とは無関係であり、
+  これらによる承認・後援を受けていません。
+
+------------------------------------------------------------------------------
+
+VIEWPORT BREAK is proprietary software. All rights reserved.
+It is NOT open source. No permission is granted to copy, redistribute, modify,
+reverse engineer, or resell this software or any part of it without the prior
+written consent of the copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

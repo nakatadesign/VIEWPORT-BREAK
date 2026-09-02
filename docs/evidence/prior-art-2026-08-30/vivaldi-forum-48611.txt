@@ -1,0 +1,229 @@
+SOURCE_URL: https://forum.vivaldi.net/topic/48611/remove-or-allow-for-configurable-minimum-window-width
+FETCHED_AT: 2026-08-30T02:29:33.925386+00:00
+EXTRACT: html->text (scripts/styles stripped)
+------------------------------------------------------------
+
+Remove or allow for configurable minimum window width. | Vivaldi Forum 
+Community
+ Community 
+ Vivaldi Social 
+ Blogs 
+Forum
+ Vivaldi Forum 
+ Categories 
+ Recent 
+ Popular 
+Themes
+ Vivaldi Themes 
+ My Themes 
+ FAQ 
+Contribute
+ Contribute 
+ Volunteer 
+ Donate 
+Browser
+ Vivaldi Browser 
+ Latest News 
+ Snapshots 
+ Help 
+ Search 
+ Register 
+ Login 
+ Vivaldi 
+ Community 
+ Themes 
+ Contribute 
+ Browser 
+ Navigation 
+ Home 
+ Categories 
+ Recent 
+ Tags 
+ Popular 
+ Users 
+ Groups 
+Your browser does not seem to support JavaScript. As a result, your viewing experience will be diminished, and you have been placed in read-only mode .
+Please download a browser that supports JavaScript, or enable it if it's disabled (i.e. NoScript).
+Home
+Desktop
+Desktop Feature Requests
+Done
+Remove or allow for configurable minimum window width.
+ Remove or allow for configurable minimum window width. 
+ Scheduled
+ Pinned
+ Locked
+ Moved
+ Done
+ done 
+ 11 
+ Posts 
+ 7 
+ Posters 
+ 5.7k 
+ Views 
+ 3 
+ Watching 
+ Loading More Posts 
+ Oldest to Newest 
+ Newest to Oldest 
+ Most Votes 
+ Reply 
+ Reply as topic 
+ Log in to reply 
+ This topic has been deleted. Only users with topic management privileges can see it. 
+ C 
+ caiden 
+ last edited by Pathduck 
+ Currently (on Windows at least) there is a minimum window width of 500px (with a 1920x1080 display). No other browsers have this issue. 
+ Vivaldi is a decent browser for development, sure it has its quirks, but forcing a window to be almost half the size of the screen is silly. 
+ During web development, I would love it if the reason I have to open Chrome would be to make sure it also works on Chrome, not because a simple thing didn't work properly on Vivaldi. 
+ Add an option, an experiment, or just allow it to be modified via browser CSS I really don't care, but a 500px limit with no reason other than to make sure a window is always big is such a small stupid issue that a browser doesn't need to have. 
+ TL;DR Can't make windows smaller than 500px, please allow me to change that 
+ Thank you for listening to my small rant. 
+ P 
+ N 
+ 2 Replies 
+ Last reply 
+ Reply 
+ Quote 
+ 5 
+ P 
+ Pesala 
+ @caiden 
+ last edited by 
+ @ caiden A harmless request, but why do you need a window less than 500 pixels wide? Even the URL field will disappear if you make it much smaller than that. 
+ Opera 12.18 allows you to reduce a window to almost nothing. This is what I call “silly.” 
+ If you want small, how about minimise? 
+ Blog • Vivaldi Review • Server Status 
+Win 10 64-bit build 19045.2486 • Snapshot 8.2.4133.29 (64-bit) 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 1 
+ N 
+ nomadic 
+ Early Access 
+ @caiden 
+ last edited by nomadic 
+ @ caiden If you are making the window narrow to simulate how your site will look on mobile for web development, then I suggest you use the Dev Tools option instead. 
+ If you open Dev Tools with F12 -- or -- Ctrl + Shift + I , then you can click on the Toggle device toolbar button in the top left corner next to the element picker button. 
+ Then you can go as narrow as 50px if you really wanted to... 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 2 
+ R 
+ rtae 
+ last edited by 
+ Is there any way to get around this minimum? I use a TWM on a laptop and my screen is small enough that I run into situations where the window needs to be smaller than 500px a lot. 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 0 
+ G 
+ gilbert9 
+ last edited by 
+ I too badly need the option to resize Vivaldi window to a much smaller size, it is frustrating it can not be done as of now. 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 1 
+ C 
+ caiden 
+ last edited by 
+ @ nomadic 
+It's not a matter of mobile development, but rather an aspect of the site I'm designing. 
+It's a pretty minimalistic dark-colored site, and I have the bright white google login as a popup, rather than making the entire screen white for a couple of seconds. 
+ Basic functionality such as opening a ~350px (33vw) wide popup shouldn't be inhibited due to a browser adding unnecessary "features" 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 0 
+ P 
+ papasoldragon 
+ last edited by 
+ To disregard someone's suggestion because you yourself cannot conceive a usage case for their request when they clearly have one or they wouldn't be requesting said change is what I would call "silly" 
+ Further to the point, I have 6 display in my workstation rig and that means I want many gauges and dials to monitor things. Internal tools that are developed in web page form for cross platform compatibility often don't need much minimum width to function and still provide useful information to me. 
+ Furthermore, the Ctrl+F11 function in Vivaldi to hide most of the window's UI Elements means you don't need to waste space on a virtually unusable address bar, bookmark bar, etc.. that clutter up a small window, leaving room for just the title bar and the web content. It's perfect, except. I need a width of about 150 which I cannot obtain currently. 
+ Adding to this that other browsers do not have this limitation making it a commonly expected functionality for those that do utilize micro windows and pop-outs. 
+ Please remove the min-width limitation or add in a setting so that I can adjust it to my liking. (Though, I say click+drag resizing is suitable enough in other browsers for this task already). 
+ P 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 1 
+ P 
+ Pesala 
+ @papasoldragon 
+ last edited by 
+ @ papasoldragon said in Remove or allow for configurable minimum window width. : 
+ To disregard someone's suggestion because you yourself cannot conceive a usage case for their request when they clearly have one or they wouldn't be requesting said change is what I would call "silly." 
+ That is why I asked what the use case was. I did not dismiss the request. If you support it, vote for the first post, it currently has only one vote. 
+ IMO a popup window still needs to be limited to minimum values. A window of 1x1 pixel could easily get overlooked. Just how small is small enough? 
+ Blog • Vivaldi Review • Server Status 
+Win 10 64-bit build 19045.2486 • Snapshot 8.2.4133.29 (64-bit) 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 0 
+ P 
+ papasoldragon 
+ last edited by 
+ @ pesala said in Remove or allow for configurable minimum window width. : 
+ That is why I asked what the use case was. I did not dismiss the request. If you support it, vote for the first post, it currently has only one vote. 
+ The OP provided their use-case in the OP. I took your response as dismissive, I'm glad you didn't intend that. Text can be a difficult medium to interpret sometimes. 
+ Scenario 1: One of my tools is just a list of 32x32 or even 16x16 icons that change color/graphic based on what they are meant to express 
+ Scenario 2: My application only needs a 100x300 popup to address config settings, and I am forced to open up a window 5 times larger than needed. 
+ You won't find anyone who realistically advocates for at 1x1 pixel browser window. It's an example of using an extreme to rationalize the lesser, Reductio ad absurdum and all that. I guess you could say the same thing about Scenario 1/2 above. 
+ The challenge with designing GUI in any software is peering past your own experience and expectations into the realm of what others may require. Is a feature used by 1% of a user-base any less useful? Does implementation of such a feature diminish the software for the other 99%? Those are the real concerns here. The potential security risk of allowing virtually invisible windows is definitely a risk worth measuring. 
+ Asking for a way to reduce the window width further than the default max-width is a reasonable ask. I wound up here because I wanted the same thing, but don't confuse up-votes with popularity when the majority of the user-base will never see the post and the majority of them that do won't vote regardless how they feel. 
+ For my specific case, it's a 150px width that I would like, but anything lower than 500 would be appreciated. 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 1 
+ X 
+ xadium 
+ last edited by 
+ I'd like to second this request - when making a webapp a PWA (deck.blue in this case) I want it to take up only a little screen space (I only need to see one column) and the minimum width prevents me from doing so. 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 0 
+ P 
+ Pesala 
+ last edited by Pesala 
+ This feature request seems to be DONE. 
+ The minimum window size is now a ridiculously useless 136x39 pixels. It cannot even be grabbed with the mouse to move it. 
+ Blog • Vivaldi Review • Server Status 
+Win 10 64-bit build 19045.2486 • Snapshot 8.2.4133.29 (64-bit) 
+ 1 Reply 
+ Last reply 
+ Reply 
+ Quote 
+ 0 
+ P Pathduck moved this topic from Desktop Feature Requests on 
+ P Pathduck locked this topic on 
+ Loading More Posts 
+ Oldest to Newest 
+ Newest to Oldest 
+ Most Votes 
+ Reply 
+ Reply as topic 
+ Log in to reply 
+ 1 / 1 
+ First post 
+ Last post 
+ Go to my next post 
+ Looks like your connection to Vivaldi Forum was lost, please wait while we try to reconnect. 
+Copyright © Vivaldi Technologies™ — All rights reserved. Privacy Policy | Code of conduct | Terms of use | Vivaldi Status

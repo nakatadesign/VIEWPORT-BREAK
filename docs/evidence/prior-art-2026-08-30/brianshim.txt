@@ -1,0 +1,160 @@
+SOURCE_URL: https://brianshim.com/webtricks/chrome-browser-window-that-you-can-make-narrow/
+FETCHED_AT: 2026-08-30T02:29:33.922147+00:00
+EXTRACT: html->text (scripts/styles stripped)
+------------------------------------------------------------
+
+Make Your Chrome Browser Window Narrow for Mobile Web Development 
+ Skip to content 
+ developer.brianshim.com Web Developer Resources by Brian Shim — WordPress, Divi, accessibility, hosting, troubleshooting 
+ Menu Home WordPress Plugins Divi Multisite Developer Accessibility Web Hosting Siteground Gridpane GoDaddy Squarespace Blogging Tools Resources Make Your Chrome Browser Window Narrow for Mobile Web Development Where to Get Free Stock Photos, Videos, and Icons for Your Website My Website Pre-Launch Checklist About Make Your Chrome Browser Window Narrow for Mobile Web Development 
+ July 18, 2025 December 11, 2013 by Brian Shim Result of launching a thin Chrome browser window My “go-to” desktop browser for doing web development is the Chrome browser. However, it has one annoying problem for people like me who do responsive web development:  It won’t resize down to 320 pixels wide, the width of an iPhone.  With my Chrome browser on Windows, the minimum width is 500px. On Mac, the minimum is 400px.  This makes it a pain to quickly check mobile layouts during development. You can’t make the Chrome browser window thin enough! Firefox, on the other hand, will get as thin as I need it to!  But, It’s inconvenient to have to use two different browsers during development. Here are three ways to make your Chrome browser window narrow! 
+ Solution #1: Launch a Resizable Chrome Window My solution is to launch a narrow adjustable Chrome browser window in JavaScript. I made a script that does just that.  Just paste in the full URL (including “https://”), and it will launch in a 320px wide browser window!   This works on Chrome for Mac and Windows. During development, I launch this once, and refresh it using the F5 key. Note, this assumes your browser scroll bar is 17px wide (it varies between browsers, but that’s what it is on default Chrome). The actual browser launched is 320+17px = 337px wide, resulting in a browser window that is 320px wide. 
+ Solution #2: Chrome Dev Tools Mobile Button Another solution is to use Chrome’s dev tools console and click the “mobile” icon in the upper left corner: Click that icon and the corresponding Chrome window will show a narrow browser window. The downside is that it’s not dynamically resizable like the first solution is. To enable DevTools in Chrome, click the 3-dot menu in the upper right corner of your Chrome window, then select More Tools -> Developer Tools or press the F12 key. Solution #3 Chrome Developer Tools in Sidebar Yet another solution using Chrome DevTools window is to bring up the DevTools window in the sidebar of your browser. When you do this, it squishes the website part of the browser and you can make it as thin as you want. Here’s what that looks like: To move the DevTools window to the sidebar, click the 3-dot menu in the DevTools window, then select the “Dock to Right” icon as shown above. Conclusion Was this useful to you? If so, please let me know in the comments below! – Brian Brian Shim I am a freelance web developer and consultant based in Santa Monica, CA. I’ve been designing websites using WordPress and from scratch using HTML, CSS, PHP, and JavaScript since 2010. I create websites and web applications for businesses, nonprofits, and other organizations. I have a degree in Electrical Engineering (BSEE) from California Institute of Technology and a degree in Engineering Management (MSEM) from Stanford University . If you need help with your site, you can hire me ! brianshim.com 
+ Categories Developer My Website Pre-Launch Checklist Create a “Slot Machine” Hover Effect with CSS Please Leave a Question or Comment 
+ Subscribe 
+ Notify of 
+ new follow-up comments new replies to my comments 
+ Label 
+ Name* 
+ Email 
+ Website 
+ Δ 
+ Label 
+ Name* 
+ Email 
+ Website 
+ Δ This site uses Akismet to reduce spam. Learn how your comment data is processed. 
+ 33 Comments 
+lig4rdi 
+2 years ago 
+ Mr. Shim, thank you very much for this. This really help me since my favorite browser, Opera can no longer resize below 500px in its newest update 
+ 1 
+ Reply 
+ Author 
+ Brian Shim 
+2 years ago 
+Reply to 
+lig4rdi
+ Thanks for sharing! I didn’t know about that change to Opera! Glad you found this useful. – Brian 
+ 0 
+ Reply 
+Eldad 
+3 years ago 
+ Thank you very much! Very efficient and useful! 
+ 3 
+ Reply 
+ Author 
+ Brian Shim 
+2 years ago 
+Reply to 
+Eldad
+ Thanks, glad you found this useful! – Brian 
+ 0 
+ Reply 
+ Peter Christensen 
+3 years ago 
+ Ref the problem I mentioned earlier, I was using Chrome on my iPhone and even after deleting cache the .css file isn’t refreshing. But my website and my coding look perfect in Safari, so 4 hours of wasted time later, LOL, it’s not my coding! Thanks again for your tips! 
+ 0 
+ Reply 
+ Author 
+ Brian Shim 
+3 years ago 
+Reply to 
+Peter Christensen
+ Hi Peter, Ah, yeah, mobile browser caches can be a pain to clear. I’ve been there. Sorry about the wasted time, but glad you solved it! Best, 
+Brian 
+ 1 
+ Reply 
+ Peter Christensen 
+3 years ago 
+ I was all ready to download Firefox when I read Solution #3. Works great! Thanks. I still have my problem though. I use a media query for max-width 320 to reduce my font size, and it works great in every responsive web design screen tester I’ve found on the web… but not on my iPhone itself. And I know my screen size is 320 as I see the number on my screen from this bit of code I use: <script type=”text/javascript”>test=”<p class=’Text’ style=’text-align:center;font-size:25px’>Screen width: “+window.innerWidth;document.write(test);</script> Thank you, Peter 
+ 0 
+ Reply 
+Orcadian 
+4 years ago 
+ Thanks for this. Solution 1 looks useful but I need a link / bookmark that I can just click on to open a skinny window when I need one. I was not able to right-click copy from your ‘open thin browser window now’ button. Any chance you could make it work like that, please? 
+ 0 
+ Reply 
+michael 
+4 years ago 
+ wow! am so grateful to you for this generous help… You are a star! 
+ 1 
+ Reply 
+asfdaf dfgf 
+4 years ago 
+ #1 is really helpful — thank you for this 
+ 0 
+ Reply 
+Kate 
+4 years ago 
+ option 3 is good for me, thanks. 
+ 1 
+ Reply 
+Thankful user 
+4 years ago 
+ I hope you keep this around for the long term, please don’t shut it down! I’ve been using this tool for years and it is one of a kind. Bless you sir! 
+ 1 
+ Reply 
+JJ 
+4 years ago 
+ Hello! I wanna open webpages, use chrome, by shortcut, open as ‘narrow’ window. Until a few days ago, the width of the chrome window running with the shortcut was under 500px. But now it doesn’t decrease below 500px. Can’t we modify the shortcut to lift the width reduction limit of the chrome window? I’m so happy to find your JavaScript. However, I want to make the Location Bar disappear, and it would be great if I could modify the Chrome shortcut and open a specific page in a narrow width. If you know how to solve it, can you help me? 
+ 0 
+ Reply 
+Greg 
+5 years ago 
+ I used this trick to watch youtube in a miniwindow. 
+ 1 
+ Reply 
+Jacob Smith 
+5 years ago 
+ Thank you so much for making this. I use this almost every day when doing mobile css. It is very very useful. Please never ever take this down. Thank you so much once again!! 
+ 0 
+ Reply 
+Anonymous 
+6 years ago 
+ am 16 and i have been struggling alot with this thanks alot men 
+ 0 
+ Reply 
+ Aella 
+6 years ago 
+ YOU ARE AWESOME! 
+ 0 
+ Reply 
+ andrewsmith 
+7 years ago 
+ Great post. Surely this post going to help mobile app developers. 
+ 0 
+ Reply 
+ wagedu 
+10 years ago 
+ In the developer window, top left, there’s a mobile icon next to the “search” icon. Use it to toggle in and out of “Device Mode”. There you can shrink the screen as much as you want, while keeping the Developer window as large as you need. 
+I just found it, and it’s really neat :) 
+ https://developer.chrome.com/devtools/docs/device-mode 
+ 0 
+ Reply 
+ Toby 
+10 years ago 
+Reply to 
+wagedu
+ The ‘mobile icon’ works a treat. I love toggling through the various models. 
+It seems iPhones up to 5S, and Galaxy phones up to S4, seem to have 320px as their narrowest width. I feel that most of the custom @media divs I make in CSS are attributed to these ‘320’ screens. 
+Fortunately the later models aren’t as narrow. Great thread and post, thanks :) 
+ 0 
+ Reply 
+Load More Comments 
+ More Topics Accessibility (9) 
+ Alpine.js (2) 
+ Cloudflare (1) 
+ Divi (19) 
+ eM Client (1) 
+ GoDaddy (3) 
+ Google Analytics (6) 
+ Gridpane (3) 
+ Kadence (2) 
+ MAMP (2) 
+ Microsoft 365 (5) 
+ Multisite (4) 
+ Oxygen Builder (2) 
+ Siteground (7) 
+ Squarespace (4) Accessibility Statement This website was designed with goal of making it usable and accessible by users with different levels of abilities and compatible with commonly-used assistive technologies. While we strive to adhere to the accepted guidelines and standards for accessibility and usability, it is not always possible to do so in all areas of the website. This may include third-party applications, social media feed aggregation, and third party map integrations, like Google maps. We are continually striving to improve the user experience for everyone. If you experience any difficulty in using this website, please let us know. We are committed to making this website accessible to all. Disclosures Some of the links on this site are affiliate links. That means if you click on the link and purchase the item or service, I will receive a commission at no extra cost to you. I personally test or research each product before endorsing it. This site is independently owned and the opinions expressed here are my own. See my Terms of Use and Privacy Policy . Copyright All content in this site © 2010-2026 Brian Shim Web Development, LLC . All rights reserved. Gloria in excelsis Deo. 
+ © 2026 developer.brianshim.com • Built with GeneratePress wpDiscuz Insert
