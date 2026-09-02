@@ -28,30 +28,11 @@ iPhone 幅の 375 / 390px でレスポンシブを確かめたくても、ウィ
 VIEWPORT BREAK は、この 500px の下限を強制的に越えます。
 ボタンを押すと、ページの描画だけでなく Chrome のウィンドウ自体が 375px になります。
 
-### なぜ 500px で止まるのか
+### 500px の下限と、エミュレーションとの違い
 
-Chrome にウィンドウの大きさを変えるよう頼む経路は、拡張機能の API（`chrome.windows.update`）でも
-DevTools Protocol（`Browser.setWindowBounds`）でも、500px より狭くはなりません。
-どちらも Chromium 内部の同じ処理を通り、`kMainBrowserContentsMinimumWidth = 500` で切り上げられるからです
-（実測記録は [`docs/WINDOW_FLOOR_2026-08-30.md`](docs/WINDOW_FLOOR_2026-08-30.md)、
-拡張だけで再実測したものは [`docs/EXTENSION_ONLY_LIMITS_2026-08-30.md`](docs/EXTENSION_ONLY_LIMITS_2026-08-30.md)）。
-
-抜け道が 1 つだけありました。macOS の AppleScript でウィンドウの位置とサイズを直接指定する経路です。
-ここだけは Chromium 内部の下限処理を通らず、値が macOS のウィンドウへそのまま届きます。
-VIEWPORT BREAK は、この経路を叩く小さな常駐プログラム（native messaging host）を拡張と一緒に入れることで、
-500px の壁を抜けています。
-
-### DevTools のデバイスエミュレーションとの違い
-
-エミュレーションで変わるのはページの描画幅だけで、ウィンドウは元の幅のまま残ります。
-VIEWPORT BREAK が動かすのは macOS のウィンドウそのものです。375px を指定したときの実測値は、
-`outerWidth` も `innerWidth` も 375 でした
-（[`docs/evidence/window-floor-2026-08-30/t9_ext.json`](docs/evidence/window-floor-2026-08-30/t9_ext.json)。
-320〜1920px を通しで試し、AppleScript の読み返し・ウィンドウの外形・`innerWidth` の 3 つがすべての幅で一致した記録は
-[`docs/evidence/extension-2026-08-30/sweep_host_widths.json`](docs/evidence/extension-2026-08-30/sweep_host_widths.json)）。
-
-タブもアドレスバーもブックマークバーも DevTools も、付いたまま縮みます。
-拡大率、スクロールバー、フォントの見え方まで含めて、その幅のウィンドウで実際に起きることがそのまま見えます。
+Chrome の API を通す経路では、ウィンドウは 500px より狭くなりません（[実測記録](docs/WINDOW_FLOOR_2026-08-30.md)）。
+VIEWPORT BREAK は macOS 側でウィンドウを直接リサイズするので、この下限を受けません（[実装の詳細](docs/EXTENSION_2026-08-30.md)）。
+DevTools のデバイスエミュレーションで変わるのはページの描画幅だけですが、こちらはウィンドウ自体が縮みます。
 
 ---
 
