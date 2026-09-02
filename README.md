@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/hero/viewport-break-hero-760x470.png" width="320" alt="VIEWPORT BREAK">
+  <img src="assets/brand/hero/viewport-break-hero-1280x640.png" width="100%" alt="VIEWPORT BREAK">
 </p>
 
 <h1 align="center">VIEWPORT BREAK</h1>
